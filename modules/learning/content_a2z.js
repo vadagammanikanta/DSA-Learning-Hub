@@ -12,7 +12,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Input Output.",
     "readTime": "5 mins",
-    "details": "<h2>Input Output</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Input Output\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Input Output</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p2",
@@ -23,7 +23,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Cpp Basics.",
     "readTime": "5 mins",
-    "details": "<h2>Cpp Basics</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Cpp Basics\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Cpp Basics</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p3",
@@ -34,7 +34,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for If ElseIf.",
     "readTime": "5 mins",
-    "details": "<h2>If ElseIf</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"If ElseIf\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>If ElseIf</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p4",
@@ -45,7 +45,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Switch Case.",
     "readTime": "5 mins",
-    "details": "<h2>Switch Case</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Switch Case\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Switch Case</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p5",
@@ -56,7 +56,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for What are arrays, strings?.",
     "readTime": "5 mins",
-    "details": "<h2>What are arrays, strings?</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"What are arrays, strings?\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>What are arrays, strings?</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p6",
@@ -67,7 +67,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for For loops.",
     "readTime": "5 mins",
-    "details": "<h2>For loops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"For loops\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>For loops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p7",
@@ -78,7 +78,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for While loops.",
     "readTime": "5 mins",
-    "details": "<h2>While loops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"While loops\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>While loops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p8",
@@ -89,7 +89,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Functions (Pass by Reference and Value).",
     "readTime": "5 mins",
-    "details": "<h2>Functions (Pass by Reference and Value)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Functions (Pass by Reference and Value)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Functions (Pass by Reference and Value)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c499-p9",
@@ -100,7 +100,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Theory with examples.",
     "readTime": "5 mins",
-    "details": "<h2>Theory with examples</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Theory with examples\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Theory with examples</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c494-p1",
@@ -111,7 +111,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Easy and Medium.",
     "readTime": "5 mins",
-    "details": "<h2>Easy and Medium</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Easy and Medium\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Easy and Medium</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c494-p2",
@@ -122,7 +122,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Hard.",
     "readTime": "5 mins",
-    "details": "<h2>Hard</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Hard\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Hard</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p1",
@@ -133,7 +133,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 1.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 1</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 1\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 1</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p2",
@@ -144,7 +144,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 2.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 2</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 2\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 2</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p3",
@@ -155,7 +155,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 3.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 3</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 3\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 3</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p4",
@@ -166,7 +166,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 4.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 4</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 4\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 4</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p5",
@@ -177,7 +177,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 5.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 5</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 5\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 5</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p6",
@@ -188,7 +188,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 6.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 6</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 6\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 6</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p7",
@@ -199,7 +199,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 7.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 7</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 7\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 7</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p8",
@@ -210,7 +210,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 8.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 8</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 8\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 8</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p9",
@@ -221,7 +221,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 9.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 9</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 9\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 9</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p10",
@@ -232,7 +232,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 10.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 10</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 10\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 10</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p11",
@@ -243,7 +243,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 11.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 11</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 11\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 11</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p12",
@@ -254,7 +254,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 12.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 12</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 12\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 12</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p13",
@@ -265,7 +265,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 13.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 13</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 13\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 13</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p14",
@@ -276,7 +276,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 14.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 14</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 14\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 14</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p15",
@@ -287,7 +287,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 15.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 15</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 15\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 15</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p16",
@@ -298,7 +298,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 16.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 16</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 16\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 16</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p17",
@@ -309,7 +309,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 17.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 17</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 17\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 17</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p18",
@@ -320,7 +320,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 18.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 18</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 18\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 18</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p19",
@@ -331,7 +331,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 19.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 19</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 19\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 19</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p20",
@@ -342,7 +342,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 20.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 20</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 20\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 20</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p21",
@@ -353,7 +353,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 21.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 21</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 21\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 21</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c360-p22",
@@ -364,7 +364,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Pattern 22.",
     "readTime": "5 mins",
-    "details": "<h2>Pattern 22</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pattern 22\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pattern 22</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c498-p1",
@@ -375,7 +375,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for STL.",
     "readTime": "5 mins",
-    "details": "<h2>STL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"STL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>STL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c498-p2",
@@ -386,7 +386,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Java Collections.",
     "readTime": "5 mins",
-    "details": "<h2>Java Collections</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Java Collections\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Java Collections</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p1",
@@ -397,7 +397,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count all Digits of a Number.",
     "readTime": "5 mins",
-    "details": "<h2>Count all Digits of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count all Digits of a Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count all Digits of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p2",
@@ -408,7 +408,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Reverse a number.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse a number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-integer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-integer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p3",
@@ -419,7 +419,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Palindrome Number.",
     "readTime": "5 mins",
-    "details": "<h2>Palindrome Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Palindrome Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/palindrome-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Palindrome Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/palindrome-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p4",
@@ -430,7 +430,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for GCD of Two Numbers.",
     "readTime": "5 mins",
-    "details": "<h2>GCD of Two Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"GCD of Two Numbers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>GCD of Two Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p5",
@@ -441,7 +441,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if the Number is Armstrong.",
     "readTime": "5 mins",
-    "details": "<h2>Check if the Number is Armstrong</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if the Number is Armstrong\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/armstrong-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if the Number is Armstrong</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/armstrong-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p6",
@@ -452,7 +452,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Print all Divisors.",
     "readTime": "5 mins",
-    "details": "<h2>Print all Divisors</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print all Divisors\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print all Divisors</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c495-p7",
@@ -463,7 +463,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check for Prime Number.",
     "readTime": "5 mins",
-    "details": "<h2>Check for Prime Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check for Prime Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check for Prime Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p1",
@@ -474,7 +474,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Understand recursion by print something N times.",
     "readTime": "5 mins",
-    "details": "<h2>Understand recursion by print something N times</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Understand recursion by print something N times\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Understand recursion by print something N times</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p2",
@@ -485,7 +485,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Print name N times using recursion.",
     "readTime": "5 mins",
-    "details": "<h2>Print name N times using recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print name N times using recursion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print name N times using recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p3",
@@ -496,7 +496,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Print 1 to N using Recursion.",
     "readTime": "5 mins",
-    "details": "<h2>Print 1 to N using Recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print 1 to N using Recursion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print 1 to N using Recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p4",
@@ -507,7 +507,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Print N to 1 using Recursion.",
     "readTime": "5 mins",
-    "details": "<h2>Print N to 1 using Recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print N to 1 using Recursion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print N to 1 using Recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p5",
@@ -518,7 +518,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Sum of First N Numbers.",
     "readTime": "5 mins",
-    "details": "<h2>Sum of First N Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sum of First N Numbers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sum of First N Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p6",
@@ -529,7 +529,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Factorial of a given number.",
     "readTime": "5 mins",
-    "details": "<h2>Factorial of a given number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Factorial of a given number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Factorial of a given number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p7",
@@ -540,7 +540,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Reverse an array.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse an array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p8",
@@ -551,7 +551,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if String is Palindrome or Not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if String is Palindrome or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if String is Palindrome or Not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/valid-palindrome/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if String is Palindrome or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/valid-palindrome/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c497-p9",
@@ -562,7 +562,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Fibonacci Number.",
     "readTime": "5 mins",
-    "details": "<h2>Fibonacci Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Fibonacci Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/fibonacci-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Fibonacci Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/fibonacci-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c496-p1",
@@ -573,7 +573,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Basic Hashing.",
     "readTime": "5 mins",
-    "details": "<h2>Basic Hashing</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Basic Hashing\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Basic Hashing</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c496-p2",
@@ -584,7 +584,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Counting Frequencies of Array Elements.",
     "readTime": "5 mins",
-    "details": "<h2>Counting Frequencies of Array Elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Counting Frequencies of Array Elements\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Counting Frequencies of Array Elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s1-c496-p3",
@@ -595,7 +595,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Highest Occurring Element in an Array.",
     "readTime": "5 mins",
-    "details": "<h2>Highest Occurring Element in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Highest Occurring Element in an Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/frequency-of-the-most-frequent-element/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Highest Occurring Element in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/frequency-of-the-most-frequent-element/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c487-p1",
@@ -606,7 +606,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Selection Sort.",
     "readTime": "5 mins",
-    "details": "<h2>Selection Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Selection Sort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Selection Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c487-p2",
@@ -617,7 +617,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Bubble Sort.",
     "readTime": "5 mins",
-    "details": "<h2>Bubble Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bubble Sort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bubble Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c487-p3",
@@ -628,7 +628,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Insertion Sorting.",
     "readTime": "5 mins",
-    "details": "<h2>Insertion Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Insertion Sorting\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Insertion Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c488-p1",
@@ -639,7 +639,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Merge Sorting.",
     "readTime": "5 mins",
-    "details": "<h2>Merge Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge Sorting\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c488-p2",
@@ -650,7 +650,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Recursive Bubble Sort.",
     "readTime": "5 mins",
-    "details": "<h2>Recursive Bubble Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Recursive Bubble Sort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Recursive Bubble Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c488-p3",
@@ -661,7 +661,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Recursive Insertion Sort.",
     "readTime": "5 mins",
-    "details": "<h2>Recursive Insertion Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Recursive Insertion Sort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Recursive Insertion Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s2-c488-p4",
@@ -672,7 +672,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Quick Sorting.",
     "readTime": "5 mins",
-    "details": "<h2>Quick Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Quick Sorting\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Quick Sorting</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p1",
@@ -683,7 +683,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Largest Element.",
     "readTime": "5 mins",
-    "details": "<h2>Largest Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest Element\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p2",
@@ -694,7 +694,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Second Largest Element.",
     "readTime": "5 mins",
-    "details": "<h2>Second Largest Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Second Largest Element\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Second Largest Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p3",
@@ -705,7 +705,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if the Array is Sorted II.",
     "readTime": "5 mins",
-    "details": "<h2>Check if the Array is Sorted II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if the Array is Sorted II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if the Array is Sorted II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p4",
@@ -716,7 +716,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Remove duplicates from Sorted array.",
     "readTime": "5 mins",
-    "details": "<h2>Remove duplicates from Sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Remove duplicates from Sorted array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Remove duplicates from Sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p5",
@@ -727,7 +727,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Left Rotate Array by One.",
     "readTime": "5 mins",
-    "details": "<h2>Left Rotate Array by One</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Left Rotate Array by One\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotate-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Left Rotate Array by One</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotate-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p6",
@@ -738,7 +738,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Left Rotate Array by K Places.",
     "readTime": "5 mins",
-    "details": "<h2>Left Rotate Array by K Places</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Left Rotate Array by K Places\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotate-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Left Rotate Array by K Places</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotate-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p7",
@@ -749,7 +749,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Move Zeros to End.",
     "readTime": "5 mins",
-    "details": "<h2>Move Zeros to End</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Move Zeros to End\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/move-zeroes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Move Zeros to End</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/move-zeroes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p8",
@@ -760,7 +760,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Linear Search.",
     "readTime": "5 mins",
-    "details": "<h2>Linear Search</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Linear Search\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Linear Search</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p9",
@@ -771,7 +771,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Union of two sorted arrays.",
     "readTime": "5 mins",
-    "details": "<h2>Union of two sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Union of two sorted arrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Union of two sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p10",
@@ -782,7 +782,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find missing number.",
     "readTime": "5 mins",
-    "details": "<h2>Find missing number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find missing number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find missing number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p11",
@@ -793,7 +793,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Maximum Consecutive Ones.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Consecutive Ones</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Consecutive Ones\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/max-consecutive-ones/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Consecutive Ones</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/max-consecutive-ones/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p12",
@@ -804,7 +804,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find the number that appears once, and other numbers twice..",
     "readTime": "5 mins",
-    "details": "<h2>Find the number that appears once, and other numbers twice.</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the number that appears once, and other numbers twice.\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/single-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the number that appears once, and other numbers twice.</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/single-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p13",
@@ -815,7 +815,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest subarray with given sum K(positives).",
     "readTime": "5 mins",
-    "details": "<h2>Longest subarray with given sum K(positives)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest subarray with given sum K(positives)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest subarray with given sum K(positives)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c505-p14",
@@ -826,7 +826,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest subarray with sum K.",
     "readTime": "5 mins",
-    "details": "<h2>Longest subarray with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest subarray with sum K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest subarray with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p1",
@@ -837,7 +837,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Two Sum.",
     "readTime": "5 mins",
-    "details": "<h2>Two Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Two Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/two-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Two Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/two-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p2",
@@ -848,7 +848,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sort an array of 0's 1's and 2's.",
     "readTime": "5 mins",
-    "details": "<h2>Sort an array of 0's 1's and 2's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort an array of 0's 1's and 2's\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sort-colors/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort an array of 0's 1's and 2's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sort-colors/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p3",
@@ -859,7 +859,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Majority Element-I.",
     "readTime": "5 mins",
-    "details": "<h2>Majority Element-I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Majority Element-I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/majority-element/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Majority Element-I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/majority-element/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p4",
@@ -870,7 +870,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Kadane's Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Kadane's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kadane's Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-subarray/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kadane's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-subarray/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p5",
@@ -881,7 +881,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Print subarray with maximum subarray sum (extended version of above problem).",
     "readTime": "5 mins",
-    "details": "<h2>Print subarray with maximum subarray sum (extended version of above problem)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print subarray with maximum subarray sum (extended version of above problem)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print subarray with maximum subarray sum (extended version of above problem)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p6",
@@ -892,7 +892,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Stock Buy and Sell.",
     "readTime": "5 mins",
-    "details": "<h2>Stock Buy and Sell</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Stock Buy and Sell\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Stock Buy and Sell</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p7",
@@ -903,7 +903,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Rearrange array elements by sign.",
     "readTime": "5 mins",
-    "details": "<h2>Rearrange array elements by sign</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rearrange array elements by sign\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rearrange-array-elements-by-sign/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rearrange array elements by sign</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rearrange-array-elements-by-sign/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p8",
@@ -914,7 +914,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Next Permutation.",
     "readTime": "5 mins",
-    "details": "<h2>Next Permutation</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Next Permutation\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/next-permutation/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Next Permutation</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/next-permutation/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p9",
@@ -925,7 +925,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Leaders in an Array.",
     "readTime": "5 mins",
-    "details": "<h2>Leaders in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Leaders in an Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Leaders in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p10",
@@ -936,7 +936,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Consecutive Sequence in an Array.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Consecutive Sequence in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Consecutive Sequence in an Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-consecutive-sequence/solution/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Consecutive Sequence in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-consecutive-sequence/solution/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p11",
@@ -947,7 +947,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Set Matrix Zeroes.",
     "readTime": "5 mins",
-    "details": "<h2>Set Matrix Zeroes</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Set Matrix Zeroes\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/set-matrix-zeroes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Set Matrix Zeroes</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/set-matrix-zeroes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p12",
@@ -958,7 +958,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Rotate matrix by 90 degrees.",
     "readTime": "5 mins",
-    "details": "<h2>Rotate matrix by 90 degrees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rotate matrix by 90 degrees\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotate-image/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rotate matrix by 90 degrees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotate-image/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p13",
@@ -969,7 +969,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Print the matrix in spiral manner.",
     "readTime": "5 mins",
-    "details": "<h2>Print the matrix in spiral manner</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print the matrix in spiral manner\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/spiral-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print the matrix in spiral manner</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/spiral-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c507-p14",
@@ -980,7 +980,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Count subarrays with given sum.",
     "readTime": "5 mins",
-    "details": "<h2>Count subarrays with given sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count subarrays with given sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/subarray-sum-equals-k/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count subarrays with given sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/subarray-sum-equals-k/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p1",
@@ -991,7 +991,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Pascal's Triangle I.",
     "readTime": "5 mins",
-    "details": "<h2>Pascal's Triangle I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pascal's Triangle I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/pascals-triangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pascal's Triangle I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/pascals-triangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p2",
@@ -1002,7 +1002,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Majority Element-II.",
     "readTime": "5 mins",
-    "details": "<h2>Majority Element-II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Majority Element-II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/majority-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Majority Element-II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/majority-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p3",
@@ -1013,7 +1013,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for 3 Sum.",
     "readTime": "5 mins",
-    "details": "<h2>3 Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"3 Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/3sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>3 Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/3sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p4",
@@ -1024,7 +1024,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for 4 Sum.",
     "readTime": "5 mins",
-    "details": "<h2>4 Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"4 Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/4sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>4 Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/4sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p5",
@@ -1035,7 +1035,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Largest Subarray with Sum 0.",
     "readTime": "5 mins",
-    "details": "<h2>Largest Subarray with Sum 0</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest Subarray with Sum 0\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest Subarray with Sum 0</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p6",
@@ -1046,7 +1046,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count subarrays with given xor K.",
     "readTime": "5 mins",
-    "details": "<h2>Count subarrays with given xor K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count subarrays with given xor K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count subarrays with given xor K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p7",
@@ -1057,7 +1057,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Merge Overlapping Subintervals.",
     "readTime": "5 mins",
-    "details": "<h2>Merge Overlapping Subintervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge Overlapping Subintervals\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/merge-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge Overlapping Subintervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/merge-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p8",
@@ -1068,7 +1068,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Merge two sorted arrays without extra space.",
     "readTime": "5 mins",
-    "details": "<h2>Merge two sorted arrays without extra space</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge two sorted arrays without extra space\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/merge-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge two sorted arrays without extra space</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/merge-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p9",
@@ -1079,7 +1079,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Find the repeating and missing number.",
     "readTime": "5 mins",
-    "details": "<h2>Find the repeating and missing number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the repeating and missing number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the repeating and missing number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p10",
@@ -1090,7 +1090,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count Inversions.",
     "readTime": "5 mins",
-    "details": "<h2>Count Inversions</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Inversions\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Inversions</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p11",
@@ -1101,7 +1101,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Reverse Pairs.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse Pairs</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse Pairs\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-pairs/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse Pairs</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-pairs/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s3-c506-p12",
@@ -1112,7 +1112,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum Product Subarray in an Array.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Product Subarray in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Product Subarray in an Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-product-subarray/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Product Subarray in an Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-product-subarray/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p1",
@@ -1123,7 +1123,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Search X in sorted array.",
     "readTime": "5 mins",
-    "details": "<h2>Search X in sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search X in sorted array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-search/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search X in sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-search/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p2",
@@ -1134,7 +1134,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Lower Bound.",
     "readTime": "5 mins",
-    "details": "<h2>Lower Bound</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Lower Bound\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Lower Bound</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p3",
@@ -1145,7 +1145,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Upper Bound.",
     "readTime": "5 mins",
-    "details": "<h2>Upper Bound</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Upper Bound\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Upper Bound</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p4",
@@ -1156,7 +1156,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Search insert position.",
     "readTime": "5 mins",
-    "details": "<h2>Search insert position</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search insert position\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search insert position</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p5",
@@ -1167,7 +1167,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Floor and Ceil in Sorted Array.",
     "readTime": "5 mins",
-    "details": "<h2>Floor and Ceil in Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Floor and Ceil in Sorted Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Floor and Ceil in Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p6",
@@ -1178,7 +1178,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for First and last occurrence.",
     "readTime": "5 mins",
-    "details": "<h2>First and last occurrence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"First and last occurrence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>First and last occurrence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p7",
@@ -1189,7 +1189,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count Occurrences in a Sorted Array.",
     "readTime": "5 mins",
-    "details": "<h2>Count Occurrences in a Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Occurrences in a Sorted Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Occurrences in a Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p8",
@@ -1200,7 +1200,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Search in rotated sorted array-I.",
     "readTime": "5 mins",
-    "details": "<h2>Search in rotated sorted array-I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in rotated sorted array-I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-in-rotated-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in rotated sorted array-I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-in-rotated-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p9",
@@ -1211,7 +1211,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Search in rotated sorted array-II.",
     "readTime": "5 mins",
-    "details": "<h2>Search in rotated sorted array-II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in rotated sorted array-II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-in-rotated-sorted-array-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in rotated sorted array-II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-in-rotated-sorted-array-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p10",
@@ -1222,7 +1222,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find minimum in Rotated Sorted Array.",
     "readTime": "5 mins",
-    "details": "<h2>Find minimum in Rotated Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find minimum in Rotated Sorted Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find minimum in Rotated Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p11",
@@ -1233,7 +1233,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find out how many times the array is rotated.",
     "readTime": "5 mins",
-    "details": "<h2>Find out how many times the array is rotated</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find out how many times the array is rotated\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find out how many times the array is rotated</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p12",
@@ -1244,7 +1244,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Single element in a Sorted Array.",
     "readTime": "5 mins",
-    "details": "<h2>Single element in a Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Single element in a Sorted Array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/single-element-in-a-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Single element in a Sorted Array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/single-element-in-a-sorted-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c456-p13",
@@ -1255,7 +1255,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find peak element.",
     "readTime": "5 mins",
-    "details": "<h2>Find peak element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find peak element\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find peak element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p1",
@@ -1266,7 +1266,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find square root of a number.",
     "readTime": "5 mins",
-    "details": "<h2>Find square root of a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find square root of a number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find square root of a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p2",
@@ -1277,7 +1277,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find Nth root of a number.",
     "readTime": "5 mins",
-    "details": "<h2>Find Nth root of a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find Nth root of a number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find Nth root of a number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p3",
@@ -1288,7 +1288,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Koko eating bananas.",
     "readTime": "5 mins",
-    "details": "<h2>Koko eating bananas</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Koko eating bananas\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/koko-eating-bananas/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Koko eating bananas</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/koko-eating-bananas/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p4",
@@ -1299,7 +1299,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Minimum days to make M bouquets.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum days to make M bouquets</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum days to make M bouquets\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum days to make M bouquets</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p5",
@@ -1310,7 +1310,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find the smallest divisor.",
     "readTime": "5 mins",
-    "details": "<h2>Find the smallest divisor</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the smallest divisor\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the smallest divisor</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p6",
@@ -1321,7 +1321,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Capacity to Ship Packages Within D Days.",
     "readTime": "5 mins",
-    "details": "<h2>Capacity to Ship Packages Within D Days</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Capacity to Ship Packages Within D Days\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Capacity to Ship Packages Within D Days</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p7",
@@ -1332,7 +1332,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Kth Missing Positive Number.",
     "readTime": "5 mins",
-    "details": "<h2>Kth Missing Positive Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kth Missing Positive Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kth Missing Positive Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p8",
@@ -1343,7 +1343,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Aggressive Cows.",
     "readTime": "5 mins",
-    "details": "<h2>Aggressive Cows</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Aggressive Cows\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Aggressive Cows</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p9",
@@ -1354,7 +1354,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Book Allocation Problem.",
     "readTime": "5 mins",
-    "details": "<h2>Book Allocation Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Book Allocation Problem\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Book Allocation Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p10",
@@ -1365,7 +1365,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Split array - largest sum.",
     "readTime": "5 mins",
-    "details": "<h2>Split array - largest sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Split array - largest sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/split-array-largest-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Split array - largest sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/split-array-largest-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p11",
@@ -1376,7 +1376,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Painter's Partition.",
     "readTime": "5 mins",
-    "details": "<h2>Painter's Partition</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Painter's Partition\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Painter's Partition</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p12",
@@ -1387,7 +1387,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimize Max Distance to Gas Station.",
     "readTime": "5 mins",
-    "details": "<h2>Minimize Max Distance to Gas Station</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimize Max Distance to Gas Station\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimize-max-distance-to-gas-station/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimize Max Distance to Gas Station</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimize-max-distance-to-gas-station/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p13",
@@ -1398,7 +1398,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Median of 2 sorted arrays.",
     "readTime": "5 mins",
-    "details": "<h2>Median of 2 sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Median of 2 sorted arrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/median-of-two-sorted-arrays/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Median of 2 sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/median-of-two-sorted-arrays/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c458-p14",
@@ -1409,7 +1409,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Kth element of 2 sorted arrays.",
     "readTime": "5 mins",
-    "details": "<h2>Kth element of 2 sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kth element of 2 sorted arrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kth element of 2 sorted arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c457-p1",
@@ -1420,7 +1420,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find row with maximum 1's.",
     "readTime": "5 mins",
-    "details": "<h2>Find row with maximum 1's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find row with maximum 1's\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find row with maximum 1's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c457-p2",
@@ -1431,7 +1431,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Search in a 2D matrix.",
     "readTime": "5 mins",
-    "details": "<h2>Search in a 2D matrix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in a 2D matrix\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-a-2d-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in a 2D matrix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-a-2d-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c457-p3",
@@ -1442,7 +1442,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Search in 2D matrix - II.",
     "readTime": "5 mins",
-    "details": "<h2>Search in 2D matrix - II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in 2D matrix - II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-a-2d-matrix-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in 2D matrix - II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-a-2d-matrix-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c457-p4",
@@ -1453,7 +1453,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find Peak Element - II.",
     "readTime": "5 mins",
-    "details": "<h2>Find Peak Element - II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find Peak Element - II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-a-peak-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find Peak Element - II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-a-peak-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s4-c457-p5",
@@ -1464,7 +1464,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Matrix Median.",
     "readTime": "5 mins",
-    "details": "<h2>Matrix Median</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Matrix Median\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Matrix Median</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p1",
@@ -1475,7 +1475,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Remove Outermost Parentheses.",
     "readTime": "5 mins",
-    "details": "<h2>Remove Outermost Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Remove Outermost Parentheses\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/remove-outermost-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Remove Outermost Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/remove-outermost-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p2",
@@ -1486,7 +1486,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse words in a given string / Palindrome Check.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse words in a given string / Palindrome Check</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse words in a given string / Palindrome Check\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-words-in-a-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse words in a given string / Palindrome Check</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-words-in-a-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p3",
@@ -1497,7 +1497,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Largest Odd Number in a String.",
     "readTime": "5 mins",
-    "details": "<h2>Largest Odd Number in a String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest Odd Number in a String\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/largest-odd-number-in-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest Odd Number in a String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/largest-odd-number-in-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p4",
@@ -1508,7 +1508,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Longest Common Prefix.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Common Prefix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Common Prefix\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-common-prefix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Common Prefix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-common-prefix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p5",
@@ -1519,7 +1519,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Isomorphic String.",
     "readTime": "5 mins",
-    "details": "<h2>Isomorphic String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Isomorphic String\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/isomorphic-strings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Isomorphic String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/isomorphic-strings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p6",
@@ -1530,7 +1530,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Rotate String.",
     "readTime": "5 mins",
-    "details": "<h2>Rotate String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rotate String\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotate-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rotate String</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotate-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c512-p7",
@@ -1541,7 +1541,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if two strings are anagram of each other.",
     "readTime": "5 mins",
-    "details": "<h2>Check if two strings are anagram of each other</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if two strings are anagram of each other\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if two strings are anagram of each other</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p1",
@@ -1552,7 +1552,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Sort Characters by Frequency.",
     "readTime": "5 mins",
-    "details": "<h2>Sort Characters by Frequency</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort Characters by Frequency\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sort-characters-by-frequency/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort Characters by Frequency</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sort-characters-by-frequency/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p2",
@@ -1563,7 +1563,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum Nesting Depth of the Parentheses.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Nesting Depth of the Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Nesting Depth of the Parentheses\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Nesting Depth of the Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p3",
@@ -1574,7 +1574,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Roman to Integer.",
     "readTime": "5 mins",
-    "details": "<h2>Roman to Integer</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Roman to Integer\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/roman-to-integer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Roman to Integer</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/roman-to-integer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p4",
@@ -1585,7 +1585,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for String to Integer (atoi).",
     "readTime": "5 mins",
-    "details": "<h2>String to Integer (atoi)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"String to Integer (atoi)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/string-to-integer-atoi/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>String to Integer (atoi)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/string-to-integer-atoi/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p5",
@@ -1596,7 +1596,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count Number of Substrings.",
     "readTime": "5 mins",
-    "details": "<h2>Count Number of Substrings</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Number of Substrings\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Number of Substrings</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p6",
@@ -1607,7 +1607,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Palindromic Substring.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Palindromic Substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Palindromic Substring\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-palindromic-substring/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Palindromic Substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-palindromic-substring/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p7",
@@ -1618,7 +1618,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sum of Beauty of All Substrings.",
     "readTime": "5 mins",
-    "details": "<h2>Sum of Beauty of All Substrings</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sum of Beauty of All Substrings\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sum-of-beauty-of-all-substrings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sum of Beauty of All Substrings</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sum-of-beauty-of-all-substrings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s5-c513-p8",
@@ -1629,7 +1629,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse every word in a string.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse every word in a string</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse every word in a string\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-words-in-a-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse every word in a string</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-words-in-a-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c490-p1",
@@ -1640,7 +1640,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to Singly LinkedList.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to Singly LinkedList</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to Singly LinkedList\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to Singly LinkedList</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c490-p2",
@@ -1651,7 +1651,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Insertion at the head of Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Insertion at the head of Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Insertion at the head of Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Insertion at the head of Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c490-p3",
@@ -1662,7 +1662,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Deletion of the head of LL.",
     "readTime": "5 mins",
-    "details": "<h2>Deletion of the head of LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Deletion of the head of LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/delete-node-in-a-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Deletion of the head of LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/delete-node-in-a-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c490-p4",
@@ -1673,7 +1673,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find the length of the Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Find the length of the Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the length of the Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the length of the Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c490-p5",
@@ -1684,7 +1684,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Search in Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Search in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c491-p1",
@@ -1695,7 +1695,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to Doubly LL.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to Doubly LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to Doubly LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to Doubly LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c491-p2",
@@ -1706,7 +1706,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Insert node before head in Doubly Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Insert node before head in Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Insert node before head in Doubly Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Insert node before head in Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c491-p3",
@@ -1717,7 +1717,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Delete head of Doubly Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Delete head of Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Delete head of Doubly Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Delete head of Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c491-p4",
@@ -1728,7 +1728,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse a Doubly Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse a Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse a Doubly Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse a Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p1",
@@ -1739,7 +1739,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Middle of a LinkedList [TortoiseHare Method].",
     "readTime": "5 mins",
-    "details": "<h2>Middle of a LinkedList [TortoiseHare Method]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Middle of a LinkedList [TortoiseHare Method]\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/middle-of-the-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Middle of a LinkedList [TortoiseHare Method]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/middle-of-the-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p2",
@@ -1750,7 +1750,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse a LinkedList [Iterative].",
     "readTime": "5 mins",
-    "details": "<h2>Reverse a LinkedList [Iterative]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse a LinkedList [Iterative]\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse a LinkedList [Iterative]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p3",
@@ -1761,7 +1761,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse a LL.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse a LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse a LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse a LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p4",
@@ -1772,7 +1772,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Detect a loop in LL.",
     "readTime": "5 mins",
-    "details": "<h2>Detect a loop in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Detect a loop in LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/linked-list-cycle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Detect a loop in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/linked-list-cycle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p5",
@@ -1783,7 +1783,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find the starting point in LL.",
     "readTime": "5 mins",
-    "details": "<h2>Find the starting point in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the starting point in LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/linked-list-cycle-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the starting point in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/linked-list-cycle-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p6",
@@ -1794,7 +1794,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Length of loop in LL.",
     "readTime": "5 mins",
-    "details": "<h2>Length of loop in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Length of loop in LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Length of loop in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p7",
@@ -1805,7 +1805,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Check if LL is palindrome or not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if LL is palindrome or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if LL is palindrome or not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/palindrome-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if LL is palindrome or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/palindrome-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p8",
@@ -1816,7 +1816,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Segregate odd and even nodes in Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Segregate odd and even nodes in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Segregate odd and even nodes in Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/odd-even-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Segregate odd and even nodes in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/odd-even-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p9",
@@ -1827,7 +1827,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Remove Nth node from the back of the LL.",
     "readTime": "5 mins",
-    "details": "<h2>Remove Nth node from the back of the LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Remove Nth node from the back of the LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/remove-nth-node-from-end-of-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Remove Nth node from the back of the LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/remove-nth-node-from-end-of-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p10",
@@ -1838,7 +1838,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Delete the middle node in LL.",
     "readTime": "5 mins",
-    "details": "<h2>Delete the middle node in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Delete the middle node in LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Delete the middle node in LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p11",
@@ -1849,7 +1849,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Sort LL.",
     "readTime": "5 mins",
-    "details": "<h2>Sort LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sort-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sort-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p12",
@@ -1860,7 +1860,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sort a Linked List of 0's 1's and 2's.",
     "readTime": "5 mins",
-    "details": "<h2>Sort a Linked List of 0's 1's and 2's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort a Linked List of 0's 1's and 2's\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort a Linked List of 0's 1's and 2's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p13",
@@ -1871,7 +1871,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find the intersection point of Y LL.",
     "readTime": "5 mins",
-    "details": "<h2>Find the intersection point of Y LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the intersection point of Y LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/intersection-of-two-linked-lists/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the intersection point of Y LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/intersection-of-two-linked-lists/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p14",
@@ -1882,7 +1882,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Add one to a number represented by LL.",
     "readTime": "5 mins",
-    "details": "<h2>Add one to a number represented by LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Add one to a number represented by LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Add one to a number represented by LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c493-p15",
@@ -1893,7 +1893,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Add two numbers in Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Add two numbers in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Add two numbers in Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/add-two-numbers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Add two numbers in Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/add-two-numbers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c492-p1",
@@ -1904,7 +1904,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Delete all occurrences of a key in DLL.",
     "readTime": "5 mins",
-    "details": "<h2>Delete all occurrences of a key in DLL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Delete all occurrences of a key in DLL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Delete all occurrences of a key in DLL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c492-p2",
@@ -1915,7 +1915,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Find Pairs with Given Sum in Doubly Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Find Pairs with Given Sum in Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find Pairs with Given Sum in Doubly Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find Pairs with Given Sum in Doubly Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c492-p3",
@@ -1926,7 +1926,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Remove duplicates from sorted DLL.",
     "readTime": "5 mins",
-    "details": "<h2>Remove duplicates from sorted DLL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Remove duplicates from sorted DLL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Remove duplicates from sorted DLL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c489-p1",
@@ -1937,7 +1937,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Reverse LL in group of given size K.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse LL in group of given size K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse LL in group of given size K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/reverse-nodes-in-k-group/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse LL in group of given size K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/reverse-nodes-in-k-group/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c489-p2",
@@ -1948,7 +1948,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Rotate a LL.",
     "readTime": "5 mins",
-    "details": "<h2>Rotate a LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rotate a LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotate-list/description/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rotate a LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotate-list/description/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c489-p3",
@@ -1959,7 +1959,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Flattening of LL.",
     "readTime": "5 mins",
-    "details": "<h2>Flattening of LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Flattening of LL\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Flattening of LL</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s6-c489-p4",
@@ -1970,7 +1970,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Clone a LL with random and next pointer.",
     "readTime": "5 mins",
-    "details": "<h2>Clone a LL with random and next pointer</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Clone a LL with random and next pointer\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/copy-list-with-random-pointer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Clone a LL with random and next pointer</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/copy-list-with-random-pointer/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c500-p1",
@@ -1981,7 +1981,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Recursive Implementation of atoi().",
     "readTime": "5 mins",
-    "details": "<h2>Recursive Implementation of atoi()</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Recursive Implementation of atoi()\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/string-to-integer-atoi/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Recursive Implementation of atoi()</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/string-to-integer-atoi/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c500-p2",
@@ -1992,7 +1992,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Pow(x, n).",
     "readTime": "5 mins",
-    "details": "<h2>Pow(x, n)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pow(x, n)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/powx-n/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pow(x, n)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/powx-n/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c500-p3",
@@ -2003,7 +2003,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Count Good Numbers.",
     "readTime": "5 mins",
-    "details": "<h2>Count Good Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Good Numbers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-good-numbers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Good Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-good-numbers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c500-p4",
@@ -2014,7 +2014,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sort a stack using recursion.",
     "readTime": "5 mins",
-    "details": "<h2>Sort a stack using recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort a stack using recursion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort a stack using recursion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c500-p5",
@@ -2025,7 +2025,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Reverse a Stack.",
     "readTime": "5 mins",
-    "details": "<h2>Reverse a Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Reverse a Stack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Reverse a Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p1",
@@ -2036,7 +2036,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Generate Binary Strings Without Consecutive 1s.",
     "readTime": "5 mins",
-    "details": "<h2>Generate Binary Strings Without Consecutive 1s</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Generate Binary Strings Without Consecutive 1s\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Generate Binary Strings Without Consecutive 1s</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p2",
@@ -2047,7 +2047,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Generate Parentheses.",
     "readTime": "5 mins",
-    "details": "<h2>Generate Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Generate Parentheses\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/generate-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Generate Parentheses</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/generate-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p3",
@@ -2058,7 +2058,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Power Set.",
     "readTime": "5 mins",
-    "details": "<h2>Power Set</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Power Set\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Power Set</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p4",
@@ -2069,7 +2069,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Learn All Patterns of Subsequences (Theory).",
     "readTime": "5 mins",
-    "details": "<h2>Learn All Patterns of Subsequences (Theory)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Learn All Patterns of Subsequences (Theory)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Learn All Patterns of Subsequences (Theory)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p5",
@@ -2080,7 +2080,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count all subsequences with sum K.",
     "readTime": "5 mins",
-    "details": "<h2>Count all subsequences with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count all subsequences with sum K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count all subsequences with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p6",
@@ -2091,7 +2091,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if there exists a subsequence with sum K.",
     "readTime": "5 mins",
-    "details": "<h2>Check if there exists a subsequence with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if there exists a subsequence with sum K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if there exists a subsequence with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p7",
@@ -2102,7 +2102,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Combination Sum.",
     "readTime": "5 mins",
-    "details": "<h2>Combination Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Combination Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/combination-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Combination Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/combination-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p8",
@@ -2113,7 +2113,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Combination Sum II.",
     "readTime": "5 mins",
-    "details": "<h2>Combination Sum II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Combination Sum II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/combination-sum-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Combination Sum II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/combination-sum-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p9",
@@ -2124,7 +2124,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Subsets I.",
     "readTime": "5 mins",
-    "details": "<h2>Subsets I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Subsets I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Subsets I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p10",
@@ -2135,7 +2135,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Subsets II.",
     "readTime": "5 mins",
-    "details": "<h2>Subsets II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Subsets II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/subsets-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Subsets II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/subsets-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p11",
@@ -2146,7 +2146,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Combination Sum III.",
     "readTime": "5 mins",
-    "details": "<h2>Combination Sum III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Combination Sum III\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/combination-sum-iii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Combination Sum III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/combination-sum-iii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c501-p12",
@@ -2157,7 +2157,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Letter Combinations of a Phone Number.",
     "readTime": "5 mins",
-    "details": "<h2>Letter Combinations of a Phone Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Letter Combinations of a Phone Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/letter-combinations-of-a-phone-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Letter Combinations of a Phone Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/letter-combinations-of-a-phone-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p1",
@@ -2168,7 +2168,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Palindrome partitioning.",
     "readTime": "5 mins",
-    "details": "<h2>Palindrome partitioning</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Palindrome partitioning\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Palindrome partitioning</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p2",
@@ -2179,7 +2179,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Word Search.",
     "readTime": "5 mins",
-    "details": "<h2>Word Search</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Word Search\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/word-search/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Word Search</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/word-search/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p3",
@@ -2190,7 +2190,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for N Queen.",
     "readTime": "5 mins",
-    "details": "<h2>N Queen</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"N Queen\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/n-queens/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>N Queen</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/n-queens/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p4",
@@ -2201,7 +2201,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Rat in a Maze.",
     "readTime": "5 mins",
-    "details": "<h2>Rat in a Maze</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rat in a Maze\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rat in a Maze</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p5",
@@ -2212,7 +2212,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Word Break.",
     "readTime": "5 mins",
-    "details": "<h2>Word Break</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Word Break\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Word Break</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p6",
@@ -2223,7 +2223,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for M Coloring Problem.",
     "readTime": "5 mins",
-    "details": "<h2>M Coloring Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"M Coloring Problem\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>M Coloring Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p7",
@@ -2234,7 +2234,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Sudoku Solver.",
     "readTime": "5 mins",
-    "details": "<h2>Sudoku Solver</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sudoku Solver\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sudoku-solver/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sudoku Solver</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sudoku-solver/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s7-c502-p8",
@@ -2245,7 +2245,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Expression Add Operators.",
     "readTime": "5 mins",
-    "details": "<h2>Expression Add Operators</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Expression Add Operators\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/expression-add-operators/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Expression Add Operators</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/expression-add-operators/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p1",
@@ -2256,7 +2256,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to Bits and Tricks.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to Bits and Tricks</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to Bits and Tricks\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to Bits and Tricks</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p2",
@@ -2267,7 +2267,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if the i-th bit is Set or Not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if the i-th bit is Set or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if the i-th bit is Set or Not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if the i-th bit is Set or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p3",
@@ -2278,7 +2278,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if a Number is Odd or Not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if a Number is Odd or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if a Number is Odd or Not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if a Number is Odd or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p4",
@@ -2289,7 +2289,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Check if a Number is Power of 2 or Not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if a Number is Power of 2 or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if a Number is Power of 2 or Not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/power-of-two/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if a Number is Power of 2 or Not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/power-of-two/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p5",
@@ -2300,7 +2300,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count the Number of Set Bits.",
     "readTime": "5 mins",
-    "details": "<h2>Count the Number of Set Bits</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count the Number of Set Bits\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count the Number of Set Bits</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p6",
@@ -2311,7 +2311,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Set/Unset the rightmost unset bit.",
     "readTime": "5 mins",
-    "details": "<h2>Set/Unset the rightmost unset bit</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Set/Unset the rightmost unset bit\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Set/Unset the rightmost unset bit</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p7",
@@ -2322,7 +2322,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Swap Two Numbers.",
     "readTime": "5 mins",
-    "details": "<h2>Swap Two Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Swap Two Numbers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Swap Two Numbers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c466-p8",
@@ -2333,7 +2333,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Divide two numbers without multiplication and division.",
     "readTime": "5 mins",
-    "details": "<h2>Divide two numbers without multiplication and division</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Divide two numbers without multiplication and division\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/divide-two-integers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Divide two numbers without multiplication and division</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/divide-two-integers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c465-p1",
@@ -2344,7 +2344,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Minimum Bit Flips to Convert Number.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Bit Flips to Convert Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Bit Flips to Convert Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-bit-flips-to-convert-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Bit Flips to Convert Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-bit-flips-to-convert-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c465-p2",
@@ -2355,7 +2355,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Single Number - I.",
     "readTime": "5 mins",
-    "details": "<h2>Single Number - I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Single Number - I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/single-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Single Number - I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/single-number/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c465-p3",
@@ -2366,7 +2366,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Power Set Bit Manipulation.",
     "readTime": "5 mins",
-    "details": "<h2>Power Set Bit Manipulation</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Power Set Bit Manipulation\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/subsets/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Power Set Bit Manipulation</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/subsets/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c465-p4",
@@ -2377,7 +2377,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for XOR of numbers in a given range.",
     "readTime": "5 mins",
-    "details": "<h2>XOR of numbers in a given range</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"XOR of numbers in a given range\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>XOR of numbers in a given range</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c465-p5",
@@ -2388,7 +2388,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Single Number - III.",
     "readTime": "5 mins",
-    "details": "<h2>Single Number - III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Single Number - III\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Single Number - III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c464-p1",
@@ -2399,7 +2399,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Print Prime Factors of a Number.",
     "readTime": "5 mins",
-    "details": "<h2>Print Prime Factors of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print Prime Factors of a Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print Prime Factors of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c464-p2",
@@ -2410,7 +2410,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Divisors of a Number.",
     "readTime": "5 mins",
-    "details": "<h2>Divisors of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Divisors of a Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Divisors of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c464-p3",
@@ -2421,7 +2421,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count primes in range L to R.",
     "readTime": "5 mins",
-    "details": "<h2>Count primes in range L to R</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count primes in range L to R\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-primes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count primes in range L to R</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-primes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c464-p4",
@@ -2432,7 +2432,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Prime factorisation of a Number.",
     "readTime": "5 mins",
-    "details": "<h2>Prime factorisation of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Prime factorisation of a Number\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Prime factorisation of a Number</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s8-c464-p5",
@@ -2443,7 +2443,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Pow(x,n).",
     "readTime": "5 mins",
-    "details": "<h2>Pow(x,n)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pow(x,n)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/powx-n/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pow(x,n)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/powx-n/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p1",
@@ -2454,7 +2454,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement Stack using Arrays.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Stack using Arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Stack using Arrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Stack using Arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p2",
@@ -2465,7 +2465,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement Queue using Arrays.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Queue using Arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Queue using Arrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Queue using Arrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p3",
@@ -2476,7 +2476,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement Stack using Queue.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Stack using Queue</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Stack using Queue\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/implement-stack-using-queues/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Stack using Queue</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/implement-stack-using-queues/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p4",
@@ -2487,7 +2487,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement Queue using Stack.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Queue using Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Queue using Stack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/implement-queue-using-stacks/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Queue using Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/implement-queue-using-stacks/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p5",
@@ -2498,7 +2498,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement stack using Linkedlist.",
     "readTime": "5 mins",
-    "details": "<h2>Implement stack using Linkedlist</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement stack using Linkedlist\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement stack using Linkedlist</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p6",
@@ -2509,7 +2509,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Implement queue using Linkedlist.",
     "readTime": "5 mins",
-    "details": "<h2>Implement queue using Linkedlist</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement queue using Linkedlist\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement queue using Linkedlist</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p7",
@@ -2520,7 +2520,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Balanced Paranthesis.",
     "readTime": "5 mins",
-    "details": "<h2>Balanced Paranthesis</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Balanced Paranthesis\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/valid-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Balanced Paranthesis</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/valid-parentheses/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c509-p8",
@@ -2531,7 +2531,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Implement Min Stack.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Min Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Min Stack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/min-stack/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Min Stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/min-stack/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p1",
@@ -2542,7 +2542,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Infix to Postfix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Infix to Postfix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Infix to Postfix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Infix to Postfix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p2",
@@ -2553,7 +2553,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Prefix to Infix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Prefix to Infix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Prefix to Infix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Prefix to Infix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p3",
@@ -2564,7 +2564,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Prefix to Postfix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Prefix to Postfix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Prefix to Postfix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Prefix to Postfix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p4",
@@ -2575,7 +2575,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Postfix to Prefix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Postfix to Prefix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Postfix to Prefix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Postfix to Prefix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p5",
@@ -2586,7 +2586,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Postfix to Infix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Postfix to Infix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Postfix to Infix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Postfix to Infix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c511-p6",
@@ -2597,7 +2597,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Infix to Prefix Conversion.",
     "readTime": "5 mins",
-    "details": "<h2>Infix to Prefix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Infix to Prefix Conversion\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Infix to Prefix Conversion</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p1",
@@ -2608,7 +2608,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Next Greater Element.",
     "readTime": "5 mins",
-    "details": "<h2>Next Greater Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Next Greater Element\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/next-greater-element-i/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Next Greater Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/next-greater-element-i/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p2",
@@ -2619,7 +2619,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Next Greater Element - 2.",
     "readTime": "5 mins",
-    "details": "<h2>Next Greater Element - 2</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Next Greater Element - 2\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/next-greater-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Next Greater Element - 2</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/next-greater-element-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p3",
@@ -2630,7 +2630,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Next Smaller Element.",
     "readTime": "5 mins",
-    "details": "<h2>Next Smaller Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Next Smaller Element\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Next Smaller Element</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p4",
@@ -2641,7 +2641,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Number of Greater Elements to the Right.",
     "readTime": "5 mins",
-    "details": "<h2>Number of Greater Elements to the Right</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of Greater Elements to the Right\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of Greater Elements to the Right</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p5",
@@ -2652,7 +2652,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Trapping Rainwater.",
     "readTime": "5 mins",
-    "details": "<h2>Trapping Rainwater</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Trapping Rainwater\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/trapping-rain-water/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Trapping Rainwater</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/trapping-rain-water/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p6",
@@ -2663,7 +2663,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sum of Subarray Minimums.",
     "readTime": "5 mins",
-    "details": "<h2>Sum of Subarray Minimums</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sum of Subarray Minimums\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sum-of-subarray-minimums/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sum of Subarray Minimums</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sum-of-subarray-minimums/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p7",
@@ -2674,7 +2674,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Asteroid Collision.",
     "readTime": "5 mins",
-    "details": "<h2>Asteroid Collision</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Asteroid Collision\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/asteroid-collision/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Asteroid Collision</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/asteroid-collision/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p8",
@@ -2685,7 +2685,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Sum of Subarray Ranges.",
     "readTime": "5 mins",
-    "details": "<h2>Sum of Subarray Ranges</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sum of Subarray Ranges\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sum-of-subarray-ranges/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sum of Subarray Ranges</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sum-of-subarray-ranges/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p9",
@@ -2696,7 +2696,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Remove K Digits.",
     "readTime": "5 mins",
-    "details": "<h2>Remove K Digits</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Remove K Digits\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/remove-k-digits/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Remove K Digits</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/remove-k-digits/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p10",
@@ -2707,7 +2707,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Largest rectangle in a histogram.",
     "readTime": "5 mins",
-    "details": "<h2>Largest rectangle in a histogram</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest rectangle in a histogram\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/largest-rectangle-in-histogram/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest rectangle in a histogram</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/largest-rectangle-in-histogram/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c510-p11",
@@ -2718,7 +2718,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum Rectangles.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Rectangles</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Rectangles\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximal-rectangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Rectangles</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximal-rectangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c508-p1",
@@ -2729,7 +2729,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Sliding Window Maximum.",
     "readTime": "5 mins",
-    "details": "<h2>Sliding Window Maximum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sliding Window Maximum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/sliding-window-maximum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sliding Window Maximum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/sliding-window-maximum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c508-p2",
@@ -2740,7 +2740,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Stock span problem.",
     "readTime": "5 mins",
-    "details": "<h2>Stock span problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Stock span problem\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/online-stock-span/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Stock span problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/online-stock-span/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c508-p3",
@@ -2751,7 +2751,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Celebrity Problem.",
     "readTime": "5 mins",
-    "details": "<h2>Celebrity Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Celebrity Problem\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Celebrity Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c508-p4",
@@ -2762,7 +2762,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for LRU Cache.",
     "readTime": "5 mins",
-    "details": "<h2>LRU Cache</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"LRU Cache\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>LRU Cache</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s9-c508-p5",
@@ -2773,7 +2773,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for LFU Cache.",
     "readTime": "5 mins",
-    "details": "<h2>LFU Cache</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"LFU Cache\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/lfu-cache/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>LFU Cache</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/lfu-cache/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p1",
@@ -2784,7 +2784,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Substring Without Repeating Characters.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Substring Without Repeating Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Substring Without Repeating Characters\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-substring-without-repeating-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Substring Without Repeating Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-substring-without-repeating-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p2",
@@ -2795,7 +2795,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Max Consecutive Ones III.",
     "readTime": "5 mins",
-    "details": "<h2>Max Consecutive Ones III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Max Consecutive Ones III\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/max-consecutive-ones-iii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Max Consecutive Ones III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/max-consecutive-ones-iii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p3",
@@ -2806,7 +2806,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Fruit Into Baskets.",
     "readTime": "5 mins",
-    "details": "<h2>Fruit Into Baskets</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Fruit Into Baskets\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Fruit Into Baskets</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p4",
@@ -2817,7 +2817,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest Repeating Character Replacement.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Repeating Character Replacement</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Repeating Character Replacement\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-repeating-character-replacement/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Repeating Character Replacement</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-repeating-character-replacement/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p5",
@@ -2828,7 +2828,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Binary Subarrays With Sum.",
     "readTime": "5 mins",
-    "details": "<h2>Binary Subarrays With Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Binary Subarrays With Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-subarrays-with-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Binary Subarrays With Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-subarrays-with-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p6",
@@ -2839,7 +2839,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count number of Nice subarrays.",
     "readTime": "5 mins",
-    "details": "<h2>Count number of Nice subarrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count number of Nice subarrays\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-number-of-nice-subarrays/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count number of Nice subarrays</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-number-of-nice-subarrays/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p7",
@@ -2850,7 +2850,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Number of Substrings Containing All Three Characters.",
     "readTime": "5 mins",
-    "details": "<h2>Number of Substrings Containing All Three Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of Substrings Containing All Three Characters\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of Substrings Containing All Three Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c504-p8",
@@ -2861,7 +2861,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum Points You Can Obtain from Cards.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Points You Can Obtain from Cards</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Points You Can Obtain from Cards\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Points You Can Obtain from Cards</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c503-p1",
@@ -2872,7 +2872,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest Substring With At Most K Distinct Characters.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Substring With At Most K Distinct Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Substring With At Most K Distinct Characters\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Substring With At Most K Distinct Characters</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c503-p2",
@@ -2883,7 +2883,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Subarrays with K Different Integers.",
     "readTime": "5 mins",
-    "details": "<h2>Subarrays with K Different Integers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Subarrays with K Different Integers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/subarrays-with-k-different-integers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Subarrays with K Different Integers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/subarrays-with-k-different-integers/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c503-p3",
@@ -2894,7 +2894,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum Window Substring.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Window Substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Window Substring\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-window-substring/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Window Substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-window-substring/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s10-c503-p4",
@@ -2905,7 +2905,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum Window Subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Window Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Window Subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-window-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Window Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-window-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c485-p1",
@@ -2916,7 +2916,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Heaps (Theory Video).",
     "readTime": "5 mins",
-    "details": "<h2>Heaps (Theory Video)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Heaps (Theory Video)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Heaps (Theory Video)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c485-p2",
@@ -2927,7 +2927,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Implement Min Heap.",
     "readTime": "5 mins",
-    "details": "<h2>Implement Min Heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Implement Min Heap\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Implement Min Heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c485-p3",
@@ -2938,7 +2938,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Check if an array represents a min heap.",
     "readTime": "5 mins",
-    "details": "<h2>Check if an array represents a min heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if an array represents a min heap\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if an array represents a min heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c485-p4",
@@ -2949,7 +2949,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Convert Min Heap to Max Heap.",
     "readTime": "5 mins",
-    "details": "<h2>Convert Min Heap to Max Heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Convert Min Heap to Max Heap\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Convert Min Heap to Max Heap</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p1",
@@ -2960,7 +2960,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for K-th Largest element in an array.",
     "readTime": "5 mins",
-    "details": "<h2>K-th Largest element in an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"K-th Largest element in an array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>K-th Largest element in an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p2",
@@ -2971,7 +2971,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Kth smallest element in an array [use priority queue].",
     "readTime": "5 mins",
-    "details": "<h2>Kth smallest element in an array [use priority queue]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kth smallest element in an array [use priority queue]\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kth smallest element in an array [use priority queue]</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p3",
@@ -2982,7 +2982,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Sort K sorted array.",
     "readTime": "5 mins",
-    "details": "<h2>Sort K sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Sort K sorted array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Sort K sorted array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p4",
@@ -2993,7 +2993,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Merge K sorted Lists.",
     "readTime": "5 mins",
-    "details": "<h2>Merge K sorted Lists</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge K sorted Lists\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/merge-k-sorted-lists/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge K sorted Lists</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/merge-k-sorted-lists/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p5",
@@ -3004,7 +3004,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Replace Elements by Their Rank.",
     "readTime": "5 mins",
-    "details": "<h2>Replace Elements by Their Rank</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Replace Elements by Their Rank\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Replace Elements by Their Rank</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p6",
@@ -3015,7 +3015,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Task Scheduler.",
     "readTime": "5 mins",
-    "details": "<h2>Task Scheduler</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Task Scheduler\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/task-scheduler/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Task Scheduler</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/task-scheduler/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c486-p7",
@@ -3026,7 +3026,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Hand of Straights.",
     "readTime": "5 mins",
-    "details": "<h2>Hand of Straights</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Hand of Straights\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/hand-of-straights/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Hand of Straights</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/hand-of-straights/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p1",
@@ -3037,7 +3037,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Design Twitter.",
     "readTime": "5 mins",
-    "details": "<h2>Design Twitter</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Design Twitter\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/design-twitter/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Design Twitter</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/design-twitter/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p2",
@@ -3048,7 +3048,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Minimum Cost to Connect Sticks.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Cost to Connect Sticks</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Cost to Connect Sticks\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Cost to Connect Sticks</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p3",
@@ -3059,7 +3059,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Kth largest element in a stream of running integers.",
     "readTime": "5 mins",
-    "details": "<h2>Kth largest element in a stream of running integers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kth largest element in a stream of running integers\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kth largest element in a stream of running integers</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p4",
@@ -3070,7 +3070,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum Sum Combination.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Sum Combination</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Sum Combination\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Sum Combination</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p5",
@@ -3081,7 +3081,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Find Median from Data Stream.",
     "readTime": "5 mins",
-    "details": "<h2>Find Median from Data Stream</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find Median from Data Stream\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-median-from-data-stream/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find Median from Data Stream</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-median-from-data-stream/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s11-c484-p6",
@@ -3092,7 +3092,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Top K Frequent Elements.",
     "readTime": "5 mins",
-    "details": "<h2>Top K Frequent Elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Top K Frequent Elements\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/top-k-frequent-elements/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Top K Frequent Elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/top-k-frequent-elements/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c482-p1",
@@ -3103,7 +3103,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Assign Cookies.",
     "readTime": "5 mins",
-    "details": "<h2>Assign Cookies</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Assign Cookies\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/assign-cookies/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Assign Cookies</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/assign-cookies/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c482-p2",
@@ -3114,7 +3114,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Fractional Knapsack.",
     "readTime": "5 mins",
-    "details": "<h2>Fractional Knapsack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Fractional Knapsack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Fractional Knapsack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c482-p3",
@@ -3125,7 +3125,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Lemonade Change.",
     "readTime": "5 mins",
-    "details": "<h2>Lemonade Change</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Lemonade Change\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/lemonade-change/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Lemonade Change</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/lemonade-change/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c482-p4",
@@ -3136,7 +3136,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Valid Paranthesis Checker.",
     "readTime": "5 mins",
-    "details": "<h2>Valid Paranthesis Checker</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Valid Paranthesis Checker\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/valid-parenthesis-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Valid Paranthesis Checker</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/valid-parenthesis-string/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p1",
@@ -3147,7 +3147,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for N meetings in one room.",
     "readTime": "5 mins",
-    "details": "<h2>N meetings in one room</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"N meetings in one room\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>N meetings in one room</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p2",
@@ -3158,7 +3158,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Jump Game - I.",
     "readTime": "5 mins",
-    "details": "<h2>Jump Game - I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Jump Game - I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/jump-game/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Jump Game - I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/jump-game/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p3",
@@ -3169,7 +3169,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Jump Game II.",
     "readTime": "5 mins",
-    "details": "<h2>Jump Game II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Jump Game II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/jump-game-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Jump Game II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/jump-game-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p4",
@@ -3180,7 +3180,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Minimum number of platforms required for a railway.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum number of platforms required for a railway</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum number of platforms required for a railway\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum number of platforms required for a railway</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p5",
@@ -3191,7 +3191,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Job sequencing Problem.",
     "readTime": "5 mins",
-    "details": "<h2>Job sequencing Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Job sequencing Problem\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Job sequencing Problem</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p6",
@@ -3202,7 +3202,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Candy.",
     "readTime": "5 mins",
-    "details": "<h2>Candy</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Candy\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/candy/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Candy</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/candy/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p7",
@@ -3213,7 +3213,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Shortest Job First.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest Job First</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest Job First\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest Job First</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p8",
@@ -3224,7 +3224,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Program for Least Recently Used (LRU) Page Replacement Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Program for Least Recently Used (LRU) Page Replacement Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Program for Least Recently Used (LRU) Page Replacement Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Program for Least Recently Used (LRU) Page Replacement Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p9",
@@ -3235,7 +3235,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Insert Interval.",
     "readTime": "5 mins",
-    "details": "<h2>Insert Interval</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Insert Interval\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/insert-interval/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Insert Interval</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/insert-interval/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p10",
@@ -3246,7 +3246,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Merge Intervals.",
     "readTime": "5 mins",
-    "details": "<h2>Merge Intervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge Intervals\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/merge-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge Intervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/merge-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s12-c483-p11",
@@ -3257,7 +3257,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Non-overlapping Intervals.",
     "readTime": "5 mins",
-    "details": "<h2>Non-overlapping Intervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Non-overlapping Intervals\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/non-overlapping-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Non-overlapping Intervals</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/non-overlapping-intervals/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p1",
@@ -3268,7 +3268,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to Trees.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to Trees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to Trees\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to Trees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p2",
@@ -3279,7 +3279,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Binary Tree Representation in Java.",
     "readTime": "5 mins",
-    "details": "<h2>Binary Tree Representation in Java</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Binary Tree Representation in Java\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Binary Tree Representation in Java</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p3",
@@ -3290,7 +3290,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Pre, Post, Inorder in one traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Pre, Post, Inorder in one traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Pre, Post, Inorder in one traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Pre, Post, Inorder in one traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p4",
@@ -3301,7 +3301,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Preorder Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Preorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Preorder Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Preorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p5",
@@ -3312,7 +3312,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Inorder Traversal of Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Inorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Inorder Traversal of Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Inorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p6",
@@ -3323,7 +3323,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Postorder Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Postorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Postorder Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Postorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p7",
@@ -3334,7 +3334,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Level Order Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Level Order Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Level Order Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Level Order Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-level-order-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p8",
@@ -3345,7 +3345,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Iterative Preorder Traversal of Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Iterative Preorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Iterative Preorder Traversal of Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Iterative Preorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p9",
@@ -3356,7 +3356,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Iterative Inorder Traversal of Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Iterative Inorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Iterative Inorder Traversal of Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Iterative Inorder Traversal of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p10",
@@ -3367,7 +3367,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Post-order Traversal of Binary Tree using 2 stack.",
     "readTime": "5 mins",
-    "details": "<h2>Post-order Traversal of Binary Tree using 2 stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Post-order Traversal of Binary Tree using 2 stack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Post-order Traversal of Binary Tree using 2 stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p11",
@@ -3378,7 +3378,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Post-order Traversal of Binary Tree using 1 stack.",
     "readTime": "5 mins",
-    "details": "<h2>Post-order Traversal of Binary Tree using 1 stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Post-order Traversal of Binary Tree using 1 stack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Post-order Traversal of Binary Tree using 1 stack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c463-p12",
@@ -3389,7 +3389,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Preorder, Inorder, and Postorder Traversal in one Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Preorder, Inorder, and Postorder Traversal in one Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Preorder, Inorder, and Postorder Traversal in one Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Preorder, Inorder, and Postorder Traversal in one Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p1",
@@ -3400,7 +3400,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum Depth in BT.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Depth in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Depth in BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-depth-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Depth in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-depth-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p2",
@@ -3411,7 +3411,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Check for balanced binary tree.",
     "readTime": "5 mins",
-    "details": "<h2>Check for balanced binary tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check for balanced binary tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/balanced-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check for balanced binary tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/balanced-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p3",
@@ -3422,7 +3422,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Diameter of Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Diameter of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Diameter of Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/diameter-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Diameter of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/diameter-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p4",
@@ -3433,7 +3433,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum path sum.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum path sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum path sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-maximum-path-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum path sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-maximum-path-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p5",
@@ -3444,7 +3444,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Check if two trees are identical or not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if two trees are identical or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if two trees are identical or not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/same-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if two trees are identical or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/same-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p6",
@@ -3455,7 +3455,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Zig Zag or Spiral Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Zig Zag or Spiral Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Zig Zag or Spiral Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Zig Zag or Spiral Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p7",
@@ -3466,7 +3466,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Boundary Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Boundary Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Boundary Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/boundary-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Boundary Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/boundary-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p8",
@@ -3477,7 +3477,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Vertical Order Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Vertical Order Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Vertical Order Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Vertical Order Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p9",
@@ -3488,7 +3488,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Top View of BT.",
     "readTime": "5 mins",
-    "details": "<h2>Top View of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Top View of BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Top View of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p10",
@@ -3499,7 +3499,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Bottom view of BT.",
     "readTime": "5 mins",
-    "details": "<h2>Bottom view of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bottom view of BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bottom view of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p11",
@@ -3510,7 +3510,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Right/Left View of Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Right/Left View of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Right/Left View of Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-right-side-view/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Right/Left View of Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-right-side-view/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c462-p12",
@@ -3521,7 +3521,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Symmetric Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Symmetric Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Symmetric Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/symmetric-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Symmetric Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/symmetric-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p1",
@@ -3532,7 +3532,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Print root to leaf path in BT.",
     "readTime": "5 mins",
-    "details": "<h2>Print root to leaf path in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print root to leaf path in BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print root to leaf path in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p2",
@@ -3543,7 +3543,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for LCA in BT.",
     "readTime": "5 mins",
-    "details": "<h2>LCA in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"LCA in BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>LCA in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p3",
@@ -3554,7 +3554,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum Width of BT.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Width of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Width of BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-width-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Width of BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-width-of-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p4",
@@ -3565,7 +3565,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Children Sum Property in Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Children Sum Property in Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Children Sum Property in Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Children Sum Property in Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p5",
@@ -3576,7 +3576,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Print all nodes at a distance of K in BT.",
     "readTime": "5 mins",
-    "details": "<h2>Print all nodes at a distance of K in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print all nodes at a distance of K in BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print all nodes at a distance of K in BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p6",
@@ -3587,7 +3587,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum time taken to burn the BT from a given Node.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum time taken to burn the BT from a given Node</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum time taken to burn the BT from a given Node\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum time taken to burn the BT from a given Node</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p7",
@@ -3598,7 +3598,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count total nodes in a complete BT.",
     "readTime": "5 mins",
-    "details": "<h2>Count total nodes in a complete BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count total nodes in a complete BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-complete-tree-nodes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count total nodes in a complete BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-complete-tree-nodes/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p8",
@@ -3609,7 +3609,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Requirements needed to construct a unique BT.",
     "readTime": "5 mins",
-    "details": "<h2>Requirements needed to construct a unique BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Requirements needed to construct a unique BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Requirements needed to construct a unique BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p9",
@@ -3620,7 +3620,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Construct a BT from Preorder and Inorder.",
     "readTime": "5 mins",
-    "details": "<h2>Construct a BT from Preorder and Inorder</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Construct a BT from Preorder and Inorder\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Construct a BT from Preorder and Inorder</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p10",
@@ -3631,7 +3631,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Construct the Binary Tree from Postorder and Inorder Traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Construct the Binary Tree from Postorder and Inorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Construct the Binary Tree from Postorder and Inorder Traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Construct the Binary Tree from Postorder and Inorder Traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p11",
@@ -3642,7 +3642,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Serialize and De-serialize BT.",
     "readTime": "5 mins",
-    "details": "<h2>Serialize and De-serialize BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Serialize and De-serialize BT\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/serialize-and-deserialize-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Serialize and De-serialize BT</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/serialize-and-deserialize-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p12",
@@ -3653,7 +3653,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Morris Preorder Traversal of a Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Morris Preorder Traversal of a Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Morris Preorder Traversal of a Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Morris Preorder Traversal of a Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p13",
@@ -3664,7 +3664,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Morris Inorder Traversal of a Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Morris Inorder Traversal of a Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Morris Inorder Traversal of a Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Morris Inorder Traversal of a Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-tree-inorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s13-c461-p14",
@@ -3675,7 +3675,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Flatten Binary Tree to Linked List.",
     "readTime": "5 mins",
-    "details": "<h2>Flatten Binary Tree to Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Flatten Binary Tree to Linked List\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/flatten-binary-tree-to-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Flatten Binary Tree to Linked List</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/flatten-binary-tree-to-linked-list/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c459-p1",
@@ -3686,7 +3686,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to BST.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c459-p2",
@@ -3697,7 +3697,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Search in a Binary Search Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Search in a Binary Search Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Search in a Binary Search Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/search-in-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Search in a Binary Search Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/search-in-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c459-p3",
@@ -3708,7 +3708,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Find Min/Max in BST.",
     "readTime": "5 mins",
-    "details": "<h2>Find Min/Max in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find Min/Max in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find Min/Max in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p1",
@@ -3719,7 +3719,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Floor and Ceil in a BST.",
     "readTime": "5 mins",
-    "details": "<h2>Floor and Ceil in a BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Floor and Ceil in a BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Floor and Ceil in a BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p2",
@@ -3730,7 +3730,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Floor in a Binary Search Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Floor in a Binary Search Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Floor in a Binary Search Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Floor in a Binary Search Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p3",
@@ -3741,7 +3741,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Insert a given node in BST.",
     "readTime": "5 mins",
-    "details": "<h2>Insert a given node in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Insert a given node in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/insert-into-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Insert a given node in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/insert-into-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p4",
@@ -3752,7 +3752,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Delete a node in BST.",
     "readTime": "5 mins",
-    "details": "<h2>Delete a node in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Delete a node in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/delete-node-in-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Delete a node in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/delete-node-in-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p5",
@@ -3763,7 +3763,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Kth Smallest and Largest element in BST.",
     "readTime": "5 mins",
-    "details": "<h2>Kth Smallest and Largest element in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kth Smallest and Largest element in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/kth-smallest-element-in-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kth Smallest and Largest element in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/kth-smallest-element-in-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p6",
@@ -3774,7 +3774,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Check if a tree is a BST or not.",
     "readTime": "5 mins",
-    "details": "<h2>Check if a tree is a BST or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Check if a tree is a BST or not\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/validate-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Check if a tree is a BST or not</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/validate-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p7",
@@ -3785,7 +3785,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for LCA in BST.",
     "readTime": "5 mins",
-    "details": "<h2>LCA in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"LCA in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>LCA in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p8",
@@ -3796,7 +3796,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Construct a BST from a preorder traversal.",
     "readTime": "5 mins",
-    "details": "<h2>Construct a BST from a preorder traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Construct a BST from a preorder traversal\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Construct a BST from a preorder traversal</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p9",
@@ -3807,7 +3807,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Inorder Successor/Predecessor in BST.",
     "readTime": "5 mins",
-    "details": "<h2>Inorder Successor/Predecessor in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Inorder Successor/Predecessor in BST\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/inorder-successor-in-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Inorder Successor/Predecessor in BST</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/inorder-successor-in-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p10",
@@ -3818,7 +3818,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Merge 2 BST's.",
     "readTime": "5 mins",
-    "details": "<h2>Merge 2 BST's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Merge 2 BST's\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/binary-search-tree-iterator/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Merge 2 BST's</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/binary-search-tree-iterator/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p11",
@@ -3829,7 +3829,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Two Sum In BST | Check if there exists a pair with Sum K.",
     "readTime": "5 mins",
-    "details": "<h2>Two Sum In BST | Check if there exists a pair with Sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Two Sum In BST | Check if there exists a pair with Sum K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/two-sum-iv-input-is-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Two Sum In BST | Check if there exists a pair with Sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/two-sum-iv-input-is-a-bst/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p12",
@@ -3840,7 +3840,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Correct BST with two nodes swapped.",
     "readTime": "5 mins",
-    "details": "<h2>Correct BST with two nodes swapped</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Correct BST with two nodes swapped\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/recover-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Correct BST with two nodes swapped</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/recover-binary-search-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s14-c460-p13",
@@ -3851,7 +3851,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Largest BST in Binary Tree.",
     "readTime": "5 mins",
-    "details": "<h2>Largest BST in Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest BST in Binary Tree\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest BST in Binary Tree</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p1",
@@ -3862,7 +3862,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to Graph.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to Graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to Graph\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to Graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p2",
@@ -3873,7 +3873,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Graph Representation | C++.",
     "readTime": "5 mins",
-    "details": "<h2>Graph Representation | C++</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Graph Representation | C++\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Graph Representation | C++</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p3",
@@ -3884,7 +3884,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Graph Representation | Java.",
     "readTime": "5 mins",
-    "details": "<h2>Graph Representation | Java</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Graph Representation | Java\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Graph Representation | Java</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p4",
@@ -3895,7 +3895,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Connected Components.",
     "readTime": "5 mins",
-    "details": "<h2>Connected Components</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Connected Components\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Connected Components</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p5",
@@ -3906,7 +3906,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Traversal Techniques.",
     "readTime": "5 mins",
-    "details": "<h2>Traversal Techniques</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Traversal Techniques\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Traversal Techniques</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c476-p6",
@@ -3917,7 +3917,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for DFS.",
     "readTime": "5 mins",
-    "details": "<h2>DFS</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"DFS\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>DFS</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p1",
@@ -3928,7 +3928,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Number of provinces.",
     "readTime": "5 mins",
-    "details": "<h2>Number of provinces</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of provinces\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of provinces</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p2",
@@ -3939,7 +3939,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Connected Components Problem in Matrix.",
     "readTime": "5 mins",
-    "details": "<h2>Connected Components Problem in Matrix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Connected Components Problem in Matrix\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Connected Components Problem in Matrix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p3",
@@ -3950,7 +3950,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Rotten Oranges.",
     "readTime": "5 mins",
-    "details": "<h2>Rotten Oranges</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rotten Oranges\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/rotting-oranges/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rotten Oranges</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/rotting-oranges/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p4",
@@ -3961,7 +3961,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Flood fill algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Flood fill algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Flood fill algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/flood-fill/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Flood fill algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/flood-fill/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p5",
@@ -3972,7 +3972,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Cycle Detection in Undirected Graph (bfs).",
     "readTime": "5 mins",
-    "details": "<h2>Cycle Detection in Undirected Graph (bfs)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Cycle Detection in Undirected Graph (bfs)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Cycle Detection in Undirected Graph (bfs)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p6",
@@ -3983,7 +3983,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Detect a cycle in an undirected graph.",
     "readTime": "5 mins",
-    "details": "<h2>Detect a cycle in an undirected graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Detect a cycle in an undirected graph\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Detect a cycle in an undirected graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p7",
@@ -3994,7 +3994,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Distance of nearest cell having one.",
     "readTime": "5 mins",
-    "details": "<h2>Distance of nearest cell having one</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Distance of nearest cell having one\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/01-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Distance of nearest cell having one</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/01-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p8",
@@ -4005,7 +4005,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Surrounded Regions.",
     "readTime": "5 mins",
-    "details": "<h2>Surrounded Regions</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Surrounded Regions\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/surrounded-regions/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Surrounded Regions</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/surrounded-regions/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p9",
@@ -4016,7 +4016,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Number of enclaves.",
     "readTime": "5 mins",
-    "details": "<h2>Number of enclaves</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of enclaves\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-enclaves/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of enclaves</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-enclaves/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p10",
@@ -4027,7 +4027,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Word ladder I.",
     "readTime": "5 mins",
-    "details": "<h2>Word ladder I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Word ladder I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/word-ladder/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Word ladder I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/word-ladder/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p11",
@@ -4038,7 +4038,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Word ladder II.",
     "readTime": "5 mins",
-    "details": "<h2>Word ladder II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Word ladder II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/word-ladder-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Word ladder II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/word-ladder-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p12",
@@ -4049,7 +4049,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Number of islands.",
     "readTime": "5 mins",
-    "details": "<h2>Number of islands</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of islands\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-islands/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of islands</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-islands/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p13",
@@ -4060,7 +4060,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Bipartite Graph (DFS).",
     "readTime": "5 mins",
-    "details": "<h2>Bipartite Graph (DFS)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bipartite Graph (DFS)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/is-graph-bipartite/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bipartite Graph (DFS)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/is-graph-bipartite/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c479-p14",
@@ -4071,7 +4071,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Cycle Detection in Directed Graph (DFS).",
     "readTime": "5 mins",
-    "details": "<h2>Cycle Detection in Directed Graph (DFS)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Cycle Detection in Directed Graph (DFS)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Cycle Detection in Directed Graph (DFS)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p1",
@@ -4082,7 +4082,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Topo Sort.",
     "readTime": "5 mins",
-    "details": "<h2>Topo Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Topo Sort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Topo Sort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p2",
@@ -4093,7 +4093,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Topological sort or Kahn's algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Topological sort or Kahn's algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Topological sort or Kahn's algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Topological sort or Kahn's algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p3",
@@ -4104,7 +4104,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Detect a cycle in a directed graph.",
     "readTime": "5 mins",
-    "details": "<h2>Detect a cycle in a directed graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Detect a cycle in a directed graph\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Detect a cycle in a directed graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p4",
@@ -4115,7 +4115,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Course Schedule I.",
     "readTime": "5 mins",
-    "details": "<h2>Course Schedule I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Course Schedule I\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Course Schedule I</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/course-schedule/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p5",
@@ -4126,7 +4126,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Course Schedule II.",
     "readTime": "5 mins",
-    "details": "<h2>Course Schedule II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Course Schedule II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/course-schedule-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Course Schedule II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/course-schedule-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p6",
@@ -4137,7 +4137,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Find eventual safe states.",
     "readTime": "5 mins",
-    "details": "<h2>Find eventual safe states</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find eventual safe states\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-eventual-safe-states/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find eventual safe states</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-eventual-safe-states/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c481-p7",
@@ -4148,7 +4148,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Alien Dictionary.",
     "readTime": "5 mins",
-    "details": "<h2>Alien Dictionary</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Alien Dictionary\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/alien-dictionary/solution/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Alien Dictionary</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/alien-dictionary/solution/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p1",
@@ -4159,7 +4159,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Shortest path in undirected graph with unit weights.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest path in undirected graph with unit weights</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest path in undirected graph with unit weights\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest path in undirected graph with unit weights</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p2",
@@ -4170,7 +4170,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Shortest path in DAG.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest path in DAG</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest path in DAG\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest path in DAG</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p3",
@@ -4181,7 +4181,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Djisktra's Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Djisktra's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Djisktra's Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Djisktra's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p4",
@@ -4192,7 +4192,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Why priority Queue is used in Djisktra's Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Why priority Queue is used in Djisktra's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Why priority Queue is used in Djisktra's Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Why priority Queue is used in Djisktra's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p5",
@@ -4203,7 +4203,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Shortest Distance in a Binary Maze.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest Distance in a Binary Maze</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest Distance in a Binary Maze\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/shortest-path-in-binary-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest Distance in a Binary Maze</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/shortest-path-in-binary-matrix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p6",
@@ -4214,7 +4214,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Path with minimum effort.",
     "readTime": "5 mins",
-    "details": "<h2>Path with minimum effort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Path with minimum effort\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/path-with-minimum-effort/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Path with minimum effort</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/path-with-minimum-effort/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p7",
@@ -4225,7 +4225,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Cheapest flight within K stops.",
     "readTime": "5 mins",
-    "details": "<h2>Cheapest flight within K stops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Cheapest flight within K stops\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/cheapest-flights-within-k-stops/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Cheapest flight within K stops</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/cheapest-flights-within-k-stops/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p8",
@@ -4236,7 +4236,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Network Delay Time.",
     "readTime": "5 mins",
-    "details": "<h2>Network Delay Time</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Network Delay Time\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/network-delay-time/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Network Delay Time</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/network-delay-time/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p9",
@@ -4247,7 +4247,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Number of ways to arrive at destination.",
     "readTime": "5 mins",
-    "details": "<h2>Number of ways to arrive at destination</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of ways to arrive at destination\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of ways to arrive at destination</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p10",
@@ -4258,7 +4258,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum multiplications to reach end.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum multiplications to reach end</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum multiplications to reach end\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum multiplications to reach end</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p11",
@@ -4269,7 +4269,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Bellman Ford Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Bellman Ford Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bellman Ford Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bellman Ford Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p12",
@@ -4280,7 +4280,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Floyd warshall algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Floyd warshall algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Floyd warshall algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Floyd warshall algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c480-p13",
@@ -4291,7 +4291,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Find the city with the smallest number of neighbors.",
     "readTime": "5 mins",
-    "details": "<h2>Find the city with the smallest number of neighbors</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the city with the smallest number of neighbors\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the city with the smallest number of neighbors</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p1",
@@ -4302,7 +4302,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for MST theory.",
     "readTime": "5 mins",
-    "details": "<h2>MST theory</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"MST theory\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>MST theory</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p2",
@@ -4313,7 +4313,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Prim's Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Prim's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Prim's Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Prim's Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p3",
@@ -4324,7 +4324,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Disjoint Set.",
     "readTime": "5 mins",
-    "details": "<h2>Disjoint Set</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Disjoint Set\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Disjoint Set</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p4",
@@ -4335,7 +4335,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Find the MST weight.",
     "readTime": "5 mins",
-    "details": "<h2>Find the MST weight</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Find the MST weight\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Find the MST weight</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p5",
@@ -4346,7 +4346,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Number of operations to make network connected.",
     "readTime": "5 mins",
-    "details": "<h2>Number of operations to make network connected</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of operations to make network connected\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-operations-to-make-network-connected/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of operations to make network connected</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-operations-to-make-network-connected/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p6",
@@ -4357,7 +4357,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Most stones removed with same row or column.",
     "readTime": "5 mins",
-    "details": "<h2>Most stones removed with same row or column</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Most stones removed with same row or column\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Most stones removed with same row or column</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p7",
@@ -4368,7 +4368,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Accounts merge.",
     "readTime": "5 mins",
-    "details": "<h2>Accounts merge</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Accounts merge\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/accounts-merge/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Accounts merge</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/accounts-merge/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p8",
@@ -4379,7 +4379,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Number of islands II.",
     "readTime": "5 mins",
-    "details": "<h2>Number of islands II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of islands II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-islands-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of islands II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-islands-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p9",
@@ -4390,7 +4390,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Making a large island.",
     "readTime": "5 mins",
-    "details": "<h2>Making a large island</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Making a large island\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/making-a-large-island/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Making a large island</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/making-a-large-island/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c477-p10",
@@ -4401,7 +4401,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Swim in Rising Water.",
     "readTime": "5 mins",
-    "details": "<h2>Swim in Rising Water</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Swim in Rising Water\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/swim-in-rising-water/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Swim in Rising Water</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/swim-in-rising-water/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c478-p1",
@@ -4412,7 +4412,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Bridges in graph.",
     "readTime": "5 mins",
-    "details": "<h2>Bridges in graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bridges in graph\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bridges in graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c478-p2",
@@ -4423,7 +4423,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Articulation point in graph.",
     "readTime": "5 mins",
-    "details": "<h2>Articulation point in graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Articulation point in graph\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Articulation point in graph</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s15-c478-p3",
@@ -4434,7 +4434,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Kosaraju's algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Kosaraju's algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Kosaraju's algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/discuss/766485/kosaraju-algorithm-on\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Kosaraju's algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/discuss/766485/kosaraju-algorithm-on\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c474-p1",
@@ -4445,7 +4445,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Introduction to DP.",
     "readTime": "5 mins",
-    "details": "<h2>Introduction to DP</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Introduction to DP\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Introduction to DP</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c467-p1",
@@ -4456,7 +4456,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Climbing stairs.",
     "readTime": "5 mins",
-    "details": "<h2>Climbing stairs</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Climbing stairs\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/climbing-stairs/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Climbing stairs</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/climbing-stairs/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c467-p2",
@@ -4467,7 +4467,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Frog Jump.",
     "readTime": "5 mins",
-    "details": "<h2>Frog Jump</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Frog Jump\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Frog Jump</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c467-p3",
@@ -4478,7 +4478,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Frog jump with K distances.",
     "readTime": "5 mins",
-    "details": "<h2>Frog jump with K distances</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Frog jump with K distances\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Frog jump with K distances</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c467-p4",
@@ -4489,7 +4489,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Maximum sum of non adjacent elements.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum sum of non adjacent elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum sum of non adjacent elements\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/house-robber/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum sum of non adjacent elements</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/house-robber/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c467-p5",
@@ -4500,7 +4500,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for House robber.",
     "readTime": "5 mins",
-    "details": "<h2>House robber</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"House robber\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/house-robber-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>House robber</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/house-robber-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p1",
@@ -4511,7 +4511,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Ninja's training.",
     "readTime": "5 mins",
-    "details": "<h2>Ninja's training</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Ninja's training\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Ninja's training</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p2",
@@ -4522,7 +4522,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Grid Unique Paths : DP on Grids (DP8).",
     "readTime": "5 mins",
-    "details": "<h2>Grid Unique Paths : DP on Grids (DP8)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Grid Unique Paths : DP on Grids (DP8)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/unique-paths/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Grid Unique Paths : DP on Grids (DP8)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/unique-paths/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p3",
@@ -4533,7 +4533,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Unique paths II.",
     "readTime": "5 mins",
-    "details": "<h2>Unique paths II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Unique paths II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/unique-paths-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Unique paths II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/unique-paths-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p4",
@@ -4544,7 +4544,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Minimum Falling Path Sum.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Falling Path Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Falling Path Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-path-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Falling Path Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-path-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p5",
@@ -4555,7 +4555,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Triangle.",
     "readTime": "5 mins",
-    "details": "<h2>Triangle</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Triangle\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/triangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Triangle</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/triangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c468-p6",
@@ -4566,7 +4566,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Ninja and his Friends.",
     "readTime": "5 mins",
-    "details": "<h2>Ninja and his Friends</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Ninja and his Friends\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Ninja and his Friends</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p1",
@@ -4577,7 +4577,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Subset sum equal to target (DP- 14).",
     "readTime": "5 mins",
-    "details": "<h2>Subset sum equal to target (DP- 14)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Subset sum equal to target (DP- 14)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Subset sum equal to target (DP- 14)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p2",
@@ -4588,7 +4588,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Partition equal subset sum.",
     "readTime": "5 mins",
-    "details": "<h2>Partition equal subset sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Partition equal subset sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/partition-equal-subset-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Partition equal subset sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/partition-equal-subset-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p3",
@@ -4599,7 +4599,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Partition a set into two subsets with minimum absolute sum difference.",
     "readTime": "5 mins",
-    "details": "<h2>Partition a set into two subsets with minimum absolute sum difference</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Partition a set into two subsets with minimum absolute sum difference\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Partition a set into two subsets with minimum absolute sum difference</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p4",
@@ -4610,7 +4610,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count subsets with sum K.",
     "readTime": "5 mins",
-    "details": "<h2>Count subsets with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count subsets with sum K\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count subsets with sum K</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p5",
@@ -4621,7 +4621,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count partitions with given difference.",
     "readTime": "5 mins",
-    "details": "<h2>Count partitions with given difference</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count partitions with given difference\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count partitions with given difference</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p6",
@@ -4632,7 +4632,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Assign Cookies.",
     "readTime": "5 mins",
-    "details": "<h2>Assign Cookies</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Assign Cookies\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/assign-cookies/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Assign Cookies</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/assign-cookies/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p7",
@@ -4643,7 +4643,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum Coins (DP - 20).",
     "readTime": "5 mins",
-    "details": "<h2>Minimum Coins (DP - 20)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum Coins (DP - 20)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/coin-change/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum Coins (DP - 20)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/coin-change/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p8",
@@ -4654,7 +4654,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Target sum.",
     "readTime": "5 mins",
-    "details": "<h2>Target sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Target sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/target-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Target sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/target-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p9",
@@ -4665,7 +4665,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Coin Change 2 (DP - 22).",
     "readTime": "5 mins",
-    "details": "<h2>Coin Change 2 (DP - 22)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Coin Change 2 (DP - 22)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/coin-change-2/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Coin Change 2 (DP - 22)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/coin-change-2/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p10",
@@ -4676,7 +4676,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Unbounded knapsack.",
     "readTime": "5 mins",
-    "details": "<h2>Unbounded knapsack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Unbounded knapsack\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Unbounded knapsack</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c473-p11",
@@ -4687,7 +4687,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Rod Cutting Problem | (DP - 24).",
     "readTime": "5 mins",
-    "details": "<h2>Rod Cutting Problem | (DP - 24)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rod Cutting Problem | (DP - 24)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rod Cutting Problem | (DP - 24)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p1",
@@ -4698,7 +4698,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest common subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Longest common subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest common subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest common subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p2",
@@ -4709,7 +4709,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Print Longest Common Subsequence | (DP - 26).",
     "readTime": "5 mins",
-    "details": "<h2>Print Longest Common Subsequence | (DP - 26)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print Longest Common Subsequence | (DP - 26)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print Longest Common Subsequence | (DP - 26)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p3",
@@ -4720,7 +4720,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest common substring.",
     "readTime": "5 mins",
-    "details": "<h2>Longest common substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest common substring\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest common substring</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p4",
@@ -4731,7 +4731,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest palindromic subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Longest palindromic subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest palindromic subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-palindromic-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest palindromic subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-palindromic-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p5",
@@ -4742,7 +4742,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum insertions to make string palindrome | DP-29.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum insertions to make string palindrome | DP-29</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum insertions to make string palindrome | DP-29\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum insertions to make string palindrome | DP-29</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p6",
@@ -4753,7 +4753,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum insertions or deletions to convert string A to B.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum insertions or deletions to convert string A to B</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum insertions or deletions to convert string A to B\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/delete-operation-for-two-strings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum insertions or deletions to convert string A to B</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/delete-operation-for-two-strings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p7",
@@ -4764,7 +4764,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Shortest common supersequence.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest common supersequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest common supersequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/shortest-common-supersequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest common supersequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/shortest-common-supersequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p8",
@@ -4775,7 +4775,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Distinct subsequences.",
     "readTime": "5 mins",
-    "details": "<h2>Distinct subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Distinct subsequences\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/distinct-subsequences/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Distinct subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/distinct-subsequences/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p9",
@@ -4786,7 +4786,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Edit distance.",
     "readTime": "5 mins",
-    "details": "<h2>Edit distance</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Edit distance\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/edit-distance/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Edit distance</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/edit-distance/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c472-p10",
@@ -4797,7 +4797,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Wildcard matching.",
     "readTime": "5 mins",
-    "details": "<h2>Wildcard matching</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Wildcard matching\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/wildcard-matching/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Wildcard matching</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/wildcard-matching/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p1",
@@ -4808,7 +4808,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best time to buy and sell stock.",
     "readTime": "5 mins",
-    "details": "<h2>Best time to buy and sell stock</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best time to buy and sell stock\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best time to buy and sell stock</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p2",
@@ -4819,7 +4819,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best time to buy and sell stock II.",
     "readTime": "5 mins",
-    "details": "<h2>Best time to buy and sell stock II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best time to buy and sell stock II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best time to buy and sell stock II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p3",
@@ -4830,7 +4830,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best time to buy and sell stock III.",
     "readTime": "5 mins",
-    "details": "<h2>Best time to buy and sell stock III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best time to buy and sell stock III\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best time to buy and sell stock III</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p4",
@@ -4841,7 +4841,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best time to buy and sell stock IV.",
     "readTime": "5 mins",
-    "details": "<h2>Best time to buy and sell stock IV</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best time to buy and sell stock IV\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best time to buy and sell stock IV</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p5",
@@ -4852,7 +4852,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best Time to Buy and Sell Stock with Cooldown.",
     "readTime": "5 mins",
-    "details": "<h2>Best Time to Buy and Sell Stock with Cooldown</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best Time to Buy and Sell Stock with Cooldown\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best Time to Buy and Sell Stock with Cooldown</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c471-p6",
@@ -4863,7 +4863,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Best time to buy and sell stock with transaction fees.",
     "readTime": "5 mins",
-    "details": "<h2>Best time to buy and sell stock with transaction fees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Best time to buy and sell stock with transaction fees\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Best time to buy and sell stock with transaction fees</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p1",
@@ -4874,7 +4874,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Increasing Subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Increasing Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Increasing Subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Increasing Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p2",
@@ -4885,7 +4885,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Print Longest Increasing Subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Print Longest Increasing Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Print Longest Increasing Subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Print Longest Increasing Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p3",
@@ -4896,7 +4896,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Increasing Subsequence |(DP-43).",
     "readTime": "5 mins",
-    "details": "<h2>Longest Increasing Subsequence |(DP-43)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Increasing Subsequence |(DP-43)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Increasing Subsequence |(DP-43)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p4",
@@ -4907,7 +4907,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Largest Divisible Subset.",
     "readTime": "5 mins",
-    "details": "<h2>Largest Divisible Subset</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Largest Divisible Subset\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/largest-divisible-subset/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Largest Divisible Subset</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/largest-divisible-subset/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p5",
@@ -4918,7 +4918,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest String Chain.",
     "readTime": "5 mins",
-    "details": "<h2>Longest String Chain</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest String Chain\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-string-chain/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest String Chain</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-string-chain/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p6",
@@ -4929,7 +4929,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Bitonic Subsequence.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Bitonic Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Bitonic Subsequence\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Bitonic Subsequence</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c469-p7",
@@ -4940,7 +4940,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Number of Longest Increasing Subsequences.",
     "readTime": "5 mins",
-    "details": "<h2>Number of Longest Increasing Subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of Longest Increasing Subsequences\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/number-of-longest-increasing-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of Longest Increasing Subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/number-of-longest-increasing-subsequence/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p1",
@@ -4951,7 +4951,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Matrix chain multiplication.",
     "readTime": "5 mins",
-    "details": "<h2>Matrix chain multiplication</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Matrix chain multiplication\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Matrix chain multiplication</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p2",
@@ -4962,7 +4962,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Matrix Chain Multiplication | Bottom-Up|(DP-49).",
     "readTime": "5 mins",
-    "details": "<h2>Matrix Chain Multiplication | Bottom-Up|(DP-49)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Matrix Chain Multiplication | Bottom-Up|(DP-49)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Matrix Chain Multiplication | Bottom-Up|(DP-49)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p3",
@@ -4973,7 +4973,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum cost to cut the stick.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum cost to cut the stick</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum cost to cut the stick\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-cost-to-cut-a-stick/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum cost to cut the stick</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-cost-to-cut-a-stick/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p4",
@@ -4984,7 +4984,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Burst balloons.",
     "readTime": "5 mins",
-    "details": "<h2>Burst balloons</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Burst balloons\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/burst-balloons/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Burst balloons</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/burst-balloons/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p5",
@@ -4995,7 +4995,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Different Ways to Evaluate a Boolean Expression.",
     "readTime": "5 mins",
-    "details": "<h2>Different Ways to Evaluate a Boolean Expression</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Different Ways to Evaluate a Boolean Expression\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/parsing-a-boolean-expression/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Different Ways to Evaluate a Boolean Expression</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/parsing-a-boolean-expression/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p6",
@@ -5006,7 +5006,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Palindrome partitioning II.",
     "readTime": "5 mins",
-    "details": "<h2>Palindrome partitioning II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Palindrome partitioning II\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/palindrome-partitioning-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Palindrome partitioning II</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/palindrome-partitioning-ii/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c475-p7",
@@ -5017,7 +5017,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Partition Array for Maximum Sum.",
     "readTime": "5 mins",
-    "details": "<h2>Partition Array for Maximum Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Partition Array for Maximum Sum\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/partition-array-for-maximum-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Partition Array for Maximum Sum</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/partition-array-for-maximum-sum/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c470-p1",
@@ -5028,7 +5028,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum Rectangle Area with all 1's|(DP-55).",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Rectangle Area with all 1's|(DP-55)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Rectangle Area with all 1's|(DP-55)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximal-rectangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Rectangle Area with all 1's|(DP-55)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximal-rectangle/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s16-c470-p2",
@@ -5039,7 +5039,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Count Square Submatrices with All Ones|(DP-56).",
     "readTime": "5 mins",
-    "details": "<h2>Count Square Submatrices with All Ones|(DP-56)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Square Submatrices with All Ones|(DP-56)\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-square-submatrices-with-all-ones/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Square Submatrices with All Ones|(DP-56)</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-square-submatrices-with-all-ones/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c516-p1",
@@ -5050,7 +5050,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Trie Implementation and Operations.",
     "readTime": "5 mins",
-    "details": "<h2>Trie Implementation and Operations</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Trie Implementation and Operations\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/implement-trie-prefix-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Trie Implementation and Operations</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/implement-trie-prefix-tree/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p1",
@@ -5061,7 +5061,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Trie Implementation and Advanced Operations.",
     "readTime": "5 mins",
-    "details": "<h2>Trie Implementation and Advanced Operations</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Trie Implementation and Advanced Operations\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Trie Implementation and Advanced Operations</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p2",
@@ -5072,7 +5072,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Longest Word with All Prefixes.",
     "readTime": "5 mins",
-    "details": "<h2>Longest Word with All Prefixes</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest Word with All Prefixes\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest Word with All Prefixes</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p3",
@@ -5083,7 +5083,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Number of distinct substrings in a string.",
     "readTime": "5 mins",
-    "details": "<h2>Number of distinct substrings in a string</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Number of distinct substrings in a string\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Number of distinct substrings in a string</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p4",
@@ -5094,7 +5094,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Bit PreRequisites for TRIE Problems.",
     "readTime": "5 mins",
-    "details": "<h2>Bit PreRequisites for TRIE Problems</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Bit PreRequisites for TRIE Problems\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Bit PreRequisites for TRIE Problems</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p5",
@@ -5105,7 +5105,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum XOR of two numbers in an array.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum XOR of two numbers in an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum XOR of two numbers in an array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum XOR of two numbers in an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s17-c515-p6",
@@ -5116,7 +5116,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Maximum Xor with an element from an array.",
     "readTime": "5 mins",
-    "details": "<h2>Maximum Xor with an element from an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Maximum Xor with an element from an array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/maximum-xor-with-an-element-from-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Maximum Xor with an element from an array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/maximum-xor-with-an-element-from-array/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p1",
@@ -5127,7 +5127,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Minimum number of bracket reversals to make an expression balanced.",
     "readTime": "5 mins",
-    "details": "<h2>Minimum number of bracket reversals to make an expression balanced</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Minimum number of bracket reversals to make an expression balanced\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Minimum number of bracket reversals to make an expression balanced</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p2",
@@ -5138,7 +5138,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Count and say.",
     "readTime": "5 mins",
-    "details": "<h2>Count and say</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count and say\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/count-and-say/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count and say</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/count-and-say/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p3",
@@ -5149,7 +5149,7 @@ export const curriculum = [
     "iconColor": "emerald",
     "summary": "Master the logic for Hashing In Strings | Theory.",
     "readTime": "5 mins",
-    "details": "<h2>Hashing In Strings | Theory</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Hashing In Strings | Theory\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Hashing In Strings | Theory</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p4",
@@ -5160,7 +5160,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Rabin Karp Algorithm.",
     "readTime": "5 mins",
-    "details": "<h2>Rabin Karp Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Rabin Karp Algorithm\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Rabin Karp Algorithm</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p5",
@@ -5171,7 +5171,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Z function.",
     "readTime": "5 mins",
-    "details": "<h2>Z function</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Z function\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Z function</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p6",
@@ -5182,7 +5182,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for KMP Algorithm or LPS array.",
     "readTime": "5 mins",
-    "details": "<h2>KMP Algorithm or LPS array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"KMP Algorithm or LPS array\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/implement-strstr/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>KMP Algorithm or LPS array</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/implement-strstr/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p7",
@@ -5193,7 +5193,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Shortest Palindrome.",
     "readTime": "5 mins",
-    "details": "<h2>Shortest Palindrome</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Shortest Palindrome\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Shortest Palindrome</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"$undefined\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p8",
@@ -5204,7 +5204,7 @@ export const curriculum = [
     "iconColor": "rose",
     "summary": "Master the logic for Longest happy prefix.",
     "readTime": "5 mins",
-    "details": "<h2>Longest happy prefix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Longest happy prefix\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/longest-happy-prefix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Longest happy prefix</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/longest-happy-prefix/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   },
   {
     "id": "a2z-s18-c514-p9",
@@ -5215,7 +5215,7 @@ export const curriculum = [
     "iconColor": "amber",
     "summary": "Master the logic for Count Palindromic Subsequences.",
     "readTime": "5 mins",
-    "details": "<h2>Count Palindromic Subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <button class=\"btn-ask-ai\" data-problem=\"Count Palindromic Subsequences\" style=\"background:var(--accent-purple); border:none; padding:8px 16px; border-radius:6px; color:#fff; cursor:pointer; display:flex; align-items:center; gap:8px;\">Ask AI to Explain 🤖</button>\n  <a href=\"https://leetcode.com/problems/palindromic-substrings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
+    "details": "<h2>Count Palindromic Subsequences</h2>\n<p>This is a crucial problem in the Elite A-Z DSA Roadmap.</p>\n<div style=\"display:flex; gap:12px; margin-top:16px;\">\n  <a href=\"https://leetcode.com/problems/palindromic-substrings/\" target=\"_blank\" style=\"background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:flex; align-items:center; gap:8px;\">Solve on LeetCode 🚀</a>\n</div>"
   }
 ];
 

@@ -750,7 +750,7 @@ function showLesson(lessonId) {
         });
         
         const data = await res.json();
-        if (!res.ok) throw new Error(data.error || 'Server error');
+        if (!res.ok) throw new Error((data.error && data.error.message) || (typeof data.error === 'string' ? data.error : JSON.stringify(data.error)) || 'Server error');
         
         const rawText = data.candidates && data.candidates[0] && data.candidates[0].content.parts[0].text ? data.candidates[0].content.parts[0].text : 'No explanation provided.';
         

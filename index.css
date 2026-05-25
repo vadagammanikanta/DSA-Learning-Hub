@@ -1243,11 +1243,11 @@ main { padding-bottom: 56px; }
 }
 .modal-close:hover { color: var(--text-primary); background: rgba(255, 255, 255, 0.1); }
 
-.modal-body {
+.modal-body { flex: 1; min-height: 0; 
   padding: 24px;
   overflow-y: auto;
   line-height: 1.6;
-}
+ }
 
 .ai-loader {
   display: flex; flex-direction: column; align-items: center;
