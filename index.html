@@ -557,6 +557,27 @@
 </div>
 
 <!-- ═══════════════════════════════════════════════════════
+     AI EXPLAIN MODAL
+════════════════════════════════════════════════════════════ -->
+<div class="modal-overlay" id="ai-explain-modal" style="display:none;">
+  <div class="modal-content ai-modal">
+    <div class="modal-header">
+      <h2 id="ai-explain-title">✨ AI Explanation</h2>
+      <button class="modal-close" onclick="document.getElementById('ai-explain-modal').style.display='none'">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-body" id="ai-explain-body">
+      <div id="ai-explain-loader" class="ai-loader">
+        <div class="spinner"></div>
+        <p>The DSA Tutor is thinking...</p>
+      </div>
+      <div id="ai-explain-content" style="display:none;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
      MOTIVATIONAL QUOTES TICKER (fixed bottom)
 ════════════════════════════════════════════════════════════ -->
 <div class="quotes-ticker" id="quotes-ticker" style="display:none;">

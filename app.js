@@ -698,6 +698,7 @@ function showLesson(lessonId) {
     </div>
     <div>${lesson.details}${codeHtml}</div>
     <div class="lesson-actions">
+      <button class="btn btn-magic" id="btn-ask-ai">✨ Ask AI to Explain</button>
       <a href="https://www.youtube.com/results?search_query=Bro+Code+${encodeURIComponent(lesson.title)}" target="_blank" rel="noopener" class="btn btn-youtube">▶️ Watch Bro Code Tutorial</a>
       <button class="btn ${done ? 'btn-secondary' : 'btn-accent'}" id="btn-mark-done" ${done ? 'disabled' : ''}>
         ${done ? '✓ Completed' : '🎯 Mark as Completed'}
@@ -722,23 +723,64 @@ function showLesson(lessonId) {
     });
   }
 
-  // Ask AI Button Logic
-  const askAiBtn = viewer.querySelector('.btn-ask-ai');
+  // Ask AI to Explain Logic
+  const askAiBtn = document.getElementById('btn-ask-ai');
   if (askAiBtn) {
-    askAiBtn.addEventListener('click', () => {
-      const problemName = askAiBtn.dataset.problem;
-      const chatInput = document.getElementById('chat-input');
-      const chatSendBtn = document.getElementById('chat-send');
+    askAiBtn.addEventListener('click', async () => {
+      const modal = document.getElementById('ai-explain-modal');
+      const loader = document.getElementById('ai-explain-loader');
+      const content = document.getElementById('ai-explain-content');
       
-      // Open the chat tab if not already open
-      const chatToggle = document.getElementById('chatbot-toggle');
-      if (chatToggle && !document.getElementById('chatbot-window').classList.contains('active')) {
-        chatToggle.click();
+      modal.style.display = 'flex';
+      loader.style.display = 'flex';
+      content.style.display = 'none';
+      content.innerHTML = '';
+      
+      const payload = {
+        title: lesson.title,
+        description: lesson.summary || 'A DSA topic',
+        language: appState.selectedLanguage
+      };
+      
+      try {
+        const res = await fetch('/api/ai-explain', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Server error');
+        
+        const rawText = data.candidates && data.candidates[0] && data.candidates[0].content.parts[0].text ? data.candidates[0].content.parts[0].text : 'No explanation provided.';
+        
+        // Parse markdown
+        let formattedText = rawText
+          .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%; border-radius:8px; margin: 8px 0;">')
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/`(.*?)`/g, '<code>$1</code>');
+        
+        if (formattedText.includes('```')) {
+          const parts = formattedText.split('```');
+          formattedText = parts.map((p, i) => {
+            if (i % 2 !== 0) {
+              const lines = p.split('\\n');
+              const code = lines.slice(1).join('\\n').trim();
+              return `<pre><code>${esc(code || p.trim())}</code></pre>`;
+            }
+            return p.replace(/\\n/g, '<br>');
+          }).join('');
+        } else {
+          formattedText = formattedText.replace(/\\n/g, '<br>');
+        }
+        
+        content.innerHTML = formattedText;
+      } catch (e) {
+        content.innerHTML = `<div style="color:var(--danger)">Failed to fetch explanation: ${e.message}</div>`;
+      } finally {
+        loader.style.display = 'none';
+        content.style.display = 'block';
       }
-      
-      // Populate input and send
-      chatInput.value = `Explain the optimal approach and provide code for the problem: ${problemName}`;
-      chatSendBtn.click();
     });
   }
 
