@@ -5,9 +5,8 @@
 
 import { signUp, signIn, signOut, markAsPaid, getCurrentUser, getTrialInfo, syncProgressToCloud, loadProgressFromCloud } from './modules/auth/auth.js';
 import { openRazorpayCheckout } from './modules/payment/payment.js';
-import { curriculum as baseCurriculum, quizQuestions } from './modules/learning/content.js';
-import { curriculumExtended, newRoadmapPhases as roadmapPhases } from './modules/learning/content_extended.js';
-const curriculum = [...baseCurriculum, ...curriculumExtended];
+import { quizQuestions } from './modules/learning/content.js';
+import { curriculum, roadmapPhases } from './modules/learning/content_a2z.js';
 import { sendChatMessage, clearChatHistory } from './modules/ai/chatbot.js';
 import { initQuiz } from './modules/learning/quiz.js';
 import {
