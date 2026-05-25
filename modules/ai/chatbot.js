@@ -2,11 +2,11 @@
 //  dsa.flow — AI Chatbot Module (Gemini)
 // ═══════════════════════════════════════════════════════════════════
 
-// ── CONFIGURE YOUR GEMINI API KEY HERE ─────────────────────────────
-const GEMINI_API_KEY = 'AIzaSyDFs_SdqiCY78V-PmonSH5Q_D3fBCllzAw'; // Real key provided by user
+// ── SECURE VERCEL BACKEND ─────────────────────────────
+// The API Key is now stored safely in Vercel Environment Variables.
 // ─────────────────────────────────────────────────────────────────
 
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_API_URL = '/api/gemini';
 
 const SYSTEM_INSTRUCTION = `You are 'dsa.flow AI', an elite Data Structures and Algorithms tutor. 
 Your goal is to help students learn DSA, prepare for technical interviews, and understand time/space complexity.
@@ -20,9 +20,7 @@ Rules:
 let chatHistory = [];
 
 export async function sendChatMessage(userMessage, fileData = null) {
-  if (GEMINI_API_KEY === 'YOUR_GEMINI_API_KEY') {
-    return "⚠️ **Demo Mode:** Please add your Gemini API Key in `modules/ai/chatbot.js` to enable the AI assistant.";
-  }
+
 
   // Build the context array for Gemini
   const contents = [];
