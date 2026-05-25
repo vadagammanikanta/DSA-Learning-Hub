@@ -720,6 +720,25 @@ function showLesson(lessonId) {
     });
   }
 
+  // Ask AI Button Logic
+  const askAiBtn = viewer.querySelector('.btn-ask-ai');
+  if (askAiBtn) {
+    askAiBtn.addEventListener('click', () => {
+      const problemName = askAiBtn.dataset.problem;
+      const chatInput = document.getElementById('chat-input');
+      const chatSendBtn = document.getElementById('chat-send');
+      
+      // Open the chat tab if not already open
+      const chatToggle = document.getElementById('chatbot-toggle');
+      if (chatToggle && !document.getElementById('chatbot-window').classList.contains('active')) {
+        chatToggle.click();
+      }
+      
+      // Populate input and send
+      chatInput.value = `Explain the optimal approach and provide code for the problem: ${problemName}`;
+      chatSendBtn.click();
+    });
+  }
   // Visualizer shortcut
   const visMap = { 'arrays': 'sort-bubble', 'strings': 'sort-bubble', 'stack-queue': 'ds-stack', 'linked-list': 'ds-linkedlist', 'trees-bst': 'ds-bst', 'heaps': 'ds-bst', 'tries': 'ds-bst', 'sorting-algos': 'sort-merge', 'searching': 'sort-bubble', 'divide-conquer': 'sort-merge' };
   document.getElementById('btn-lesson-vis').addEventListener('click', () => {
