@@ -16,7 +16,7 @@ import {
 import {
   initDS, renderDS, pushStack, popStack,
   enqueueQueue, dequeueQueue, insertHeadList, deleteHeadList,
-  searchList, insertBST, deleteBST, searchBST, dsComplexity
+  searchList, dsComplexity
 } from './modules/visualizers/structures.js';
 
 /* ─── STATE ──────────────────────────────────────────────────────── */
@@ -777,12 +777,15 @@ function setupVisualizerListeners() {
       if (isCurrentlyPlaying()) pause(); else play(); 
     } else if (sel.value.startsWith('graph-')) {
       if (isGraphPlaying()) pauseGraph(); else playGraph();
+    } else if (sel.value === 'ds-bst') {
+      if (isBSTPlaying()) pauseBST(); else playBST();
     }
   });
   
   btnSt.addEventListener('click', () => {
     if (sel.value.startsWith('sort-')) step();
     else if (sel.value.startsWith('graph-')) stepGraphForward();
+    else if (sel.value === 'ds-bst') stepBSTForward();
   });
   
   const slider = document.getElementById('speed-slider');
@@ -791,6 +794,7 @@ function setupVisualizerListeners() {
     const val = parseInt(e.target.value);
     setDelay(val); 
     setGraphDelay(val);
+    setBSTDelay(val);
   });
   document.getElementById('ds-btn-insert').addEventListener('click', () => handleDS('insert'));
   document.getElementById('ds-btn-remove').addEventListener('click', () => handleDS('remove'));
@@ -799,10 +803,12 @@ function setupVisualizerListeners() {
 }
 
 import { initGraph, graphComplexity, playGraph, pauseGraph, stepGraphForward, isGraphPlaying, setGraphDelay } from './modules/visualizers/graph.js';
+import { initBST, bstInsert, bstDelete, bstSearch, playBST, pauseBST, stepBSTForward, isBSTPlaying, setBSTDelay } from './modules/visualizers/bst.js';
 
 function triggerVisualizerChange(val) {
   pause();
   try { pauseGraph(); } catch(e){} // In case graph was playing
+  try { pauseBST(); } catch(e){}
   
   updateVisualizerStats(val);
   const vp    = document.getElementById('viewport');
@@ -833,6 +839,15 @@ function triggerVisualizerChange(val) {
     dsGrp.style.display = 'none'; btnGen.style.display = 'none';
     btnPP.style.display = 'inline-flex'; btnSt.style.display = 'inline-flex';
     initGraph(vp);
+  } else if (val === 'ds-bst') {
+    vp.style.alignItems = 'center'; vp.style.padding = '0';
+    arr.style.display = 'none'; 
+    tn.style.display = 'block'; ts.style.display = 'block';
+    gSvg.style.display = 'none'; gNode.style.display = 'none';
+    dsGrp.style.display = 'flex'; btnGen.style.display = 'none';
+    btnPP.style.display = 'inline-flex'; btnSt.style.display = 'inline-flex';
+    btnSearch.style.display = 'inline-flex';
+    initBST(vp);
   } else {
     vp.style.alignItems = 'center'; vp.style.padding = '0';
     arr.style.display = 'none'; 
@@ -840,7 +855,7 @@ function triggerVisualizerChange(val) {
     gSvg.style.display = 'none'; gNode.style.display = 'none';
     dsGrp.style.display = 'flex'; btnGen.style.display = 'none';
     btnPP.style.display = 'none'; btnSt.style.display = 'none';
-    btnSearch.style.display = (val === 'ds-bst' || val === 'ds-linkedlist') ? 'inline-flex' : 'none';
+    btnSearch.style.display = (val === 'ds-linkedlist') ? 'inline-flex' : 'none';
     initDS(vp, val);
   }
 }
@@ -872,7 +887,7 @@ async function handleDS(cmd) {
     if (activeDS === 'ds-stack')      { cmd === 'insert' ? await pushStack(numVal) : await popStack(); }
     else if (activeDS === 'ds-queue') { cmd === 'insert' ? await enqueueQueue(numVal) : await dequeueQueue(); }
     else if (activeDS === 'ds-linkedlist') { if (cmd === 'insert') await insertHeadList(numVal); else if (cmd === 'remove') await deleteHeadList(); else await searchList(numVal); }
-    else if (activeDS === 'ds-bst')   { if (cmd === 'insert') await insertBST(numVal); else if (cmd === 'remove') await deleteBST(numVal); else await searchBST(numVal); }
+    else if (activeDS === 'ds-bst')   { if (cmd === 'insert') bstInsert(numVal); else if (cmd === 'remove') bstDelete(numVal); else bstSearch(numVal); }
   } catch (e) { console.error(e); }
   finally { btns.forEach(b => b.disabled = false); }
 }
