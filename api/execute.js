@@ -1,10 +1,10 @@
 const https = require('https');
 
 const LANG_MAP = {
-  'javascript': { language: 'js', version: '18.15.0' },
-  'python': { language: 'python', version: '3.10.0' },
-  'cpp': { language: 'c++', version: '10.2.0' },
-  'java': { language: 'java', version: '15.0.2' }
+  'javascript': 'nodejs-20.17.0',
+  'python': 'cpython-3.12.7',
+  'cpp': 'gcc-13.2.0',
+  'java': 'openjdk-jdk-21+35'
 };
 
 module.exports = async function handler(req, res) {
@@ -18,33 +18,21 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ error: 'Missing language or code' });
   }
 
-  const mapped = LANG_MAP[language];
-  if (!mapped) {
+  const compiler = LANG_MAP[language];
+  if (!compiler) {
     return res.status(400).json({ error: `Unsupported language: ${language}` });
   }
 
-  // Define file names based on language extensions
-  let ext = 'js';
-  if (mapped.language === 'python') ext = 'py';
-  else if (mapped.language === 'c++') ext = 'cpp';
-  else if (mapped.language === 'java') ext = 'java';
-
   const payload = JSON.stringify({
-    language: mapped.language,
-    version: mapped.version,
-    files: [
-      {
-        name: `Solution.${ext}`,
-        content: code
-      }
-    ],
+    compiler,
+    code,
     stdin: stdin || ""
   });
 
   const options = {
-    hostname: 'emkc.org',
+    hostname: 'wandbox.org',
     port: 443,
-    path: '/api/v2/piston/execute',
+    path: '/api/compile.json',
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -53,66 +41,56 @@ module.exports = async function handler(req, res) {
   };
 
   return new Promise((resolve) => {
-    const pistonReq = https.request(options, (pistonRes) => {
+    const wandboxReq = https.request(options, (wandboxRes) => {
       let body = '';
-      pistonRes.on('data', (chunk) => body += chunk);
-      pistonRes.on('end', () => {
+      wandboxRes.on('data', (chunk) => body += chunk);
+      wandboxRes.on('end', () => {
         try {
           const data = JSON.parse(body);
-          if (data.message) {
-            res.status(500).json({ error: data.message });
-            resolve();
-            return;
-          }
+          
+          let statusText = 'Success';
+          let errorText = '';
 
-          const run = data.run || {};
-          const compile = data.compile || {};
-
-          let status = 'Success';
-          let error = '';
-
-          // Compilation errors
-          if (compile.code !== undefined && compile.code !== null && compile.code !== 0) {
-            status = 'Compilation Error';
-            error = compile.stderr || compile.output || 'Compilation failed';
-          } 
-          // Signal is set when process gets killed (e.g. by memory or time limits)
-          else if (run.signal === 'SIGKILL' || run.signal === 'SIGTERM') {
-            status = 'Time Limit Exceeded (TLE)';
-            error = 'Execution timed out (Time Limit Exceeded).';
-          } 
-          // Runtime failures (nullpointer, syntax errors in dynamic langs)
-          else if (run.code !== undefined && run.code !== null && run.code !== 0) {
-            status = 'Runtime Error';
-            error = run.stderr || run.output || 'Process exited with non-zero status';
+          // Parse Wandbox exit status and signals
+          if (data.status === '0') {
+            statusText = 'Success';
+          } else if (data.status === '137' || data.signal === 'SIGKILL' || data.signal === 'SIGTERM') {
+            statusText = 'Time Limit Exceeded (TLE)';
+            errorText = 'Execution timed out (Time Limit Exceeded).';
+          } else if (data.compiler_error && data.compiler_error.trim().length > 0) {
+            statusText = 'Compilation Error';
+            errorText = data.compiler_error;
+          } else {
+            statusText = 'Runtime Error';
+            errorText = data.program_error || data.program_message || 'Process exited with non-zero status';
           }
 
           res.status(200).json({
-            status,
-            stdout: run.stdout || '',
-            stderr: run.stderr || '',
-            output: run.output || '',
-            compileOutput: compile.output || '',
-            error,
-            code: run.code,
-            signal: run.signal
+            status: statusText,
+            stdout: data.program_output || '',
+            stderr: data.program_error || '',
+            output: data.program_message || data.program_output || '',
+            compileOutput: data.compiler_message || data.compiler_output || '',
+            error: errorText,
+            code: data.status ? parseInt(data.status, 10) : 0,
+            signal: data.signal || ''
           });
           resolve();
         } catch (e) {
-          console.error("Piston parse error:", e);
+          console.error("Wandbox parse error:", e);
           res.status(500).json({ error: 'Failed to parse execution output' });
           resolve();
         }
       });
     });
 
-    pistonReq.on('error', (err) => {
-      console.error("Piston connection error:", err);
+    wandboxReq.on('error', (err) => {
+      console.error("Wandbox connection error:", err);
       res.status(500).json({ error: 'Code execution service connection timed out' });
       resolve();
     });
 
-    pistonReq.write(payload);
-    pistonReq.end();
+    wandboxReq.write(payload);
+    wandboxReq.end();
   });
 };
