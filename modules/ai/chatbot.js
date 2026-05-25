@@ -12,13 +12,14 @@ const SYSTEM_INSTRUCTION = `You are 'dsa.flow AI', an elite Data Structures and 
 Your goal is to help students learn DSA, prepare for technical interviews, and understand time/space complexity.
 Rules:
 1. ONLY answer questions related to computer science, programming, DSA, competitive programming, and technical interviews.
-2. If the user asks about unrelated topics (politics, general knowledge, etc.), politely decline and steer them back to DSA.
-3. Be concise, encouraging, and use markdown for code snippets.
-4. Explain things simply, as if you are a friendly senior engineer mentoring a junior.`;
+2. If the user asks about unrelated topics, politely decline and steer them back to DSA.
+3. Be concise, encouraging, and use markdown for code snippets. Provide multiple code examples and resources if helpful.
+4. **IMAGE GENERATION:** If the user asks you to generate a picture/image of something, you MUST output a markdown image linking to: 'https://image.pollinations.ai/prompt/{URL_ENCODED_PROMPT}?width=800&height=400&nologo=true'. Example: ![Binary Tree](https://image.pollinations.ai/prompt/a%20beautiful%20diagram%20of%20a%20binary%20tree?width=800&height=400&nologo=true)
+5. **FILE ANALYSIS:** If the user uploads an image of code or a diagram, analyze it thoroughly and explain it as an expert.`;
 
 let chatHistory = [];
 
-export async function sendChatMessage(userMessage) {
+export async function sendChatMessage(userMessage, fileData = null) {
   if (GEMINI_API_KEY === 'YOUR_GEMINI_API_KEY') {
     return "⚠️ **Demo Mode:** Please add your Gemini API Key in `modules/ai/chatbot.js` to enable the AI assistant.";
   }
@@ -26,7 +27,7 @@ export async function sendChatMessage(userMessage) {
   // Build the context array for Gemini
   const contents = [];
   
-  // Add history
+  // Add history (we only send text history for efficiency)
   for (const msg of chatHistory) {
     contents.push({
       role: msg.role === 'user' ? 'user' : 'model',
@@ -35,9 +36,22 @@ export async function sendChatMessage(userMessage) {
   }
 
   // Add current message
+  const currentParts = [];
+  if (fileData) {
+    currentParts.push({
+      inlineData: {
+        mimeType: fileData.mimeType,
+        data: fileData.base64
+      }
+    });
+  }
+  if (userMessage) {
+    currentParts.push({ text: userMessage });
+  }
+
   contents.push({
     role: 'user',
-    parts: [{ text: userMessage }]
+    parts: currentParts
   });
 
   try {

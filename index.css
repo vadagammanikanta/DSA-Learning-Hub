@@ -816,6 +816,12 @@ main { padding-bottom: 56px; }
   padding: 10px 14px; border-radius: 20px; color: var(--text-primary); outline: none;
 }
 #ai-chat-input:focus { border-color: var(--accent-purple); }
+#ai-chat-attach-btn {
+  background: none; border: none; color: var(--text-secondary);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  padding: 8px; border-radius: 50%; transition: var(--transition);
+}
+#ai-chat-attach-btn:hover { color: var(--accent-cyan); background: rgba(255,255,255,0.05); }
 #ai-chat-send {
   background: var(--accent-purple); border: none; width: 40px; height: 40px;
   border-radius: 50%; color: #fff; cursor: pointer; display: flex;

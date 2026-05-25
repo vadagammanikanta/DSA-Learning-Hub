@@ -160,6 +160,34 @@ export function getTrialInfo() {
   };
 }
 
+/* ═══ CLOUD SYNC ══════════════════════════════════════════════════════ */
+export async function syncProgressToCloud(uid, appState) {
+  if (!tryInitFirebase()) return;
+  try {
+    await _db.collection('users').doc(uid).set({
+      completedLessons: appState.completedLessons || [],
+      quizHighScore: appState.quizHighScore || 0,
+      selectedLanguage: appState.selectedLanguage || 'javascript',
+      lastSynced: Date.now()
+    }, { merge: true });
+  } catch (e) {
+    console.warn('Failed to sync progress:', e.message);
+  }
+}
+
+export async function loadProgressFromCloud(uid) {
+  if (!tryInitFirebase()) return null;
+  try {
+    const doc = await _db.collection('users').doc(uid).get();
+    if (doc.exists) {
+      return doc.data();
+    }
+  } catch (e) {
+    console.warn('Failed to load progress:', e.message);
+  }
+  return null;
+}
+
 /* ═══ LOCAL HELPERS ════════════════════════════════════════════════════ */
 function saveLocalUser(data) {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch(e) {}

@@ -3,7 +3,7 @@
 //  Auth gate → Trial → Paywall → Full App
 // ═══════════════════════════════════════════════════════════════════
 
-import { signUp, signIn, signOut, markAsPaid, getCurrentUser, getTrialInfo } from './modules/auth/auth.js';
+import { signUp, signIn, signOut, markAsPaid, getCurrentUser, getTrialInfo, syncProgressToCloud, loadProgressFromCloud } from './modules/auth/auth.js';
 import { openRazorpayCheckout } from './modules/payment/payment.js';
 import { curriculum as baseCurriculum, quizQuestions } from './modules/learning/content.js';
 import { curriculumExtended, newRoadmapPhases as roadmapPhases } from './modules/learning/content_extended.js';
@@ -245,11 +245,18 @@ function showPaymentOverlay(user) {
 }
 
 /* ═══ BOOT APP ══════════════════════════════════════════════════════ */
-function bootApp(user, trial) {
+async function bootApp(user, trial) {
   document.getElementById('auth-overlay').style.display = 'none';
   document.getElementById('payment-overlay').style.display = 'none';
   document.getElementById('main-app').style.display = 'grid';
   document.getElementById('quotes-ticker').style.display = 'block';
+
+  // Cloud Sync
+  const cloudProgress = await loadProgressFromCloud(user.uid);
+  if (cloudProgress) {
+    appState = { ...appState, ...cloudProgress };
+    updateProgressUI();
+  }
 
   // Populate user info
   const initial = (user.name || user.email || 'U')[0].toUpperCase();
@@ -358,6 +365,14 @@ function initChatbot() {
   const sendBtn = document.getElementById('ai-chat-send');
   const msgs = document.getElementById('ai-chat-messages');
 
+  const attachBtn = document.getElementById('ai-chat-attach-btn');
+  const fileInput = document.getElementById('ai-chat-file');
+  const filePreview = document.getElementById('ai-chat-file-preview');
+  const fileName = document.getElementById('ai-chat-filename');
+  const removeFileBtn = document.getElementById('ai-chat-remove-file');
+
+  let selectedFile = null;
+
   btn.addEventListener('click', () => {
     win.style.display = win.style.display === 'none' ? 'flex' : 'none';
     if (win.style.display === 'flex') input.focus();
@@ -365,30 +380,59 @@ function initChatbot() {
 
   closeBtn.addEventListener('click', () => { win.style.display = 'none'; });
 
+  attachBtn.addEventListener('click', () => fileInput.click());
+
+  fileInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      selectedFile = {
+        mimeType: file.type,
+        base64: reader.result.split(',')[1] // Strip data url prefix
+      };
+      fileName.textContent = '📎 ' + file.name;
+      filePreview.style.display = 'flex';
+    };
+    reader.readAsDataURL(file);
+    fileInput.value = '';
+  });
+
+  removeFileBtn.addEventListener('click', () => {
+    selectedFile = null;
+    filePreview.style.display = 'none';
+  });
+
   async function handleSend() {
     const text = input.value.trim();
-    if (!text) return;
+    if (!text && !selectedFile) return;
 
     // Add user message
     input.value = '';
     const userDiv = document.createElement('div');
     userDiv.className = 'chat-msg msg-user';
-    userDiv.textContent = text;
+    userDiv.textContent = text + (selectedFile ? ` (Attached: ${fileName.textContent.replace('📎 ', '')})` : '');
     msgs.appendChild(userDiv);
     msgs.scrollTop = msgs.scrollHeight;
 
     sendBtn.disabled = true;
     input.disabled = true;
+    attachBtn.disabled = true;
 
     // Fetch AI response
-    const aiResponse = await sendChatMessage(text);
+    const aiResponse = await sendChatMessage(text, selectedFile);
+
+    // Clear file selection
+    selectedFile = null;
+    filePreview.style.display = 'none';
 
     // Add AI message
     const aiDiv = document.createElement('div');
     aiDiv.className = 'chat-msg msg-ai';
     
-    // Parse markdown (bold, code blocks)
+    // Parse markdown (images, bold, code blocks)
     let formattedText = aiResponse
+      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%; border-radius:8px; margin: 8px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">')
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/`(.*?)`/g, '<code>$1</code>');
     
@@ -404,6 +448,7 @@ function initChatbot() {
 
     sendBtn.disabled = false;
     input.disabled = false;
+    attachBtn.disabled = false;
     input.focus();
   }
 
@@ -806,4 +851,8 @@ function loadAppState() {
 function saveAppState() {
   try { localStorage.setItem('dsaflow_app_v2', JSON.stringify(appState)); } catch (e) {}
   updateProgressUI();
+  const user = getCurrentUser();
+  if (user) {
+    syncProgressToCloud(user.uid, appState);
+  }
 }
