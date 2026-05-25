@@ -1044,3 +1044,44 @@ pre {
     height: auto;
   }
 }
+
+/* Code language tabs */
+.code-tabs-header {
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-glass);
+  border-bottom: none;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  padding: 4px 8px 0 8px;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.code-tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  transition: var(--transition-smooth);
+}
+
+.code-tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.code-tab-btn.active {
+  color: var(--accent-cyan);
+  background: #0f1016;
+  border-bottom: 2px solid var(--accent-cyan);
+}
+
+.code-tab-content {
+  border-radius: 0 0 var(--radius-md) var(--radius-md) !important;
+  margin-top: 0 !important;
+}

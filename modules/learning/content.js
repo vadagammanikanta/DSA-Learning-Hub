@@ -1,9 +1,9 @@
-// Learning Curriculum and Quiz Question Database for DSA Learning Hub
+// Curriculum and Quiz Questions for dsa.flow (DSA Specialist Upgrade)
 
 export const curriculum = [
   {
     id: "big-o",
-    title: "Big O Notation",
+    title: "1. Big O Notation",
     category: "Fundamentals",
     summary: "Understand how to analyze and compare algorithm efficiency using time and space complexities.",
     readTime: "5 mins",
@@ -19,8 +19,8 @@ export const curriculum = [
       <h3>Real-World Analogy</h3>
       <p>Imagine you have a file on a USB drive and you need to send it to a friend living across town:</p>
       <ul>
-        <li><strong>O(1) - Constant Time:</strong> Flying or driving to your friend's house. No matter how large the file on the USB is (1MB or 1TB), the travel time remains the same.</li>
-        <li><strong>O(N) - Linear Time:</strong> Transferring the file over the internet. If it takes 2 minutes to send 1GB, it will take 20 minutes to send 10GB. The time scales directly with the file size.</li>
+        <li><strong>O(1) - Constant Time:</strong> Flying or driving to your friend's house. No matter how large the file on the USB is, the travel time remains the same.</li>
+        <li><strong>O(N) - Linear Time:</strong> Transferring the file over the internet. The time scales directly with the file size.</li>
       </ul>
 
       <h3>Common Complexities Chart</h3>
@@ -72,20 +72,61 @@ export const curriculum = [
           </tr>
         </tbody>
       </table>
+    `,
+    code: {
+      javascript: `// O(1) - Constant Time
+function getFirstElement(arr) {
+    return arr[0];
+}
 
-      <h3>Key Rules of Analysis</h3>
-      <ol>
-        <li><strong>Focus on Worst-Case:</strong> We usually design for the absolute worst-case scenario.</li>
-        <li><strong>Drop Constants:</strong> An algorithm taking <code>2N</code> operations is simplified to <code>O(N)</code>.</li>
-        <li><strong>Drop Less Significant Terms:</strong> An algorithm taking <code>N² + N</code> operations is simplified to <code>O(N²)</code> because the quadratic term dominates for large N.</li>
-      </ol>
-    `
+// O(N) - Linear Time
+function findValue(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) return i;
+    }
+    return -1;
+}`,
+      cpp: `// O(1) - Constant Time
+int getFirstElement(const vector<int>& arr) {
+    return arr[0];
+}
+
+// O(N) - Linear Time
+int findValue(const vector<int>& arr, int target) {
+    for (int i = 0; i < arr.size(); i++) {
+        if (arr[i] == target) return i;
+    }
+    return -1;
+}`,
+      java: `// O(1) - Constant Time
+public int getFirstElement(int[] arr) {
+    return arr[0];
+}
+
+// O(N) - Linear Time
+public int findValue(int[] arr, int target) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == target) return i;
+    }
+    return -1;
+}`,
+      python: `# O(1) - Constant Time
+def get_first_element(arr):
+    return arr[0]
+
+# O(N) - Linear Time
+def find_value(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1`
+    }
   },
   {
     id: "arrays",
-    title: "Arrays & Strings",
+    title: "2. Arrays & Strings",
     category: "Data Structures",
-    summary: "The most basic and fundamental linear data structures that store elements in contiguous memory location.",
+    summary: "The most basic and fundamental linear data structures that store elements in contiguous memory locations.",
     readTime: "6 mins",
     complexity: {
       worstTime: "Access: O(1) | Search: O(N)",
@@ -95,36 +136,52 @@ export const curriculum = [
     details: `
       <h2>Arrays and Strings</h2>
       <p>An <strong>Array</strong> is a collection of elements of the same type stored in contiguous memory locations. Because memory is contiguous, the computer can calculate the address of any element instantly using its index, resulting in constant-time access.</p>
-      <p>A <strong>String</strong> is simply an array of characters, often terminated by a special null character or stored with length metadata.</p>
-
-      <h3>Real-World Analogy</h3>
-      <p>Think of an array as a row of numbered mailboxes at a post office. If you know the mailbox number, you can immediately walk up to it and retrieve the mail (O(1) access). If you are looking for mail addressed to "John Doe" and don't know the mailbox number, you must check them one by one (O(N) search).</p>
-
-      <h3>Operations & Efficiency</h3>
-      <ul>
-        <li><strong>Lookup (by index):</strong> <code>O(1)</code> - Direct memory address computation.</li>
-        <li><strong>Insertion:</strong> <code>O(N)</code> - In the worst case (inserting at index 0), all subsequent elements must shift right to make room.</li>
-        <li><strong>Deletion:</strong> <code>O(N)</code> - Similar to insertion; all elements to the right must shift left to close the gap.</li>
-        <li><strong>Search:</strong> <code>O(N)</code> - Checking index 0 to N-1 for the target.</li>
-      </ul>
-
-      <div class="code-title">Array Insertion (JavaScript)</div>
-      <pre><code>// Insert value at index in an array
-function insertAt(arr, index, value) {
-  // Shift elements to the right
-  for (let i = arr.length; i > index; i--) {
-    arr[i] = arr[i - 1];
-  }
-  arr[index] = value;
-  return arr;
-}</code></pre>
-    `
+      
+      <h3>Placement Tip: Two Pointers Pattern</h3>
+      <p>Often in interview questions (like reversing an array, finding a sum in a sorted array), you initialize two index pointers—one at the beginning and one at the end—and move them toward the center. This avoids nested loops and drops time complexity from O(N²) to O(N).</p>
+    `,
+    code: {
+      javascript: `// Insert element at a specific index in an array
+function insertAt(arr, size, index, element) {
+    // Shift elements to the right to make room
+    for (let i = size; i > index; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[index] = element;
+    return arr;
+}`,
+      cpp: `// Insert element at a specific index in an array
+void insertAt(int arr[], int size, int index, int element) {
+    // Shift elements to the right
+    for (int i = size; i > index; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[index] = element;
+}`,
+      java: `// Insert element at a specific index in an array
+public static void insertAt(int[] arr, int size, int index, int element) {
+    // Shift elements to the right
+    for (int i = size; i > index; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[index] = element;
+}`,
+      python: `# Insert element at a specific index in an array
+def insert_at(arr, size, index, element):
+    # Python list insert is built-in, but custom shifting algorithm is:
+    # Append placeholder
+    arr.append(0)
+    for i in range(size, index, -1):
+        arr[i] = arr[i - 1]
+    arr[index] = element
+    return arr`
+    }
   },
   {
     id: "stack-queue",
-    title: "Stacks & Queues",
+    title: "3. Stacks & Queues",
     category: "Data Structures",
-    summary: "Linear data structures conforming to LIFO (Last In First Out) and FIFO (First In First Out) paradigms.",
+    summary: "Linear structures restricting access to endpoints (LIFO for Stack, FIFO for Queue).",
     readTime: "7 mins",
     complexity: {
       worstTime: "Push/Pop: O(1) | Enqueue/Dequeue: O(1)",
@@ -133,94 +190,125 @@ function insertAt(arr, index, value) {
     },
     details: `
       <h2>Stacks & Queues</h2>
-      <p>These are restricted versions of linear lists. Rather than allowing insertion and removal at arbitrary indexes, they restrict operations to specific endpoints.</p>
-
-      <h3>Stack (LIFO: Last-In, First-Out)</h3>
-      <p>Elements are added to and removed from only one end, called the <strong>top</strong>.</p>
+      <p>These are container adapters offering constrained access rules.</p>
       <ul>
-        <li><strong>Push:</strong> Add an element to the top (O(1)).</li>
-        <li><strong>Pop:</strong> Remove the top element (O(1)).</li>
-        <li><strong>Peek:</strong> View the top element without removing it (O(1)).</li>
+        <li><strong>Stack (Last In, First Out)</strong>: Used for recursion call stacks, undo/redo mechanisms, and parentheses matching.</li>
+        <li><strong>Queue (First In, First Out)</strong>: Used for CPU scheduling, message buffers, and Breadth-First Search (BFS) graph traversals.</li>
       </ul>
-      <p><em>Analogy:</em> A stack of dinner plates. You only add new plates to the top and wash the plate currently on top.</p>
-
-      <h3>Queue (FIFO: First-In, First-Out)</h3>
-      <p>Elements are added at the <strong>rear/back</strong> and removed from the <strong>front/head</strong>.</p>
-      <ul>
-        <li><strong>Enqueue:</strong> Add an element to the rear (O(1)).</li>
-        <li><strong>Dequeue:</strong> Remove the front element (O(1)).</li>
-      </ul>
-      <p><em>Analogy:</em> A queue of people waiting in line at a movie theater. The first person to arrive is the first one served and leaves.</p>
-
-      <div class="code-title">Stack Implementation (JavaScript)</div>
-      <pre><code>class Stack {
-  constructor() {
-    this.items = [];
-  }
-  push(element) {
-    this.items.push(element); // O(1)
-  }
-  pop() {
-    if (this.isEmpty()) return null;
-    return this.items.pop(); // O(1)
-  }
-  peek() {
-    return this.items[this.items.length - 1];
-  }
-  isEmpty() {
-    return this.items.length === 0;
-  }
-}</code></pre>
-    `
+    `,
+    code: {
+      javascript: `// Stack implementation using an Array
+class Stack {
+    constructor() {
+        this.items = [];
+    }
+    push(val) { this.items.push(val); }
+    pop() { return this.items.pop(); }
+    peek() { return this.items[this.items.length - 1]; }
+}`,
+      cpp: `#include <stack>
+// C++ standard library stack usage
+std::stack<int> s;
+s.push(10);        // Push element
+s.pop();           // Remove top element
+int val = s.top(); // Get top element`,
+      java: `import java.util.Stack;
+// Java Stack usage
+Stack<Integer> stack = new Stack<>();
+stack.push(10);
+int popped = stack.pop();
+int top = stack.peek();`,
+      python: `# Python stack using list
+stack = []
+stack.append(10)  # push
+popped = stack.pop() # pop
+top = stack[-1]    # peek`
+    }
   },
   {
     id: "linked-list",
-    title: "Linked Lists",
+    title: "4. Linked Lists",
     category: "Data Structures",
     summary: "Nodes scattered in memory, connected sequentially by pointers, offering O(1) head insertion.",
     readTime: "8 mins",
     complexity: {
-      worstTime: "Insert (Head): O(1) | Insert (N-th): O(N)",
-      bestTime: "Search: O(N) | Delete: O(1) (if node known)",
+      worstTime: "Insert (Head): O(1) | Search: O(N)",
+      bestTime: "Delete (Head): O(1)",
       space: "O(N)"
     },
     details: `
       <h2>Singly Linked Lists</h2>
-      <p>Unlike arrays, elements in a <strong>Linked List</strong> are not stored in contiguous memory. Instead, each element is a wrapper called a <strong>Node</strong>, containing two components: the data value, and a <strong>Pointer/Reference</strong> pointing to the next node in the sequence.</p>
-
-      <h3>Real-World Analogy</h3>
-      <p>Think of a scavenger hunt. You are given a clue containing a message and the address of the next clue. You cannot jump directly to clue #5 without reading through clues 1, 2, 3, and 4 first.</p>
-
-      <h3>Pros & Cons vs Arrays</h3>
-      <ul>
-        <li><strong>Pros:</strong> Dynamic sizing (never runs out of capacity), very fast insertion/deletion at the head (O(1)) because no elements have to be shifted.</li>
-        <li><strong>Cons:</strong> No constant-time indexing (lookup is O(N) because you must traverse from the head), uses extra memory for pointers.</li>
-      </ul>
-
-      <div class="code-title">Singly Linked List Node (JavaScript)</div>
-      <pre><code>class Node {
-  constructor(value) {
-    this.value = value;
-    this.next = null; // Pointer to next node
-  }
+      <p>A Linked List consists of separate Node structures. Each node contains a value and a pointer (or reference) to the next node. They occupy non-contiguous memory, making resizing trivial compared to arrays.</p>
+      
+      <h3>Placement Tip: Fast & Slow Pointers</h3>
+      <p>To detect a loop in a linked list (Floyd's Cycle-Finding Algorithm) or find the middle element, use two pointers moving at different speeds (one step vs two steps). If they meet, a cycle exists.</p>
+    `,
+    code: {
+      javascript: `class Node {
+    constructor(val) {
+        this.value = val;
+        this.next = null;
+    }
 }
 
 class LinkedList {
-  constructor() {
-    this.head = null;
-  }
-  
-  insertAtHead(value) {
-    const newNode = new Node(value);
-    newNode.next = this.head;
-    this.head = newNode; // O(1)
-  }
-}</code></pre>
-    `
+    constructor() { this.head = null; }
+    insertAtHead(val) {
+        let newNode = new Node(val);
+        newNode.next = this.head;
+        this.head = newNode;
+    }
+}`,
+      cpp: `struct Node {
+    int value;
+    Node* next;
+    Node(int val) : value(val), next(nullptr) {}
+};
+
+class LinkedList {
+public:
+    Node* head = nullptr;
+    void insertAtHead(int val) {
+        Node* newNode = new Node(val);
+        newNode->next = head;
+        head = newNode;
+    }
+};`,
+      java: `class Node {
+    int value;
+    Node next;
+    Node(int val) {
+        this.value = val;
+        this.next = null;
+    }
+}
+
+class LinkedList {
+    Node head = null;
+    void insertAtHead(int val) {
+        Node newNode = new Node(val);
+        newNode.next = head;
+        head = newNode;
+    }
+}`,
+      python: `class Node:
+    def __init__(self, val):
+        self.value = val
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+        
+    def insert_at_head(self, val):
+        new_node = Node(val)
+        new_node.next = self.head
+        self.head = new_node`
+    }
   },
   {
     id: "trees-bst",
-    title: "Trees & BSTs",
+    title: "5. Trees & BSTs",
     category: "Data Structures",
     summary: "Hierarchical data structures. Learn Binary Search Trees for O(log N) lookup speeds.",
     readTime: "9 mins",
@@ -230,109 +318,449 @@ class LinkedList {
       space: "O(N)"
     },
     details: `
-      <h2>Trees and Binary Search Trees</h2>
-      <p>A <strong>Tree</strong> is a hierarchical data structure consisting of nodes connected by directed edges. A <strong>Binary Tree</strong> restricts each node to a maximum of two children, called the left child and right child.</p>
-      
-      <p>A <strong>Binary Search Tree (BST)</strong> is a binary tree that maintains a strict ordering property:</p>
+      <h2>Binary Search Tree (BST)</h2>
+      <p>A BST is a node-based binary tree data structure which has the following properties:</p>
       <ul>
-        <li>All values in the <strong>left subtree</strong> of a node are less than the node's value.</li>
-        <li>All values in the <strong>right subtree</strong> of a node are greater than the node's value.</li>
+        <li>The left subtree of a node contains only nodes with keys lesser than the node's key.</li>
+        <li>The right subtree of a node contains only nodes with keys greater than the node's key.</li>
+        <li>The left and right subtree must each also be a binary search tree.</li>
       </ul>
-
-      <h3>Lookup & Insertion Speed</h3>
-      <p>When searching for a value, at each node we can discard half of the remaining tree (just like Binary Search). This results in a search complexity of <strong>O(log N)</strong> on balanced trees.</p>
-      <p>However, if nodes are inserted in sorted order, the tree can degrade into a linear linked list, resulting in <strong>O(N)</strong> search complexity. This is why self-balancing trees (AVL, Red-Black Trees) are used in production environments.</p>
-
-      <div class="code-title">BST Insertion Logic (JavaScript)</div>
-      <pre><code>class TreeNode {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
+    `,
+    code: {
+      javascript: `class TreeNode {
+    constructor(val) {
+        this.value = val;
+        this.left = null;
+        this.right = null;
+    }
 }
 
-function insertNode(root, value) {
-  if (root === null) {
-    return new TreeNode(value);
-  }
-  if (value < root.value) {
-    root.left = insertNode(root.left, value);
-  } else {
-    root.right = insertNode(root.right, value);
-  }
-  return root;
-}</code></pre>
-    `
+function insert(root, val) {
+    if (!root) return new TreeNode(val);
+    if (val < root.value) {
+        root.left = insert(root.left, val);
+    } else {
+        root.right = insert(root.right, val);
+    }
+    return root;
+}`,
+      cpp: `struct TreeNode {
+    int value;
+    TreeNode* left = nullptr;
+    TreeNode* right = nullptr;
+    TreeNode(int val) : value(val) {}
+};
+
+TreeNode* insert(TreeNode* root, int val) {
+    if (!root) return new TreeNode(val);
+    if (val < root->value) {
+        root->left = insert(root->left, val);
+    } else {
+        root->right = insert(root->right, val);
+    }
+    return root;
+}`,
+      java: `class TreeNode {
+    int value;
+    TreeNode left, right;
+    TreeNode(int val) {
+        value = val;
+        left = right = null;
+    }
+}
+
+class BST {
+    public TreeNode insert(TreeNode root, int val) {
+        if (root == null) return new TreeNode(val);
+        if (val < root.value) {
+            root.left = insert(root.left, val);
+        } else {
+            root.right = insert(root.right, val);
+        }
+        return root;
+    }
+}`,
+      python: `class TreeNode:
+    def __init__(self, val):
+        self.value = val
+        self.left = None
+        self.right = None
+
+def insert(root, val):
+    if not root:
+        return TreeNode(val)
+    if val < root.value:
+        root.left = insert(root.left, val)
+    else:
+        root.right = insert(root.right, val)
+    return root`
+    }
   },
   {
     id: "sorting-algos",
-    title: "Sorting Algorithms",
+    title: "6. Sorting Algorithms",
     category: "Algorithms",
-    summary: "Explore how different methods reorder array items efficiently, from O(N²) bubble sorts to O(N log N) merge sorts.",
+    summary: "Reorder lists efficiently. Deep dive into Quick Sort and Merge Sort.",
     readTime: "10 mins",
     complexity: {
       worstTime: "Bubble/Selection: O(N²) | Merge: O(N log N)",
-      bestTime: "Quick Sort: O(N log N) average | O(N²) worst-case",
-      space: "Merge: O(N) | Quick/Heap: O(1) / O(log N)"
+      bestTime: "Quick Sort: O(N log N) (avg) | Space: O(N) (Merge)",
+      space: "Merge: O(N) | Quick: O(log N)"
     },
     details: `
-      <h2>Sorting Algorithms Overview</h2>
-      <p>Sorting is the process of arranging data in a specific order (ascending or descending). It is one of the most fundamental operations in software systems, optimizing search efficiency dramatically (e.g. enabling O(log N) binary search).</p>
+      <h2>Dividing and Conquer: Merge & Quick Sorts</h2>
+      <p>Advanced sorting algorithms achieve <strong>O(N log N)</strong> runtime using recurrence. They partition the dataset, sort them independently, and recursively merge or partition them. Knowing these is a baseline requirement for coding interviews.</p>
+    `,
+    code: {
+      javascript: `// Quick Sort Partition
+function partition(arr, low, high) {
+    let pivot = arr[high];
+    let i = low - 1;
+    for (let j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+    }
+    [arr[i+1], arr[high]] = [arr[high], arr[i+1]];
+    return i + 1;
+}`,
+      cpp: `// Quick Sort Partition
+int partition(vector<int>& arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i + 1], arr[high]);
+    return i + 1;
+}`,
+      java: `// Quick Sort Partition
+public static int partition(int[] arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    int temp = arr[i+1];
+    arr[i+1] = arr[high];
+    arr[high] = temp;
+    return i + 1;
+}`,
+      python: `# Quick Sort Partition
+def partition(arr, low, high):
+    pivot = arr[high]
+    i = low - 1
+    for j in range(low, high):
+        if arr[j] < pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i+1], arr[high] = arr[high], arr[i+1]
+    return i + 1`
+    }
+  },
+  {
+    id: "recursion-backtracking",
+    title: "7. Recursion & Backtracking",
+    category: "Algorithms",
+    summary: "Build state spaces dynamically and prune paths that violate constraints.",
+    readTime: "10 mins",
+    complexity: {
+      worstTime: "Permutations: O(N!) | N-Queens: O(N!)",
+      bestTime: "N/A",
+      space: "O(N) (call stack)"
+    },
+    details: `
+      <h2>Recursion & Backtracking Specialist Concepts</h2>
+      <p><strong>Backtracking</strong> is a systematic search methodology that builds solutions incrementally and abandons paths (backtracks) once it discovers they cannot lead to a valid configuration.</p>
+      
+      <h3>Standard Interview Pattern</h3>
+      <p>Useful for solving puzzles like Sudoku, N-Queens, generating subsets, or generating string permutations. An explicit recursive step modifies a state container, branches deeper, and then resets (undoes) the state container modification before returning.</p>
+    `,
+    code: {
+      javascript: `// Generate all permutations of an array
+function permute(arr) {
+    let result = [];
+    function backtrack(start) {
+        if (start === arr.length) {
+            result.push([...arr]);
+            return;
+        }
+        for (let i = start; i < arr.length; i++) {
+            [arr[start], arr[i]] = [arr[i], arr[start]]; // Swap
+            backtrack(start + 1);
+            [arr[start], arr[i]] = [arr[i], arr[start]]; // Backtrack
+        }
+    }
+    backtrack(0);
+    return result;
+}`,
+      cpp: `#include <vector>
+#include <algorithm>
+using namespace std;
 
-      <h3>Comparison of Common Sorting Algorithms</h3>
-      <table class="complexity-table">
-        <thead>
-          <tr>
-            <th>Algorithm</th>
-            <th>Best Time</th>
-            <th>Worst Time</th>
-            <th>Space Complexity</th>
-            <th>Stability</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Bubble Sort</strong></td>
-            <td>O(N) (optimized)</td>
-            <td>O(N²)</td>
-            <td>O(1)</td>
-            <td>Stable</td>
-          </tr>
-          <tr>
-            <td><strong>Selection Sort</strong></td>
-            <td>O(N²)</td>
-            <td>O(N²)</td>
-            <td>O(1)</td>
-            <td>Unstable</td>
-          </tr>
-          <tr>
-            <td><strong>Insertion Sort</strong></td>
-            <td>O(N)</td>
-            <td>O(N²)</td>
-            <td>O(1)</td>
-            <td>Stable</td>
-          </tr>
-          <tr>
-            <td><strong>Merge Sort</strong></td>
-            <td>O(N log N)</td>
-            <td>O(N log N)</td>
-            <td>O(N)</td>
-            <td>Stable</td>
-          </tr>
-          <tr>
-            <td><strong>Quick Sort</strong></td>
-            <td>O(N log N)</td>
-            <td>O(N²)</td>
-            <td>O(log N)</td>
-            <td>Unstable</td>
-          </tr>
-        </tbody>
-      </table>
+// Generate all permutations
+void backtrack(int start, vector<int>& arr, vector<vector<int>>& result) {
+    if (start == arr.size()) {
+        result.push_back(arr);
+        return;
+    }
+    for (int i = start; i < arr.size(); i++) {
+        swap(arr[start], arr[i]);
+        backtrack(start + 1, arr, result);
+        swap(arr[start], arr[i]); // Backtrack
+    }
+}`,
+      java: `import java.util.*;
 
-      <h3>Divide and Conquer</h3>
-      <p>Advanced sorting algorithms like <strong>Merge Sort</strong> and <strong>Quick Sort</strong> use the "Divide and Conquer" strategy. They break the problem down into smaller sub-arrays, solve them recursively, and combine the results. This allows them to bypass the O(N²) boundary and achieve <strong>O(N log N)</strong> runtime.</p>
-    `
+class Backtracking {
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(0, nums, result);
+        return result;
+    }
+    private void backtrack(int start, int[] nums, List<List<Integer>> result) {
+        if (start == nums.length) {
+            List<Integer> list = new ArrayList<>();
+            for (int n : nums) list.add(n);
+            result.add(list);
+            return;
+        }
+        for (int i = start; i < nums.length; i++) {
+            swap(nums, start, i);
+            backtrack(start + 1, nums, result);
+            swap(nums, start, i); // Backtrack
+        }
+    }
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+}`,
+      python: `# Generate all permutations of a list
+def permute(nums):
+    result = []
+    def backtrack(start):
+        if start == len(nums):
+            result.append(nums[:])
+            return
+        for i in range(start, len(nums)):
+            nums[start], nums[i] = nums[i], nums[start] # Swap
+            backtrack(start + 1)
+            nums[start], nums[i] = nums[i], nums[start] # Backtrack
+    backtrack(0)
+    return result`
+    }
+  },
+  {
+    id: "graphs",
+    title: "8. Graph Algorithms",
+    category: "Algorithms",
+    summary: "Graph representations and traversals (BFS, DFS, and Dijkstra's Shortest Path).",
+    readTime: "12 mins",
+    complexity: {
+      worstTime: "BFS/DFS: O(V + E) | Dijkstra: O(E log V)",
+      bestTime: "N/A",
+      space: "O(V) (visited structures)"
+    },
+    details: `
+      <h2>Graph Traversals (BFS / DFS)</h2>
+      <p>A <strong>Graph</strong> is a network of vertices (nodes) linked by edges. Graphs are represented using adjacency matrices or adjacency lists.</p>
+      <ul>
+        <li><strong>Depth-First Search (DFS)</strong>: Traverses as deep as possible down a branch before backtracking. Uses a <strong>Stack</strong> (or recursion).</li>
+        <li><strong>Breadth-First Search (BFS)</strong>: Explores all neighbor vertices level by level. Uses a <strong>Queue</strong>.</li>
+      </ul>
+      
+      <h3>Dijkstra's Algorithm</h3>
+      <p>Dijkstra's algorithm finds the shortest path from a source node to all other nodes in a weighted graph with positive weights. It relies on a min-priority queue (or heap) to continuously extract the node with the minimum distance.</p>
+    `,
+    code: {
+      javascript: `// BFS implementation on an Adjacency List
+function bfs(adjList, startNode) {
+    let visited = new Set();
+    let queue = [startNode];
+    visited.add(startNode);
+    
+    while (queue.length > 0) {
+        let node = queue.shift(); // Dequeue
+        console.log(node);
+        
+        for (let neighbor of adjList[node]) {
+            if (!visited.has(neighbor)) {
+                visited.add(neighbor);
+                queue.push(neighbor); // Enqueue
+            }
+        }
+    }
+}`,
+      cpp: `#include <iostream>
+#include <vector>
+#include <queue>
+#include <unordered_set>
+using namespace std;
+
+// BFS implementation
+void bfs(const vector<vector<int>>& adjList, int start) {
+    vector<bool> visited(adjList.size(), false);
+    queue<int> q;
+    
+    visited[start] = true;
+    q.push(start);
+    
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+        cout << node << " ";
+        
+        for (int neighbor : adjList[node]) {
+            if (!visited[neighbor]) {
+                visited[neighbor] = true;
+                q.push(neighbor);
+            }
+        }
+    }
+}`,
+      java: `import java.util.*;
+
+class GraphBFS {
+    public void bfs(List<List<Integer>> adjList, int start) {
+        boolean[] visited = new boolean[adjList.size()];
+        Queue<Integer> queue = new LinkedList<>();
+        
+        visited[start] = true;
+        queue.add(start);
+        
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            System.out.print(node + " ");
+            
+            for (int neighbor : adjList.get(node)) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.add(neighbor);
+                }
+            }
+        }
+    }
+}`,
+      python: `from collections import deque
+
+# BFS implementation
+def bfs(adj_list, start):
+    visited = set([start])
+    queue = deque([start])
+    
+    while queue:
+        node = queue.popleft()
+        print(node, end=" ")
+        
+        for neighbor in adj_list[node]:
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)`
+    }
+  },
+  {
+    id: "dp",
+    title: "9. Dynamic Programming",
+    category: "Algorithms",
+    summary: "Optimize recursive computations using memoization (top-down) and tabulation (bottom-up).",
+    readTime: "12 mins",
+    complexity: {
+      worstTime: "Knapsack: O(N * W) | LCS: O(N * M)",
+      bestTime: "Fibonacci: O(N) | Space: O(N) or O(1)",
+      space: "Knapsack: O(N * W)"
+    },
+    details: `
+      <h2>Dynamic Programming (DP) Fundamentals</h2>
+      <p>Dynamic Programming is an optimization over plain recursion. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential (e.g. O(2^N)) to polynomial (e.g. O(N)).</p>
+      
+      <h3>Overlapping Subproblems & Optimal Substructure</h3>
+      <p>A problem can be solved with DP if it exhibits:</p>
+      <ol>
+        <li><strong>Overlapping Subproblems:</strong> Solutions to same subproblems are needed multiple times (e.g., computing Fib(3) multiple times in recursion tree).</li>
+        <li><strong>Optimal Substructure:</strong> Optimal solution of the global problem can be constructed from optimal solutions of its subproblems.</li>
+      </ol>
+    `,
+    code: {
+      javascript: `// 0/1 Knapsack Tabulation Approach
+function knapsack(W, weights, values, n) {
+    let dp = Array(n + 1).fill().map(() => Array(W + 1).fill(0));
+    
+    for (let i = 1; i <= n; i++) {
+        for (let w = 1; w <= W; w++) {
+            if (weights[i - 1] <= w) {
+                dp[i][w] = Math.max(
+                    values[i - 1] + dp[i - 1][w - weights[i - 1]],
+                    dp[i - 1][w]
+                );
+            } else {
+                dp[i][w] = dp[i - 1][w];
+            }
+        }
+    }
+    return dp[n][W];
+}`,
+      cpp: `#include <vector>
+#include <algorithm>
+using namespace std;
+
+// 0/1 Knapsack Tabulation
+int knapsack(int W, const vector<int>& weights, const vector<int>& values, int n) {
+    vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));
+    
+    for (int i = 1; i <= n; i++) {
+        for (int w = 1; w <= W; w++) {
+            if (weights[i - 1] <= w) {
+                dp[i][w] = max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w]);
+            } else {
+                dp[i][w] = dp[i - 1][w];
+            }
+        }
+    }
+    return dp[n][W];
+}`,
+      java: `class DP {
+    // 0/1 Knapsack Tabulation
+    public int knapsack(int W, int[] weights, int[] values, int n) {
+        int[][] dp = new int[n + 1][W + 1];
+        
+        for (int i = 1; i <= n; i++) {
+            for (int w = 1; w <= W; w++) {
+                if (weights[i - 1] <= w) {
+                    dp[i][w] = Math.max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w]);
+                } else {
+                    dp[i][w] = dp[i - 1][w];
+                }
+            }
+        }
+        return dp[n][W];
+    }
+}`,
+      python: `# 0/1 Knapsack Tabulation
+def knapsack(W, weights, values, n):
+    dp = [[0 for _ in range(W + 1)] for _ in range(n + 1)]
+    
+    for i in range(1, n + 1):
+        for w in range(1, W + 1):
+            if weights[i - 1] <= w:
+                dp[i][w] = max(
+                    values[i - 1] + dp[i - 1][w - weights[i - 1]],
+                    dp[i - 1][w]
+                )
+            else:
+                dp[i][w] = dp[i - 1][w]
+    return dp[n][W]`
+    }
   }
 ];
 
@@ -345,7 +773,7 @@ export const quizQuestions = [
       "Singly Linked List",
       "Binary Search Tree"
     ],
-    answer: 1, // Index of correct option (Stack)
+    answer: 1,
     explanation: "A **Stack** operates on LIFO (Last-In, First-Out). Elements are added ('pushed') and removed ('popped') from the same end, matching how plates are stacked."
   },
   {
@@ -356,8 +784,8 @@ export const quizQuestions = [
       "O(N)",
       "O(N log N)"
     ],
-    answer: 2, // O(N)
-    explanation: "If a BST is unbalanced (e.g. elements inserted in sorted order, forming a single chain), searching requires traversal of every node in the worst case, degrading to **O(N)**."
+    answer: 2,
+    explanation: "If a BST is unbalanced (degraded to a single chain), searching requires traversal of every node in the worst case, giving a complexity of **O(N)**."
   },
   {
     question: "Which of the following sorting algorithms has a guaranteed worst-case time complexity of O(N log N)?",
@@ -367,7 +795,7 @@ export const quizQuestions = [
       "Selection Sort",
       "Merge Sort"
     ],
-    answer: 3, // Merge Sort
+    answer: 3,
     explanation: "**Merge Sort** guarantees **O(N log N)** time complexity under all conditions (best, average, worst) because it always divides the array in half and performs linear merges."
   },
   {
@@ -378,7 +806,7 @@ export const quizQuestions = [
       "Array",
       "Queue"
     ],
-    answer: 2, // Array
+    answer: 2,
     explanation: "An **Array** stores elements in contiguous memory slots, allowing **O(1) constant time index access**. Linked Lists require starting from the head and traversing sequentially."
   },
   {
@@ -389,7 +817,29 @@ export const quizQuestions = [
       "O(N)",
       "O(N³)"
     ],
-    answer: 0, // O(N2)
+    answer: 0,
     explanation: "Under Big O notation, we **drop constant factors** (5) and **lower-order terms** (10N + 3) since they become negligible as N grows large. Thus, the complexity is **O(N²)**."
+  },
+  {
+    question: "Which shortest path algorithm is most suitable for a weighted graph with positive edge weights?",
+    options: [
+      "Kruskal's Algorithm",
+      "Dijkstra's Algorithm",
+      "Bellman-Ford Algorithm",
+      "Floyd-Warshall Algorithm"
+    ],
+    answer: 1,
+    explanation: "**Dijkstra's Algorithm** finds single-source shortest paths in O(E log V) on graphs with positive weights. Kruskal's is for Minimum Spanning Trees, Bellman-Ford handles negative weights, and Floyd-Warshall is all-pairs."
+  },
+  {
+    question: "What is the key difference between Dynamic Programming (DP) and Divide-and-Conquer?",
+    options: [
+      "DP uses recursive calls, while Divide-and-Conquer never does.",
+      "DP works on overlapping subproblems by caching results, while Divide-and-Conquer works on independent subproblems.",
+      "Divide-and-Conquer has higher space complexity in all cases.",
+      "DP only works on sorted input data structures."
+    ],
+    answer: 1,
+    explanation: "**Dynamic Programming** optimizes recursive calculations by storing solutions to **overlapping subproblems** (memoization/tabulation). Divide-and-Conquer splits problems into independent subproblems (like Merge Sort) and doesn't reuse results."
   }
 ];

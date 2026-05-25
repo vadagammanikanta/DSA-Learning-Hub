@@ -31,7 +31,8 @@ import {
 // Application State
 let appState = {
   completedLessons: [],
-  quizHighScore: 0
+  quizHighScore: 0,
+  selectedLanguage: 'javascript'
 };
 
 // DOM Elements
@@ -222,6 +223,10 @@ function renderCurriculumList() {
   });
 }
 
+function escapeHTML(str) {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+}
+
 function showLesson(lessonId) {
   const lesson = curriculum.find(x => x.id === lessonId);
   if (!lesson) return;
@@ -233,6 +238,30 @@ function showLesson(lessonId) {
     activeNode.classList.add('active');
   }
 
+  // Generate code block tab structure if code exists
+  let codeSnippetHtml = '';
+  if (lesson.code) {
+    const languages = [
+      { id: 'javascript', label: 'JavaScript' },
+      { id: 'cpp', label: 'C++' },
+      { id: 'java', label: 'Java' },
+      { id: 'python', label: 'Python' }
+    ];
+    
+    const tabsHtml = languages.map(lang => `
+      <button class="code-tab-btn ${appState.selectedLanguage === lang.id ? 'active' : ''}" data-lang="${lang.id}">
+        ${lang.label}
+      </button>
+    `).join('');
+
+    codeSnippetHtml = `
+      <div class="code-tabs-header">
+        ${tabsHtml}
+      </div>
+      <pre><code class="code-tab-content" id="lesson-code-block">${escapeHTML(lesson.code[appState.selectedLanguage] || '')}</code></pre>
+    `;
+  }
+
   contentViewer.innerHTML = `
     <div>
       <span class="info-badge" style="margin-bottom: 8px;">${lesson.category}</span>
@@ -242,15 +271,38 @@ function showLesson(lessonId) {
     
     <div style="line-height: 1.6; color: var(--text-secondary);">
       ${lesson.details}
+      ${codeSnippetHtml}
     </div>
 
-    <div style="border-top: 1px solid var(--border-glass); padding-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="border-top: 1px solid var(--border-glass); padding-top: 20px; display: flex; justify-content: space-between; align-items: center; margin-top: 24px;">
       <button class="btn btn-secondary" id="btn-lesson-visualize">Go to Visualizer</button>
       <button class="btn ${isCompleted ? 'btn-secondary' : 'btn-accent'}" id="btn-lesson-complete" ${isCompleted ? 'disabled' : ''}>
         ${isCompleted ? '✓ Lesson Completed' : 'Mark as Completed'}
       </button>
     </div>
   `;
+
+  // Bind code tab event listeners
+  if (lesson.code) {
+    const tabBtns = contentViewer.querySelectorAll('.code-tab-btn');
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        appState.selectedLanguage = lang;
+        saveProgress(); // Save state including active language
+        
+        // Update active class
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Update code snippet
+        const codeBlock = document.getElementById('lesson-code-block');
+        if (codeBlock) {
+          codeBlock.textContent = lesson.code[lang] || '';
+        }
+      });
+    });
+  }
 
   // Go to Visualizer helper
   document.getElementById('btn-lesson-visualize').addEventListener('click', () => {
@@ -261,6 +313,7 @@ function showLesson(lessonId) {
     else if (lessonId === 'trees-bst') visVal = 'ds-bst';
     else if (lessonId === 'arrays') visVal = 'ds-linkedlist';
     else if (lessonId === 'sorting-algos') visVal = 'sort-bubble';
+    else if (lessonId === 'graphs') visVal = 'ds-bst';
 
     visualizerSelect.value = visVal;
     triggerVisualizerChange(visVal);
@@ -435,8 +488,11 @@ function loadProgress() {
       appState = JSON.parse(raw);
       if (!Array.isArray(appState.completedLessons)) appState.completedLessons = [];
     }
+    // Set default selected language if not present
+    appState.selectedLanguage = appState.selectedLanguage || 'javascript';
   } catch (err) {
     console.warn("Could not load local storage progress", err);
+    appState.selectedLanguage = 'javascript';
   }
 }
 
