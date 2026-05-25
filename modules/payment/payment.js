@@ -6,7 +6,7 @@
 // ═══════════════════════════════════════════════════════════════════
 
 // ── CONFIGURE YOUR RAZORPAY KEY ────────────────────────────────────
-const RAZORPAY_KEY_ID = 'rzp_test_StX59QRW28UAM7'; // ← Replace with your key
+const RAZORPAY_KEY_ID = 'rzp_live_StXUp3supvsh2Y'; // ← LIVE Key
 // ─────────────────────────────────────────────────────────────────
 
 const AMOUNT_PAISE   = 9900;  // ₹99 in paise
