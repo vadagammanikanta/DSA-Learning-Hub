@@ -4,12 +4,188 @@ import { useApp } from '../../context/AppContext';
 import AlgorithmCodeFetcher from './AlgorithmCodeFetcher';
 import { githubAlgorithmMappings } from '../../../modules/learning/content_a2z';
 
+// Rules-based dynamic path resolver for TheAlgorithms repositories
+export function getDynamicGitHubPath(lessonTitle, categoryName, language) {
+  const title = lessonTitle.toLowerCase().trim();
+  const cat = categoryName.toLowerCase().trim();
+  
+  const snakeCase = (str) => str.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase().replace(/_+/g, '_').replace(/(^_|_$)/g, '');
+  const pascalCase = (str) => str.replace(/[^a-zA-Z0-9]/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('');
+  
+  const sc = snakeCase(title);
+  const pc = pascalCase(title);
+
+  // 1. Sorting Algorithms
+  if (cat.includes('sort') || title.includes('sort')) {
+    let base = sc.replace('_sorting', '').replace('_sort', '');
+    if (base === 'insertion') base = 'insertion_sort';
+    else if (base === 'selection') base = 'selection_sort';
+    else if (base === 'bubble') base = 'bubble_sort';
+    else if (base === 'merge') base = 'merge_sort';
+    else if (base === 'quick') base = 'quick_sort';
+    else if (base === 'heap') base = 'heap_sort';
+    else base = base + '_sort';
+
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `sorts/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/sorts/${pBase}.java`;
+      case 'cpp': return `sorts/${base}.cpp`;
+      case 'javascript': return `Sorts/${pBase}.js`;
+    }
+  }
+
+  // 2. Searching & Binary Search
+  if (cat.includes('search') || title.includes('search') || title.includes('binary search')) {
+    let base = sc.replace('_searching', '').replace('_search', '');
+    if (base === 'binary') base = 'binary_search';
+    else if (base === 'linear') base = 'linear_search';
+    else base = base + '_search';
+
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `searches/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/searches/${pBase}.java`;
+      case 'cpp': return `search/${base}.cpp`;
+      case 'javascript': return `Search/${pBase}.js`;
+    }
+  }
+
+  // 3. Basic Maths & Numbers
+  if (title.includes('prime') || title.includes('factorial') || title.includes('fibonacci') || title.includes('palindrome') || title.includes('armstrong') || title.includes('gcd') || title.includes('divisor') || title.includes('digit') || title.includes('math')) {
+    let base = sc;
+    if (title.includes('prime')) base = 'prime_check';
+    else if (title.includes('factorial')) base = 'factorial';
+    else if (title.includes('fibonacci')) base = 'fibonacci';
+    else if (title.includes('palindrome')) base = 'palindrome';
+    else if (title.includes('armstrong')) base = 'armstrong_numbers';
+    else if (title.includes('gcd')) base = 'greatest_common_divisor';
+    else if (title.includes('divisor')) base = 'divisors';
+    else if (title.includes('digit')) base = 'count_digits';
+
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `maths/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/maths/${pBase}.java`;
+      case 'cpp': return `maths/${base}.cpp`;
+      case 'javascript': return `Maths/${pBase}.js`;
+    }
+  }
+
+  // 4. Linked Lists
+  if (cat.includes('linked list') || title.includes('linked list') || title.includes('node') || title.includes('middle of')) {
+    switch (language) {
+      case 'python': return `data_structures/linked_list/singly_linked_list.py`;
+      case 'java': return `src/main/java/com/thealgorithms/datastructures/lists/SinglyLinkedList.java`;
+      case 'cpp': return `data_structures/singly_linked_list.cpp`;
+      case 'javascript': return `Data-Structures/Lists/SinglyLinkedList.js`;
+    }
+  }
+
+  // 5. Trees & BST
+  if (cat.includes('tree') || cat.includes('bst') || title.includes('tree') || title.includes('bst') || title.includes('inorder') || title.includes('preorder') || title.includes('postorder')) {
+    let base = sc;
+    if (title.includes('traversal')) base = 'binary_tree_traversals';
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `data_structures/binary_tree/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/datastructures/trees/${pBase}.java`;
+      case 'cpp': return `data_structures/binary_search_tree.cpp`;
+      case 'javascript': return `Data-Structures/Trees/${pBase}.js`;
+    }
+  }
+
+  // 6. Graphs
+  if (cat.includes('graph') || title.includes('graph') || title.includes('dijkstra') || title.includes('kruskal') || title.includes('prim') || title.includes('bfs') || title.includes('dfs')) {
+    let base = sc;
+    if (title.includes('dijkstra')) base = 'dijkstra';
+    else if (title.includes('kruskal')) base = 'kruskal';
+    else if (title.includes('prim')) base = 'prim';
+    else if (title.includes('bfs')) base = 'bfs';
+    else if (title.includes('dfs')) base = 'dfs';
+
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `graphs/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/graphs/${pBase}.java`;
+      case 'cpp': return `graphs/${base}.cpp`;
+      case 'javascript': return `Graphs/${pBase}.js`;
+    }
+  }
+
+  // 7. Dynamic Programming & Backtracking
+  if (cat.includes('dynamic programming') || cat.includes('dp') || title.includes('knapsack') || title.includes('coin change') || title.includes('lcs') || title.includes('subset sum') || title.includes('n-queens')) {
+    let base = sc;
+    if (title.includes('knapsack')) base = 'knapsack';
+    else if (title.includes('coin change')) base = 'coin_change';
+    else if (title.includes('n-queens')) base = 'n_queens';
+    
+    const pBase = pascalCase(base.replace(/_/g, ' '));
+    switch (language) {
+      case 'python': return `dynamic_programming/${base}.py`;
+      case 'java': return `src/main/java/com/thealgorithms/dynamicprogramming/${pBase}.java`;
+      case 'cpp': return `dynamic_programming/${base}.cpp`;
+      case 'javascript': return `Dynamic-Programming/${pBase}.js`;
+    }
+  }
+
+  // 8. Stacks & Queues
+  if (cat.includes('stack') || cat.includes('queue') || title.includes('stack') || title.includes('queue')) {
+    switch (language) {
+      case 'python': return `data_structures/stacks/stack.py`;
+      case 'java': return `src/main/java/com/thealgorithms/datastructures/stacks/Stack.java`;
+      case 'cpp': return `data_structures/stack.cpp`;
+      case 'javascript': return `Data-Structures/Stack/Stack.js`;
+    }
+  }
+
+  // Default fallback prediction
+  switch (language) {
+    case 'python': return `maths/${sc}.py`;
+    case 'java': return `src/main/java/com/thealgorithms/maths/${pc}.java`;
+    case 'cpp': return `maths/${sc}.cpp`;
+    case 'javascript': return `Maths/${pc}.js`;
+  }
+}
+
 export default function LessonViewer({ lesson }) {
   const { appState, markLessonCompleted } = useApp();
   const navigate = useNavigate();
   const contentRef = useRef(null);
 
-  const mapping = githubAlgorithmMappings[lesson?.id];
+  // Fallback to dynamic mapper if no explicit mapping exists in database
+  const mapping = useMemo(() => {
+    if (!lesson) return null;
+    const explicit = githubAlgorithmMappings[lesson.id];
+    if (explicit) return explicit;
+
+    const paths = {};
+    ['javascript', 'java', 'cpp', 'python'].forEach((lang) => {
+      const path = getDynamicGitHubPath(lesson.title, lesson.category || '', lang);
+      if (path) paths[lang] = path;
+    });
+
+    return {
+      topic: lesson.title,
+      paths
+    };
+  }, [lesson]);
+
+  // Dynamically parse Time and Space complexity from the HTML curriculum details
+  const complexities = useMemo(() => {
+    if (!lesson || !lesson.details) return { time: null, space: null };
+    const timeRegex = /<td>Time\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
+    const spaceRegex = /<td>Space\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
+    
+    const timeMatch = lesson.details.match(timeRegex);
+    const spaceMatch = lesson.details.match(spaceRegex);
+    
+    return {
+      time: timeMatch ? timeMatch[1].replace(/<[^>]*>/g, '').trim() : null,
+      space: spaceMatch ? spaceMatch[1].replace(/<[^>]*>/g, '').trim() : null
+    };
+  }, [lesson]);
+
   const [activeCodeLang, setActiveCodeLang] = useState('javascript');
 
   useEffect(() => {
@@ -104,7 +280,7 @@ export default function LessonViewer({ lesson }) {
           <h1 style={{ fontSize: '1.8rem', color: 'var(--text-main)', margin: '0 0 8px 0' }}>
             {lesson.title}
           </h1>
-          <div style={{ display: 'flex', gap: '12px', fontSize: '0.9rem' }}>
+          <div style={{ display: 'flex', gap: '12px', fontSize: '0.9rem', flexWrap: 'wrap', rowGap: '6px' }}>
             <span style={{ 
               color: lesson.difficulty === 'Easy' ? 'var(--diff-easy)' : 
                      lesson.difficulty === 'Medium' ? 'var(--diff-medium)' : 'var(--diff-hard)',
@@ -115,6 +291,32 @@ export default function LessonViewer({ lesson }) {
               {lesson.difficulty}
             </span>
             <span style={{ color: 'var(--text-muted)' }}>{lesson.category}</span>
+            {complexities.time && (
+              <span style={{ 
+                color: '#34d399',
+                background: 'rgba(52, 211, 153, 0.08)',
+                border: '1px solid rgba(52, 211, 153, 0.15)',
+                padding: '2px 8px',
+                borderRadius: '4px',
+                fontFamily: 'monospace',
+                fontWeight: '600'
+              }}>
+                ⏱️ Time: {complexities.time}
+              </span>
+            )}
+            {complexities.space && (
+              <span style={{ 
+                color: '#fbbf24',
+                background: 'rgba(251, 191, 36, 0.08)',
+                border: '1px solid rgba(251, 191, 36, 0.15)',
+                padding: '2px 8px',
+                borderRadius: '4px',
+                fontFamily: 'monospace',
+                fontWeight: '600'
+              }}>
+                💾 Space: {complexities.space}
+              </span>
+            )}
           </div>
         </div>
       </div>
@@ -128,12 +330,12 @@ export default function LessonViewer({ lesson }) {
       </div>
 
       {/* Dynamic GitHub Code Snippet Section */}
-      {mapping && (
+      {mapping && Object.keys(mapping.paths).length > 0 && (
         <div style={{ marginBottom: '24px', paddingBottom: '24px', borderBottom: '1px solid var(--border-glass)' }}>
           <h3 style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span>💻</span> GitHub Source Code (TheAlgorithms)
           </h3>
-          <div style={{ display: 'flex', gap: '8px', marginBottom: '14px' }}>
+          <div style={{ display: 'flex', gap: '8px', marginBottom: '14px', flexWrap: 'wrap' }}>
             {['javascript', 'java', 'cpp', 'python'].map((lang) => {
               const hasPath = !!mapping.paths[lang];
               if (!hasPath) return null;
@@ -283,7 +485,7 @@ export default function LessonViewer({ lesson }) {
             }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
