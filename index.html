@@ -487,7 +487,8 @@
 
     <!-- ONLINE IDE -->
     <section class="tab-pane" id="ide">
-      <div class="arena-workspace">
+      <div id="react-ide-root" style="width: 100%; height: 100%; display: none;"></div>
+      <div class="arena-workspace" id="vanilla-ide-workspace">
         
         <!-- Left Pane: File Explorer -->
         <div class="arena-left-pane" style="display:flex; flex-direction:column;">
@@ -676,6 +677,7 @@ function handleSignOutFromPaywall() { window._signOutHandler && window._signOutH
 function handleSignOutFromApp()     { window._signOutHandler && window._signOutHandler(); }
 </script>
 
+<script type="module" src="/src/main.jsx"></script>
 <script type="module" src="app.js?v=2"></script>
 </body>
 </html>
