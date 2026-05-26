@@ -12,6 +12,7 @@ import WebIDE from './components/IDE/WebIDE';
 import Visualizer from './components/Visualizer/Visualizer';
 import MockQuiz from './components/Quiz/MockQuiz';
 import Platforms from './components/Platforms/Platforms';
+import Support from './components/Support/Support';
 import { openRazorpayCheckout } from '../modules/payment/payment';
 import './index.css';
 
@@ -339,6 +340,7 @@ function AppLayout() {
             <Route path="/visualizer" element={<Visualizer />} />
             <Route path="/platforms" element={<Platforms />} />
             <Route path="/quiz" element={<MockQuiz />} />
+            <Route path="/support" element={<Support />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

@@ -1,7 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 /* ═══════════════════════════════════════════════════════════════════
    dsa.flow — Premium Design System with Dark & Light Themes
    ═══════════════════════════════════════════════════════════════════ */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* ══ SUPPORT PAGE ══════════════════════════════════════════════════ */
+.support-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+  animation: fadeIn 0.4s ease;
+}
+
+.support-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.support-hero-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  display: block;
+  filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.4));
+}
+.support-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00e5ff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+.support-hero p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* Contact Cards */
+.support-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.support-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+.support-card:hover {
+  border-color: var(--accent-cyan);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 229, 255, 0.12);
+}
+.support-card.primary {
+  border-color: rgba(0, 229, 255, 0.3);
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.06), rgba(124, 58, 237, 0.06));
+}
+.support-card-icon {
+  font-size: 1.8rem;
+  min-width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.support-card-body h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.support-card-body p {
+  font-size: 0.83rem;
+  color: var(--accent-cyan);
+  margin-bottom: 6px;
+  font-family: 'JetBrains Mono', monospace;
+}
+.support-card-badge {
+  font-size: 0.72rem;
+  background: rgba(255,255,255,0.07);
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: var(--text-secondary);
+}
+.support-card-badge.green {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+.support-card-arrow {
+  margin-left: auto;
+  font-size: 1.2rem;
+  color: var(--accent-cyan);
+  opacity: 0.6;
+}
+
+/* Two-column grid */
+.support-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+@media (max-width: 768px) {
+  .support-grid { grid-template-columns: 1fr; }
+}
+
+/* FAQ */
+.support-faq h2,
+.support-form-wrap h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+.faq-list { display: flex; flex-direction: column; gap: 8px; }
+.faq-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+.faq-item.open {
+  border-color: var(--accent-cyan);
+}
+.faq-question {
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88rem;
+  font-weight: 500;
+  gap: 12px;
+}
+.faq-chevron {
+  font-size: 0.7rem;
+  color: var(--accent-cyan);
+  flex-shrink: 0;
+}
+.faq-answer {
+  padding: 0 16px 14px;
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+  animation: fadeIn 0.2s ease;
+}
+
+/* Form */
+.support-form-wrap {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  padding: 24px;
+}
+.support-form { display: flex; flex-direction: column; gap: 14px; }
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 500px) { .form-row { grid-template-columns: 1fr; } }
+.support-form .form-group { display: flex; flex-direction: column; gap: 6px; }
+.support-form label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.support-form input,
+.support-form select,
+.support-form textarea {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-family: 'Outfit', sans-serif;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.support-form input:focus,
+.support-form select:focus,
+.support-form textarea:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 3px rgba(0, 229, 255, 0.08);
+}
+.support-form select option { background: #0f1020; }
+.support-form-note {
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+/* Success State */
+.support-success {
+  text-align: center;
+  padding: 32px 16px;
+}
+.support-success-icon { font-size: 3rem; margin-bottom: 16px; }
+.support-success h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
+.support-success p { color: var(--text-secondary); font-size: 0.9rem; }
+.support-success .btn { margin-top: 20px; }
+
+/* Bottom Banner */
+.support-banner {
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(124, 58, 237, 0.08));
+  border: 1px solid rgba(0, 229, 255, 0.2);
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 0.87rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.support-banner span:first-child { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+.support-banner a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-weight: 600;
+}
+.support-banner a:hover { text-decoration: underline; }
 
 /* ══ DARK THEME (default) ══════════════════════════════════════════ */
 :root {
