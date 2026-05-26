@@ -95,16 +95,40 @@ export async function signIn({ email, password }) {
     try {
       const cred = await _auth.signInWithEmailAndPassword(email, password);
       const uid  = cred.user.uid;
+      
       // Fetch from Firestore
-      const snap = await _db.collection('users').doc(uid).get();
-      if (snap.exists) {
-        const data = snap.data();
-        saveLocalUser(data);
-        return data;
+      try {
+        const snap = await _db.collection('users').doc(uid).get();
+        if (snap.exists) {
+          const data = snap.data();
+          saveLocalUser(data);
+          return data;
+        }
+      } catch (firestoreErr) {
+        console.warn('[dsa.flow] Firestore read failed during login:', firestoreErr.message);
       }
+      
+      // If Firestore read failed or snap doesn't exist, but Auth succeeded:
+      const stored = getLocalUser();
+      if (stored && stored.email === email) {
+        return stored;
+      }
+      
+      // Fallback data if no local storage and Firestore failed
+      const fallbackData = {
+        uid,
+        name: cred.user.displayName || email.split('@')[0],
+        email,
+        trialExpiry: Date.now() + TRIAL_DURATION_MS,
+        isPaid: false
+      };
+      saveLocalUser(fallbackData);
+      return fallbackData;
+
     } catch (e) {
       if (e.code === 'auth/user-not-found')     throw new Error('No account found with this email.');
       if (e.code === 'auth/wrong-password')      throw new Error('Incorrect password.');
+      if (e.code === 'auth/invalid-credential')  throw new Error('Invalid email or password.');
       if (e.code === 'auth/invalid-email')       throw new Error('Invalid email format.');
       if (e.code === 'auth/too-many-requests')   throw new Error('Too many failed attempts. Please try again later.');
       
