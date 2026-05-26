@@ -174,16 +174,44 @@ export default function LessonViewer({ lesson }) {
   // Dynamically parse Time and Space complexity from the HTML curriculum details
   const complexities = useMemo(() => {
     if (!lesson || !lesson.details) return { time: null, space: null };
-    const timeRegex = /<td>Time\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
-    const spaceRegex = /<td>Space\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
     
-    const timeMatch = lesson.details.match(timeRegex);
-    const spaceMatch = lesson.details.match(spaceRegex);
+    let time = null;
+    let space = null;
+
+    try {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(lesson.details, 'text/html');
+      
+      const rows = doc.querySelectorAll('tr');
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length >= 2) {
+          const label = cells[0].textContent.trim().toLowerCase();
+          const value = cells[1].textContent.trim();
+          if (label.includes('time complexity')) {
+            time = value;
+          } else if (label.includes('space complexity')) {
+            space = value;
+          }
+        }
+      });
+    } catch (e) {
+      console.warn("DOMParser failed, falling back to regex: ", e);
+    }
     
-    return {
-      time: timeMatch ? timeMatch[1].replace(/<[^>]*>/g, '').trim() : null,
-      space: spaceMatch ? spaceMatch[1].replace(/<[^>]*>/g, '').trim() : null
-    };
+    // Fallback regex in case DOMParser isn't available or fails
+    if (!time) {
+      const timeRegex = /<td>Time\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
+      const timeMatch = lesson.details.match(timeRegex);
+      time = timeMatch ? timeMatch[1].replace(/<[^>]*>/g, '').trim() : null;
+    }
+    if (!space) {
+      const spaceRegex = /<td>Space\s+Complexity<\/td>\s*<td>\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/td>/i;
+      const spaceMatch = lesson.details.match(spaceRegex);
+      space = spaceMatch ? spaceMatch[1].replace(/<[^>]*>/g, '').trim() : null;
+    }
+    
+    return { time, space };
   }, [lesson]);
 
   const [activeCodeLang, setActiveCodeLang] = useState('javascript');

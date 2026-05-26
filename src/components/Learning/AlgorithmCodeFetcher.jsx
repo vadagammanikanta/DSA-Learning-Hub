@@ -42,9 +42,10 @@ export default function AlgorithmCodeFetcher({ language, githubPath }) {
     }
 
     const { repo, defaultBranch } = config;
+    const cleanPath = githubPath.replace(/^\/+/, '');
     
     // Construct Raw Github URL
-    const url = `https://raw.githubusercontent.com/TheAlgorithms/${repo}/${defaultBranch}/${githubPath}`;
+    const url = `https://raw.githubusercontent.com/TheAlgorithms/${repo}/${defaultBranch}/${cleanPath}`;
     
     // Check inside cache first (both in-memory map and sessionStorage)
     const cachedCode = fetchCache.get(url) || sessionStorage.getItem(url);
@@ -73,7 +74,7 @@ export default function AlgorithmCodeFetcher({ language, githubPath }) {
         
         // If 404, fallback to "main" branch instead of "master"
         if (response.status === 404 && defaultBranch === 'master') {
-          const fallbackUrl = `https://raw.githubusercontent.com/TheAlgorithms/${repo}/main/${githubPath}`;
+          const fallbackUrl = `https://raw.githubusercontent.com/TheAlgorithms/${repo}/main/${cleanPath}`;
           response = await fetch(fallbackUrl);
         }
 
