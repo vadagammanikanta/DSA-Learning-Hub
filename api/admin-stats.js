@@ -1,6 +1,18 @@
-// Admin Stats Endpoint — returns upgrade count and member details
-// Protected by ADMIN_SECRET env variable set in Vercel dashboard
-// Usage: GET /api/admin-stats?key=YOUR_ADMIN_SECRET
+// Admin Stats — uses Firebase Admin SDK to bypass Firestore security rules
+// Protected by ADMIN_SECRET env variable
+// Requires FIREBASE_SERVICE_ACCOUNT env var (JSON string of service account key)
+
+import { initializeApp, getApps, cert } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
+
+function getAdminDb() {
+  // Avoid re-initializing on hot reload
+  if (getApps().length === 0) {
+    const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT || '{}');
+    initializeApp({ credential: cert(serviceAccount) });
+  }
+  return getFirestore();
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -8,82 +20,76 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') return res.status(200).end();
-  if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
+  if (req.method !== 'GET')    return res.status(405).json({ error: 'Method not allowed' });
 
-  // ── Security: validate admin secret key ──────────────────────────
+  // ── Security ──────────────────────────────────────────────────────────
   const adminSecret = process.env.ADMIN_SECRET;
   const providedKey = req.query.key;
-
   if (!adminSecret || providedKey !== adminSecret) {
     return res.status(401).json({ error: 'Unauthorized. Provide ?key=YOUR_ADMIN_SECRET' });
   }
 
-  // ── Firebase Admin SDK via REST API (no SDK install needed) ──────
-  const FIREBASE_PROJECT_ID = process.env.FIREBASE_PROJECT_ID || 'dsa-flow-546f4';
-  const FIREBASE_API_KEY    = process.env.FIREBASE_API_KEY    || 'AIzaSyAXGDzwz77q2l2Wm4HwE9rQwJQ2jXXLMEY';
+  // ── Firebase Service Account check ────────────────────────────────────
+  if (!process.env.FIREBASE_SERVICE_ACCOUNT) {
+    return res.status(500).json({
+      error: 'FIREBASE_SERVICE_ACCOUNT env variable not set.',
+      setup: 'Go to Firebase Console → Project Settings → Service Accounts → Generate New Private Key → Paste the JSON as FIREBASE_SERVICE_ACCOUNT in Vercel Environment Variables.'
+    });
+  }
 
   try {
-    // Query Firestore REST API — get all documents in 'users' collection
-    const firestoreUrl = `https://firestore.googleapis.com/v1/projects/${FIREBASE_PROJECT_ID}/databases/(default)/documents/users?key=${FIREBASE_API_KEY}&pageSize=500`;
+    const db = getAdminDb();
+    const snapshot = await db.collection('users').get();
 
-    const firestoreRes = await fetch(firestoreUrl);
-
-    if (!firestoreRes.ok) {
-      throw new Error(`Firestore returned ${firestoreRes.status}: ${await firestoreRes.text()}`);
-    }
-
-    const firestoreData = await firestoreRes.json();
-    const documents = firestoreData.documents || [];
-
-    // Parse Firestore field format into plain objects
-    const users = documents.map(doc => {
-      const f = doc.fields || {};
+    const users = snapshot.docs.map(doc => {
+      const d = doc.data();
       return {
-        uid:         f.uid?.stringValue         || '',
-        name:        f.name?.stringValue         || 'Unknown',
-        email:       f.email?.stringValue        || '',
-        whatsapp:    f.whatsapp?.stringValue     || '',
-        isPaid:      f.isPaid?.booleanValue      || false,
-        paymentId:   f.paymentId?.stringValue    || null,
-        paymentDate: f.paymentDate?.integerValue || null,
-        signupDate:  f.signupDate?.integerValue  || null,
-        trialExpiry: f.trialExpiry?.integerValue || null,
+        uid:         d.uid         || doc.id,
+        name:        d.name        || 'Unknown',
+        email:       d.email       || '',
+        whatsapp:    d.whatsapp    || '',
+        isPaid:      d.isPaid      || false,
+        paymentId:   d.paymentId   || null,
+        paymentDate: d.paymentDate || null,
+        signupDate:  d.signupDate  || null,
+        trialExpiry: d.trialExpiry || null,
       };
     });
 
     const upgradedUsers = users.filter(u => u.isPaid);
     const freeUsers     = users.filter(u => !u.isPaid);
-    const trialActive   = freeUsers.filter(u => u.trialExpiry && parseInt(u.trialExpiry) > Date.now());
-    const trialExpired  = freeUsers.filter(u => !u.trialExpiry || parseInt(u.trialExpiry) <= Date.now());
+    const now           = Date.now();
+    const trialActive   = freeUsers.filter(u => u.trialExpiry && u.trialExpiry > now);
+    const trialExpired  = freeUsers.filter(u => !u.trialExpiry || u.trialExpiry <= now);
 
     return res.status(200).json({
       summary: {
-        totalUsers:        users.length,
-        upgradedMembers:   upgradedUsers.length,
-        freeTrialActive:   trialActive.length,
-        freeTrialExpired:  trialExpired.length,
-        revenue:           `₹${upgradedUsers.length * 99}`,
-        generatedAt:       new Date().toISOString()
+        totalUsers:       users.length,
+        upgradedMembers:  upgradedUsers.length,
+        freeTrialActive:  trialActive.length,
+        freeTrialExpired: trialExpired.length,
+        revenue:          `₹${upgradedUsers.length * 99}`,
+        generatedAt:      new Date().toISOString()
       },
       upgradedMembers: upgradedUsers.map(u => ({
         name:        u.name,
         email:       u.email,
         whatsapp:    u.whatsapp,
         paymentId:   u.paymentId,
-        paymentDate: u.paymentDate ? new Date(parseInt(u.paymentDate)).toLocaleString('en-IN') : null,
-        signupDate:  u.signupDate  ? new Date(parseInt(u.signupDate)).toLocaleString('en-IN')  : null,
+        paymentDate: u.paymentDate ? new Date(u.paymentDate).toLocaleString('en-IN') : null,
+        signupDate:  u.signupDate  ? new Date(u.signupDate).toLocaleString('en-IN')  : null,
       })),
       freeUsers: freeUsers.map(u => ({
         name:       u.name,
         email:      u.email,
         whatsapp:   u.whatsapp,
-        status:     parseInt(u.trialExpiry) > Date.now() ? '🟡 Trial Active' : '🔴 Trial Expired',
-        signupDate: u.signupDate ? new Date(parseInt(u.signupDate)).toLocaleString('en-IN') : null,
+        status:     u.trialExpiry && u.trialExpiry > now ? '🟡 Trial Active' : '🔴 Trial Expired',
+        signupDate: u.signupDate ? new Date(u.signupDate).toLocaleString('en-IN') : null,
       }))
     });
 
   } catch (err) {
-    console.error('[admin-stats] Error:', err);
-    return res.status(500).json({ error: `Failed to fetch stats: ${err.message}` });
+    console.error('[admin-stats] Firestore error:', err);
+    return res.status(500).json({ error: `Firestore error: ${err.message}` });
   }
 }
