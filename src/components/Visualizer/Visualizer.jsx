@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import { initSorting, setSpeed as setSortingSpeed } from '../../../modules/visualizers/sorting';
-import { initStructures, setSpeed as setStructuresSpeed } from '../../../modules/visualizers/structures';
-import { initBST, setSpeed as setBSTSpeed } from '../../../modules/visualizers/bst';
-import { initGraph, setSpeed as setGraphSpeed } from '../../../modules/visualizers/graph';
+import { initSorting, setDelay as setSortingSpeed } from '../../../modules/visualizers/sorting';
+import { initDS as initStructures } from '../../../modules/visualizers/structures';
+import { initBST, setBSTDelay as setBSTSpeed } from '../../../modules/visualizers/bst';
+import { initGraph, setGraphDelay as setGraphSpeed } from '../../../modules/visualizers/graph';
 
 export default function Visualizer() {
   const initialized = useRef(false);
@@ -60,7 +60,7 @@ export default function Visualizer() {
         const val = parseInt(e.target.value);
         document.getElementById('speed-label').textContent = val + 'ms';
         setSortingSpeed(val);
-        setStructuresSpeed(val);
+        // structures.js does not export a delay setter
         setBSTSpeed(val);
         setGraphSpeed(val);
       });

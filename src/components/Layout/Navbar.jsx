@@ -69,7 +69,7 @@ export default function Navbar() {
             <span style={{ color: 'var(--accent-cyan)', fontWeight: 'bold' }}>{appState.completedLessons.length}</span>
           </div>
           <div style={{ height: '4px', background: 'var(--border-glass)', borderRadius: '2px', overflow: 'hidden' }}>
-            <div style={{ height: '100%', width: \`\${Math.min(100, (appState.completedLessons.length / 100) * 100)}%\`, background: 'var(--accent-cyan)' }}></div>
+            <div style={{ height: '100%', width: `${Math.min(100, (appState.completedLessons.length / 100) * 100)}%`, background: 'var(--accent-cyan)' }}></div>
           </div>
           <button onClick={resetProgress} style={{ background: 'none', border: 'none', color: 'var(--text-muted)', fontSize: '0.7rem', width: '100%', marginTop: '8px', cursor: 'pointer', textDecoration: 'underline' }}>
             Reset Progress
