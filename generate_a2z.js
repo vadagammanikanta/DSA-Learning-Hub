@@ -449,7 +449,7 @@ function generatePatternsDetails() {
   </ul>
 </section>`;
 
-  return html.replace(/\n/g, '\\n').replace(/"/g, '\\"');
+  return html;
 }
 
 try {
@@ -506,7 +506,72 @@ try {
               ? `<a href="${leetcodeLink}" target="_blank" class="btn btn-secondary" style="background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">Solve on LeetCode 🚀</a>`
               : `<a href="https://leetcode.com/problemset/all/?search=${encodeURIComponent(name)}" target="_blank" class="btn btn-secondary" style="background:#2c2c2c; border:1px solid var(--border-glass); padding:8px 16px; border-radius:6px; color:#fff; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">Search on LeetCode 🚀</a>`;
 
-            let detailsHtml = `<h2>${name}</h2>\\n\\n<section>\\n  <h3>Concept Overview</h3>\\n  <p><strong>${name}</strong> is a vital topic in <strong>${step.category_name.replace(/striver/ig, 'Elite')}</strong>. Understanding this concept forms the foundation for solving complex algorithmic problems during technical interviews. It is categorized under the <strong>${difficulty}</strong> level of difficulty.</p>\\n  <p>Solving this problem requires analyzing the structure of input data, identifying patterns, and applying the correct operations (such as linear scans, maps/hashing, or multi-pointer sweeps) to arrive at the solution efficiently.</p>\\n</section>\\n\\n\\n<section style="margin-top: 16px;">\\n  <h3>Algorithm &amp; Pseudocode</h3>\\n  <p>Here is the standard step-by-step logic to solve <strong>${name}</strong>:</p>\\n  <pre><code>// Pseudocode for ${name}\\nfunction solve${name.replace(/[^a-zA-Z0-9]/g, '')}(InputData):\\n    1. Validate input parameters (check for null, empty structures, or basic size constraints).\\n    2. Initialize tracking variables (pointers, counters, accumulator structures, or DP tables).\\n    3. Iterate through input elements:\\n       a. Compare current state with conditions.\\n       b. Update states or record indices matching criteria.\\n    4. Return the computed result or optimal state.</code></pre>\\n</section>\\n\\n\\n<section style="margin-top: 16px;">\\n  <h3>Example &amp; Complexity Analysis</h3>\\n  <p><strong>Example Scenario:</strong></p>\\n  <ul>\\n    <li><strong>Sample Input:</strong> Standard input constraints for ${name}.</li>\\n    <li><strong>Expected Output:</strong> Standard optimal output constraints.</li>\\n  </ul>\\n  <table class="complexity-table">\\n    <thead>\\n      <tr>\\n        <th>Metric</th>\\n        <th>Complexity</th>\\n        <th>Scenario</th>\\n      </tr>\\n    </thead>\\n    <tbody>\\n      <tr>\\n        <td>Time Complexity</td>\\n        <td><span class="complexity-badge complexity-green">O(N)</span></td>\\n        <td>Optimal traversal and lookup.</td>\\n      </tr>\\n      <tr>\\n        <td>Space Complexity</td>\\n        <td><span class="complexity-badge complexity-yellow">O(1)</span></td>\\n        <td>Memory allocated for variables/storage.</td>\\n      </tr>\\n    </tbody>\\n  </table>\\n</section>\\n\\n\\n<section style="margin-top: 16px;">\\n  <h3>Interview Placement Notes (GFG &amp; Striver Guidelines)</h3>\\n  <ul>\\n    <li><strong>Key Insight:</strong> Always handle boundary constraints (e.g., negative numbers, empty arrays, single elements).</li>\\n    <li><strong>Take U Forward Tips:</strong> Draw out array/graph nodes manually and dry-run with pointers. Avoid writing nested loops when linear lookup (Hashing) can optimize performance.</li>\\n    <li><strong>GeeksforGeeks Advice:</strong> Complete similar exercises to reinforce memory and pattern matching.</li>\\n  </ul>\\n</section>\\n\\n<div style="display:flex; gap:12px; margin-top:16px;">\\n  ${solveButton}\\n</div>`;
+            let detailsHtml = `<h2>${name}</h2>
+
+<section>
+  <h3>Concept Overview</h3>
+  <p><strong>${name}</strong> is a vital topic in <strong>${step.category_name.replace(/striver/ig, 'Elite')}</strong>. Understanding this concept forms the foundation for solving complex algorithmic problems during technical interviews. It is categorized under the <strong>${difficulty}</strong> level of difficulty.</p>
+  <p>Solving this problem requires analyzing the structure of input data, identifying patterns, and applying the correct operations (such as linear scans, maps/hashing, or multi-pointer sweeps) to arrive at the solution efficiently.</p>
+</section>
+
+
+<section style="margin-top: 16px;">
+  <h3>Algorithm &amp; Pseudocode</h3>
+  <p>Here is the standard step-by-step logic to solve <strong>${name}</strong>:</p>
+  <pre><code>// Pseudocode for ${name}
+function solve${name.replace(/[^a-zA-Z0-9]/g, '')}(InputData):
+    1. Validate input parameters (check for null, empty structures, or basic size constraints).
+    2. Initialize tracking variables (pointers, counters, accumulator structures, or DP tables).
+    3. Iterate through input elements:
+       a. Compare current state with conditions.
+       b. Update states or record indices matching criteria.
+    4. Return the computed result or optimal state.</code></pre>
+</section>
+
+
+<section style="margin-top: 16px;">
+  <h3>Example &amp; Complexity Analysis</h3>
+  <p><strong>Example Scenario:</strong></p>
+  <ul>
+    <li><strong>Sample Input:</strong> Standard input constraints for ${name}.</li>
+    <li><strong>Expected Output:</strong> Standard optimal output constraints.</li>
+  </ul>
+  <table class="complexity-table">
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Complexity</th>
+        <th>Scenario</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Time Complexity</td>
+        <td><span class="complexity-badge complexity-green">O(N)</span></td>
+        <td>Optimal traversal and lookup.</td>
+      </tr>
+      <tr>
+        <td>Space Complexity</td>
+        <td><span class="complexity-badge complexity-yellow">O(1)</span></td>
+        <td>Memory allocated for variables/storage.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<section style="margin-top: 16px;">
+  <h3>Interview Placement Notes (GFG &amp; Striver Guidelines)</h3>
+  <ul>
+    <li><strong>Key Insight:</strong> Always handle boundary constraints (e.g., negative numbers, empty arrays, single elements).</li>
+    <li><strong>Take U Forward Tips:</strong> Draw out array/graph nodes manually and dry-run with pointers. Avoid writing nested loops when linear lookup (Hashing) can optimize performance.</li>
+    <li><strong>GeeksforGeeks Advice:</strong> Complete similar exercises to reinforce memory and pattern matching.</li>
+  </ul>
+</section>
+
+<div style="display:flex; gap:12px; margin-top:16px;">
+  ${solveButton}
+</div>`;
 
             curriculum.push({
               id: id,
