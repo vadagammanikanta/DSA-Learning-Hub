@@ -41,6 +41,23 @@ export function AuthProvider({ children }) {
     const u = await signUp(userData);
     setUser(u);
     setTrial(getTrialInfo());
+
+    // Trigger onboarding/welcome email asynchronously
+    try {
+      fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: u.email,
+          name: u.name,
+          whatsapp: u.whatsapp || 'N/A',
+          type: 'welcome'
+        })
+      }).catch(err => console.warn('Welcome Email API trigger error:', err));
+    } catch (e) {
+      console.warn('Welcome Email trigger request failed:', e);
+    }
+
     return u;
   };
 

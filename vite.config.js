@@ -138,11 +138,17 @@ function localCompilerPlugin() {
           req.on('end', async () => {
             try {
               const payload = JSON.parse(body);
-              const { email, name, whatsapp, paymentId } = payload;
+              const { email, name, whatsapp, paymentId, type } = payload;
+              const isWelcome = type === 'welcome';
               console.log("=========================================");
               console.log("📨 [LOCAL MAIL TRIGGERED]");
-              console.log(`To Upgraded Member (${email}): "Welcome to dsa.flow Premium!"`);
-              console.log(`To Admin (dsa.flow@outlook.com): "New Premium Member: ${name} - WhatsApp: ${whatsapp} - Payment ID: ${paymentId}"`);
+              if (isWelcome) {
+                console.log(`To New Member (${email}): "Welcome to dsa.flow! Onboarding started."`);
+                console.log(`To Admin (dsa.flow@outlook.com): "New User Registered: ${name} - WhatsApp: ${whatsapp}"`);
+              } else {
+                console.log(`To Upgraded Member (${email}): "Welcome to dsa.flow Premium!"`);
+                console.log(`To Admin (dsa.flow@outlook.com): "New Premium Member: ${name} - WhatsApp: ${whatsapp} - Payment ID: ${paymentId}"`);
+              }
               console.log("=========================================");
               
               res.writeHead(200, { 'Content-Type': 'application/json' });
