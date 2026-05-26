@@ -298,11 +298,11 @@ async function runCode() {
     
     if (runResult.status !== 'Success') {
       statusEl.className = 'arena-status-badge error';
-      statusEl.textContent = \`❌ \${runResult.status}\`;
+      statusEl.textContent = `❌ ${runResult.status}`;
       outputEl.textContent = runResult.error || runResult.stderr || runResult.output;
     } else {
       statusEl.className = 'arena-status-badge success';
-      statusEl.textContent = \`✅ Execution Successful\`;
+      statusEl.textContent = `✅ Execution Successful`;
       outputEl.textContent = runResult.stdout || 'No output';
       if (runResult.stderr) {
         outputEl.textContent += '\n\n[stderr]\n' + runResult.stderr;
@@ -311,7 +311,7 @@ async function runCode() {
   } catch (err) {
     statusEl.className = 'arena-status-badge error';
     statusEl.textContent = '❌ System Error';
-    outputEl.textContent = \`Failed to execute: \${err.message}\`;
+    outputEl.textContent = `Failed to execute: ${err.message}`;
   } finally {
     runBtn.disabled = false;
   }
@@ -357,8 +357,8 @@ export function initIDE() {
         const offsetLeft = moveEvent.clientX - workspaceRect.left;
         const pct = (offsetLeft / workspaceRect.width) * 100;
         if (pct > 15 && pct < 50) {
-          leftPane.style.flex = \`0 0 \${pct}%\`;
-          leftPane.style.maxWidth = \`\${pct}%\`;
+          leftPane.style.flex = `0 0 ${pct}%`;
+          leftPane.style.maxWidth = `${pct}%`;
         }
       };
       const onMouseUp = () => {
@@ -380,7 +380,7 @@ export function initIDE() {
         const height = containerRect.height - offsetTop;
         const pct = (height / containerRect.height) * 100;
         if (pct > 15 && pct < 80) {
-          bottomPane.style.height = \`\${height}px\`;
+          bottomPane.style.height = `${height}px`;
         }
       };
       const onMouseUp = () => {
