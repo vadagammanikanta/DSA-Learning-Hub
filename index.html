@@ -245,6 +245,10 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6L2 12l6 6"/></svg>
         <span>Coding Arena</span>
       </div>
+      <div class="nav-item" data-tab="ide" id="nav-ide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        <span>Online IDE</span>
+      </div>
       <div class="nav-item" data-tab="learning" id="nav-learning">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         <span>Learn</span>
@@ -473,6 +477,80 @@
                 <div id="arena-saved-empty" style="text-align:center; padding: 20px; color:var(--text-muted); font-size:0.9rem;">
                   No saved programs yet. Click "Save" to store your code here.
                 </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ONLINE IDE -->
+    <section class="tab-pane" id="ide">
+      <div class="arena-workspace">
+        
+        <!-- Left Pane: File Explorer -->
+        <div class="arena-left-pane" style="display:flex; flex-direction:column;">
+          <div class="ide-explorer-header">
+            <h3 style="font-size: 0.9rem; margin: 0; color: var(--text-secondary);">Explorer</h3>
+            <div>
+              <button class="btn btn-icon btn-sm" id="btn-ide-new-file" title="New File" style="padding:4px; font-size:0.9rem;">📄</button>
+              <button class="btn btn-icon btn-sm" id="btn-ide-new-folder" title="New Folder" style="padding:4px; font-size:0.9rem;">📁</button>
+            </div>
+          </div>
+          <div class="ide-file-tree" id="ide-file-tree" style="flex-grow: 1; overflow-y: auto; padding: 12px 0;">
+            <!-- Tree items injected here -->
+          </div>
+        </div>
+        
+        <!-- Resize Handle 1 (Horizontal) -->
+        <div class="arena-resize-handle" id="ide-handle-1"></div>
+        
+        <!-- Right Container: Editor + Console -->
+        <div class="arena-right-container">
+          
+          <!-- Top Right Pane: Code Editor -->
+          <div class="arena-top-right-pane">
+            <div class="editor-header">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span id="ide-current-filename" style="font-weight:600; font-size:0.88rem; color:var(--text-main);">No file selected</span>
+              </div>
+              <div>
+                <button class="btn btn-secondary btn-sm" id="btn-ide-save" style="padding:4px 10px; font-size:0.8rem; display:none;">💾 Save</button>
+                <button class="btn btn-secondary btn-sm" id="btn-ide-delete" style="padding:4px 10px; font-size:0.8rem; color:var(--danger); border-color:var(--danger); display:none;">🗑️ Delete</button>
+              </div>
+            </div>
+            <div id="ide-editor-container" class="arena-editor-canvas">
+              <div style="text-align:center; padding-top:40px; color:var(--text-muted);" id="ide-empty-state">Select or create a file to start coding.</div>
+            </div>
+          </div>
+          
+          <!-- Resize Handle 2 (Vertical) -->
+          <div class="arena-resize-handle-v" id="ide-handle-2"></div>
+          
+          <!-- Bottom Right Pane: Console & Output -->
+          <div class="arena-bottom-right-pane">
+            <div class="console-tabs-header">
+              <div class="console-tabs">
+                <button class="console-tab active" data-tab="ide-custominput">⌨️ Custom Input</button>
+                <button class="console-tab" data-tab="ide-output">💻 Output</button>
+              </div>
+              <div class="console-actions">
+                <button class="btn btn-secondary" id="btn-ide-run" style="padding:6px 12px; font-size:0.82rem;" disabled>▶ Run Code</button>
+              </div>
+            </div>
+            
+            <div class="console-tab-body">
+              <!-- Custom Input -->
+              <div class="console-tab-content active" id="ide-tab-custominput">
+                <label style="display:block; margin-bottom:8px; font-size:0.85rem; color:var(--text-secondary);">Provide stdin input parameters:</label>
+                <textarea id="ide-custom-input-val" class="text-input console-textarea" placeholder="e.g. 5"></textarea>
+              </div>
+              
+              <!-- Output -->
+              <div class="console-tab-content" id="ide-tab-output" style="display:none;">
+                <div id="ide-output-status" class="arena-status-badge">Run code to see execution result...</div>
+                <div id="ide-output-val" class="console-output"></div>
               </div>
             </div>
           </div>

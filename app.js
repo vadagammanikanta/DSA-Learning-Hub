@@ -18,6 +18,7 @@ import {
   searchList, dsComplexity
 } from './modules/visualizers/structures.js';
 import { initArena } from './modules/arena/arena.js';
+import { initIDE, openInIDE } from './modules/ide/ide.js';
 
 /* ─── STATE ──────────────────────────────────────────────────────── */
 let appState = { completedLessons: [], quizHighScore: 0, selectedLanguage: 'javascript', activeDifficulty: 'all' };
@@ -375,6 +376,8 @@ function initNav() {
         else initDS(document.getElementById('viewport'), val);
       } else if (tab === 'arena') {
         initArena();
+      } else if (tab === 'ide') {
+        initIDE();
       }
     });
   });
@@ -598,6 +601,7 @@ function showLesson(lessonId) {
     <div>${lesson.details}${codeHtml}</div>
     <div class="lesson-actions">
       <a href="https://www.youtube.com/results?search_query=Bro+Code+${encodeURIComponent(lesson.title)}" target="_blank" rel="noopener" class="btn btn-youtube">▶️ Watch Bro Code Tutorial</a>
+      <button class="btn btn-primary" id="btn-solve-compiler">💻 Solve with Compiler</button>
       <button class="btn ${done ? 'btn-secondary' : 'btn-accent'}" id="btn-mark-done" ${done ? 'disabled' : ''}>
         ${done ? '✓ Completed' : '🎯 Mark as Completed'}
       </button>
@@ -621,6 +625,29 @@ function showLesson(lessonId) {
     });
   }
 
+
+  // Solve with Compiler
+  const solveBtn = document.getElementById('btn-solve-compiler');
+  if (solveBtn) {
+    solveBtn.addEventListener('click', () => {
+      let ext = '.js';
+      if (appState.selectedLanguage === 'cpp') ext = '.cpp';
+      else if (appState.selectedLanguage === 'java') ext = '.java';
+      else if (appState.selectedLanguage === 'python') ext = '.py';
+      else if (appState.selectedLanguage === 'c') ext = '.c';
+      else if (appState.selectedLanguage === 'csharp') ext = '.cs';
+      else if (appState.selectedLanguage === 'go') ext = '.go';
+      else if (appState.selectedLanguage === 'rust') ext = '.rs';
+      else if (appState.selectedLanguage === 'ruby') ext = '.rb';
+      else if (appState.selectedLanguage === 'php') ext = '.php';
+      else if (appState.selectedLanguage === 'swift') ext = '.swift';
+      else if (appState.selectedLanguage === 'kotlin') ext = '.kt';
+      
+      const filename = lesson.title.replace(/[^a-zA-Z0-9]/g, '_') + ext;
+      const initialCode = lesson.code ? (lesson.code[appState.selectedLanguage] || '') : '';
+      openInIDE(filename, initialCode);
+    });
+  }
 
   // Mark complete
   document.getElementById('btn-mark-done').addEventListener('click', () => {
