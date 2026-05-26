@@ -7,7 +7,6 @@ import { signUp, signIn, signOut, markAsPaid, getCurrentUser, getTrialInfo, sync
 import { openRazorpayCheckout } from './modules/payment/payment.js';
 import { quizQuestions } from './modules/learning/content.js';
 import { curriculum, roadmapPhases } from './modules/learning/content_a2z.js';
-import { sendChatMessage, clearChatHistory } from './modules/ai/chatbot.js';
 import { initQuiz } from './modules/learning/quiz.js';
 import {
   initSorting, generateRandomArray, resetGenerator,
@@ -311,8 +310,7 @@ async function bootApp(user, trial) {
   // Start quotes
   initQuotesTicker();
   
-  // Start AI Chatbot
-  initChatbot();
+
 
   window.addEventListener('resize', () => {
     if (document.getElementById('visualizer-select').value.startsWith('ds-')) renderDS();
@@ -356,105 +354,6 @@ function initQuotesTicker() {
   }, 3000);
 }
 
-/* ═══ AI CHATBOT ═════════════════════════════════════════════════════ */
-function initChatbot() {
-  const btn = document.getElementById('ai-chat-btn');
-  const win = document.getElementById('ai-chat-window');
-  const closeBtn = document.getElementById('ai-chat-close');
-  const input = document.getElementById('ai-chat-input');
-  const sendBtn = document.getElementById('ai-chat-send');
-  const msgs = document.getElementById('ai-chat-messages');
-
-  const attachBtn = document.getElementById('ai-chat-attach-btn');
-  const fileInput = document.getElementById('ai-chat-file');
-  const filePreview = document.getElementById('ai-chat-file-preview');
-  const fileName = document.getElementById('ai-chat-filename');
-  const removeFileBtn = document.getElementById('ai-chat-remove-file');
-
-  let selectedFile = null;
-
-  btn.addEventListener('click', () => {
-    win.style.display = win.style.display === 'none' ? 'flex' : 'none';
-    if (win.style.display === 'flex') input.focus();
-  });
-
-  closeBtn.addEventListener('click', () => { win.style.display = 'none'; });
-
-  attachBtn.addEventListener('click', () => fileInput.click());
-
-  fileInput.addEventListener('change', (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      selectedFile = {
-        mimeType: file.type,
-        base64: reader.result.split(',')[1] // Strip data url prefix
-      };
-      fileName.textContent = '📎 ' + file.name;
-      filePreview.style.display = 'flex';
-    };
-    reader.readAsDataURL(file);
-    fileInput.value = '';
-  });
-
-  removeFileBtn.addEventListener('click', () => {
-    selectedFile = null;
-    filePreview.style.display = 'none';
-  });
-
-  async function handleSend() {
-    const text = input.value.trim();
-    if (!text && !selectedFile) return;
-
-    // Add user message
-    input.value = '';
-    const userDiv = document.createElement('div');
-    userDiv.className = 'chat-msg msg-user';
-    userDiv.textContent = text + (selectedFile ? ` (Attached: ${fileName.textContent.replace('📎 ', '')})` : '');
-    msgs.appendChild(userDiv);
-    msgs.scrollTop = msgs.scrollHeight;
-
-    sendBtn.disabled = true;
-    input.disabled = true;
-    attachBtn.disabled = true;
-
-    // Fetch AI response
-    const aiResponse = await sendChatMessage(text, selectedFile);
-
-    // Clear file selection
-    selectedFile = null;
-    filePreview.style.display = 'none';
-
-    // Add AI message
-    const aiDiv = document.createElement('div');
-    aiDiv.className = 'chat-msg msg-ai';
-    
-    // Parse markdown (images, bold, code blocks)
-    let formattedText = aiResponse
-      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%; border-radius:8px; margin: 8px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">')
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/`(.*?)`/g, '<code>$1</code>');
-    
-    // Convert triple backticks to pre code
-    if (formattedText.includes('```')) {
-      const parts = formattedText.split('```');
-      formattedText = parts.map((p, i) => i % 2 !== 0 ? `<pre><code>${p.trim()}</code></pre>` : p).join('');
-    }
-
-    aiDiv.innerHTML = formattedText;
-    msgs.appendChild(aiDiv);
-    msgs.scrollTop = msgs.scrollHeight;
-
-    sendBtn.disabled = false;
-    input.disabled = false;
-    attachBtn.disabled = false;
-    input.focus();
-  }
-
-  sendBtn.addEventListener('click', handleSend);
-  input.addEventListener('keypress', e => { if (e.key === 'Enter') handleSend(); });
-}
 
 /* ═══ NAVIGATION ════════════════════════════════════════════════════ */
 const navItems  = document.querySelectorAll('.nav-item');
@@ -698,7 +597,6 @@ function showLesson(lessonId) {
     </div>
     <div>${lesson.details}${codeHtml}</div>
     <div class="lesson-actions">
-      <button class="btn btn-magic" id="btn-ask-ai">✨ Ask AI to Explain</button>
       <a href="https://www.youtube.com/results?search_query=Bro+Code+${encodeURIComponent(lesson.title)}" target="_blank" rel="noopener" class="btn btn-youtube">▶️ Watch Bro Code Tutorial</a>
       <button class="btn ${done ? 'btn-secondary' : 'btn-accent'}" id="btn-mark-done" ${done ? 'disabled' : ''}>
         ${done ? '✓ Completed' : '🎯 Mark as Completed'}
@@ -720,71 +618,6 @@ function showLesson(lessonId) {
         document.getElementById('lesson-code-block').textContent = lesson.code[lang] || '';
         saveAppState();
       });
-    });
-  }
-
-  // Ask AI to Explain Logic
-  const askAiBtn = document.getElementById('btn-ask-ai');
-  if (askAiBtn) {
-    askAiBtn.addEventListener('click', async () => {
-      const modal = document.getElementById('ai-explain-modal');
-      const loader = document.getElementById('ai-explain-loader');
-      const content = document.getElementById('ai-explain-content');
-      
-      modal.style.display = 'flex';
-      loader.style.display = 'flex';
-      content.style.display = 'none';
-      content.innerHTML = '';
-      
-      const payload = {
-        title: lesson.title,
-        description: lesson.summary || 'A DSA topic',
-        language: appState.selectedLanguage
-      };
-      
-      try {
-        const res = await fetch('/api/ai-explain', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        
-        const data = await res.json();
-        if (!res.ok) throw new Error((data.error && data.error.message) || (typeof data.error === 'string' ? data.error : JSON.stringify(data.error)) || 'Server error');
-        
-        const rawText = data.candidates && data.candidates[0] && data.candidates[0].content.parts[0].text ? data.candidates[0].content.parts[0].text : 'No explanation provided.';
-        
-        // Parse markdown
-        let formattedText = rawText
-          .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%; border-radius:8px; margin: 8px 0;">')
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/`(.*?)`/g, '<code>$1</code>')
-          .replace(/^### (.*?)$/gm, '<h3 style="margin-top: 16px; margin-bottom: 8px;">$1</h3>')
-          .replace(/^## (.*?)$/gm, '<h2 style="margin-top: 16px; margin-bottom: 8px;">$1</h2>')
-          .replace(/^# (.*?)$/gm, '<h1 style="margin-top: 16px; margin-bottom: 8px;">$1</h1>')
-          .replace(/^\* (.*?)$/gm, '<li style="margin-left: 20px;">$1</li>');
-        
-        if (formattedText.includes('```')) {
-          const parts = formattedText.split('```');
-          formattedText = parts.map((p, i) => {
-            if (i % 2 !== 0) {
-              const lines = p.split('\n');
-              const code = lines.slice(1).join('\n').trim();
-              return `<pre><code>${esc(code || p.trim())}</code></pre>`;
-            }
-            return p.replace(/\n/g, '<br>');
-          }).join('');
-        } else {
-          formattedText = formattedText.replace(/\n/g, '<br>');
-        }
-        
-        content.innerHTML = formattedText;
-      } catch (e) {
-        content.innerHTML = `<div style="color:var(--danger)">Failed to fetch explanation: ${e.message}</div>`;
-      } finally {
-        loader.style.display = 'none';
-        content.style.display = 'block';
-      }
     });
   }
 

@@ -4,7 +4,15 @@ const LANG_MAP = {
   'javascript': 'nodejs-20.17.0',
   'python': 'cpython-3.12.7',
   'cpp': 'gcc-13.2.0',
-  'java': 'openjdk-jdk-21+35'
+  'java': 'openjdk-jdk-21+35',
+  'c': 'gcc-head-c',
+  'csharp': 'mono-head',
+  'go': 'go-head',
+  'rust': 'rust-head',
+  'ruby': 'ruby-head',
+  'php': 'php-head',
+  'swift': 'swift-head',
+  'kotlin': 'kotlin-head'
 };
 
 module.exports = async function handler(req, res) {

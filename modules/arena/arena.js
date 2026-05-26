@@ -44,6 +44,7 @@ export function initArena() {
     setupResizeHandlers();
     setupConsoleTabHandlers();
     setupButtons();
+    renderSavedPrograms();
 
     select.addEventListener('change', e => loadProblem(e.target.value));
     
@@ -98,7 +99,17 @@ function updateLanguageAndStarterCode() {
   // Update Monaco language model syntax highlighting
   const model = editor.getModel();
   if (model) {
-    const monacoLang = selectedLanguage === 'cpp' ? 'cpp' : selectedLanguage === 'java' ? 'java' : selectedLanguage === 'python' ? 'python' : 'javascript';
+    let monacoLang = 'javascript';
+    if (selectedLanguage === 'cpp' || selectedLanguage === 'c') monacoLang = 'cpp';
+    else if (selectedLanguage === 'java') monacoLang = 'java';
+    else if (selectedLanguage === 'python') monacoLang = 'python';
+    else if (selectedLanguage === 'csharp') monacoLang = 'csharp';
+    else if (selectedLanguage === 'go') monacoLang = 'go';
+    else if (selectedLanguage === 'rust') monacoLang = 'rust';
+    else if (selectedLanguage === 'ruby') monacoLang = 'ruby';
+    else if (selectedLanguage === 'php') monacoLang = 'php';
+    else if (selectedLanguage === 'swift') monacoLang = 'swift';
+    else if (selectedLanguage === 'kotlin') monacoLang = 'kotlin';
     monaco.editor.setModelLanguage(model, monacoLang);
   }
 }
@@ -133,8 +144,18 @@ function createEditor() {
   if (!container) return;
   container.innerHTML = ''; // clear loading text
 
-  const initialCode = activeProblem ? activeProblem.starterCode[selectedLanguage] : '';
-  const monacoLang = selectedLanguage === 'cpp' ? 'cpp' : selectedLanguage === 'java' ? 'java' : selectedLanguage === 'python' ? 'python' : 'javascript';
+  const initialCode = activeProblem ? activeProblem.starterCode[selectedLanguage] || '' : '';
+  let monacoLang = 'javascript';
+  if (selectedLanguage === 'cpp' || selectedLanguage === 'c') monacoLang = 'cpp';
+  else if (selectedLanguage === 'java') monacoLang = 'java';
+  else if (selectedLanguage === 'python') monacoLang = 'python';
+  else if (selectedLanguage === 'csharp') monacoLang = 'csharp';
+  else if (selectedLanguage === 'go') monacoLang = 'go';
+  else if (selectedLanguage === 'rust') monacoLang = 'rust';
+  else if (selectedLanguage === 'ruby') monacoLang = 'ruby';
+  else if (selectedLanguage === 'php') monacoLang = 'php';
+  else if (selectedLanguage === 'swift') monacoLang = 'swift';
+  else if (selectedLanguage === 'kotlin') monacoLang = 'kotlin';
 
   editor = monaco.editor.create(container, {
     value: initialCode,
@@ -234,6 +255,7 @@ function setupConsoleTabHandlers() {
       document.getElementById('arena-tab-testcases').style.display = target === 'testcases' ? 'block' : 'none';
       document.getElementById('arena-tab-custominput').style.display = target === 'custominput' ? 'block' : 'none';
       document.getElementById('arena-tab-output').style.display = target === 'output' ? 'block' : 'none';
+      document.getElementById('arena-tab-savedprograms').style.display = target === 'savedprograms' ? 'block' : 'none';
     });
   });
 }
@@ -253,8 +275,73 @@ function setupButtons() {
 
   document.getElementById('btn-arena-run').addEventListener('click', () => runCode(false));
   document.getElementById('btn-arena-submit').addEventListener('click', () => runCode(true));
-  document.getElementById('btn-arena-ask-ai').addEventListener('click', askAiTutor);
+  document.getElementById('btn-arena-save').addEventListener('click', saveCurrentProgram);
 }
+
+let savedPrograms = JSON.parse(localStorage.getItem('dsaflow_saved_programs') || '[]');
+
+function saveCurrentProgram() {
+  if (!editor || !activeProblem) return;
+  const userCode = editor.getValue();
+  const program = {
+    id: Date.now().toString(),
+    problemId: activeProblem.id,
+    problemTitle: activeProblem.title,
+    language: selectedLanguage,
+    code: userCode,
+    timestamp: new Date().toLocaleString()
+  };
+  savedPrograms.push(program);
+  localStorage.setItem('dsaflow_saved_programs', JSON.stringify(savedPrograms));
+  renderSavedPrograms();
+  switchConsoleTab('savedprograms');
+}
+
+function loadSavedProgram(id) {
+  const p = savedPrograms.find(x => x.id === id);
+  if (p) {
+    if (activeProblem.id !== p.problemId) {
+      document.getElementById('arena-problem-select').value = p.problemId;
+      loadProblem(p.problemId);
+    }
+    document.getElementById('arena-lang-select').value = p.language;
+    selectedLanguage = p.language;
+    updateLanguageAndStarterCode();
+    editor.setValue(p.code);
+  }
+}
+
+function deleteSavedProgram(id) {
+  savedPrograms = savedPrograms.filter(x => x.id !== id);
+  localStorage.setItem('dsaflow_saved_programs', JSON.stringify(savedPrograms));
+  renderSavedPrograms();
+}
+
+function renderSavedPrograms() {
+  const list = document.getElementById('arena-saved-list');
+  const empty = document.getElementById('arena-saved-empty');
+  if (!list || !empty) return;
+  if (savedPrograms.length === 0) {
+    list.innerHTML = '';
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+    list.innerHTML = savedPrograms.map(p => `
+      <div class="testcase-item" style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <div style="font-weight:bold;">${p.problemTitle}</div>
+          <div style="font-size:0.8rem; color:var(--text-secondary);">${p.language} · ${p.timestamp}</div>
+        </div>
+        <div>
+          <button class="btn btn-secondary btn-sm" onclick="window.loadSavedProgram('${p.id}')">Load</button>
+          <button class="btn btn-secondary btn-sm" onclick="window.deleteSavedProgram('${p.id}')" style="color:var(--danger); border-color:var(--danger);">Delete</button>
+        </div>
+      </div>
+    `).reverse().join('');
+  }
+}
+window.loadSavedProgram = loadSavedProgram;
+window.deleteSavedProgram = deleteSavedProgram;
 
 async function runCode(isSubmit = false) {
   if (!editor || !activeProblem) return;
@@ -365,110 +452,4 @@ async function runCode(isSubmit = false) {
   }
 }
 
-// ── SOCRATIC AI TUTOR (Gemini Integration) ──────────────────────────
-async function askAiTutor() {
-  if (!editor || !activeProblem) return;
 
-  const btn = document.getElementById('btn-arena-ask-ai');
-  const chatWindow = document.getElementById('ai-chat-window');
-  const chatMessages = document.getElementById('ai-chat-messages');
-
-  btn.disabled = true;
-  btn.textContent = '🤖 Thinking...';
-
-  // Gather failed testcase details
-  const editorContainer = document.getElementById('arena-editor-container');
-  const failedInput = editorContainer.dataset.failedInput || activeProblem.testCases[0].input;
-  const failedExpected = editorContainer.dataset.failedExpected || activeProblem.testCases[0].expectedOutput;
-  const failedActual = editorContainer.dataset.failedActual || 'Not run / Compilation error';
-
-  const userCode = editor.getValue();
-
-  const prompt = `Here is my code and the test case I'm failing for the problem.
-
-Problem: ${activeProblem.title}
-Difficulty: ${activeProblem.difficulty}
-Description:
-${activeProblem.content}
-
-My Code (${selectedLanguage}):
-\`\`\`${selectedLanguage}
-${userCode}
-\`\`\`
-
-Failed Test Case Input:
-${failedInput}
-
-Expected Output:
-${failedExpected}
-
-Actual Output/Error:
-${failedActual}
-
-Please help me debug this conceptually.`;
-
-  const SOCRATIC_INSTRUCTION = `You are 'dsa.flow Socratic Guide', a world-class computer science interviewer and elite DSA tutor.
-Your mission is to help the student debug and understand their code's logical errors, complexity issues, or missed edge cases.
-Rules:
-1. You are STRICTLY FORBIDDEN from generating corrected code, solutions, or refactored functions.
-2. Under no circumstance should you write any code blocks that provide the direct fix.
-3. Instead, explain the conceptual bug or logic flaw using Socratic questioning.
-4. Ask 1-2 thought-provoking questions that guide the user to spot the mistake themselves.
-5. Focus on the boundary conditions, index out-of-bounds, or wrong conditions they used.`;
-
-  try {
-    const response = await fetch('/api/gemini', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        systemInstruction: { parts: [{ text: SOCRATIC_INSTRUCTION }] },
-        contents: [
-          {
-            role: 'user',
-            parts: [{ text: prompt }]
-          }
-        ],
-        generationConfig: {
-          temperature: 0.6,
-          maxOutputTokens: 600,
-        }
-      })
-    });
-
-    if (!response.ok) {
-      throw new Error(await response.text());
-    }
-
-    const data = await response.json();
-    const aiResponse = data.candidates[0].content.parts[0].text;
-
-    // Open Chatbot overlay if closed
-    if (chatWindow.style.display === 'none') {
-      chatWindow.style.display = 'flex';
-    }
-
-    // Append AI tutor response directly to Chatbot messages list
-    const tutorDiv = document.createElement('div');
-    tutorDiv.className = 'chat-msg msg-ai';
-    
-    // Parse markdown briefly
-    let formattedText = aiResponse
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/`(.*?)`/g, '<code>$1</code>');
-    if (formattedText.includes('```')) {
-      const parts = formattedText.split('```');
-      formattedText = parts.map((p, i) => i % 2 !== 0 ? `<pre><code>${p.trim()}</code></pre>` : p).join('');
-    }
-    tutorDiv.innerHTML = `<strong>🎓 Socratic Tutor on "${activeProblem.title}":</strong><br>${formattedText}`;
-    
-    chatMessages.appendChild(tutorDiv);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-
-  } catch (err) {
-    console.error("AI Tutor request failed:", err);
-    alert("AI Tutor request failed: " + err.message);
-  } finally {
-    btn.disabled = false;
-    btn.textContent = '🤖 Ask AI for Help';
-  }
-}
