@@ -161,14 +161,51 @@ export async function markAsPaid(paymentId) {
   user.paymentDate = Date.now();
   saveLocalUser(user);
 
-  if (tryInitFirebase()) {
+  // Try Firebase SDK first
+  if (tryInitFirebase() && _auth && _auth.currentUser) {
     try {
-      await _db.collection('users').doc(user.uid).update({
-        isPaid: true,
-        paymentId,
+      await _db.collection('users').doc(user.uid).set({
+        uid:         user.uid,
+        name:        user.name,
+        email:       user.email,
+        whatsapp:    user.whatsapp || '',
+        signupDate:  user.signupDate || Date.now(),
+        trialExpiry: user.trialExpiry || 0,
+        isPaid:      true,
+        paymentId:   paymentId,
         paymentDate: user.paymentDate
-      });
-    } catch (e) { console.warn('Firestore update failed:', e.message); }
+      }, { merge: true });
+      console.info('[dsa.flow] Payment saved to Firestore via SDK ✓');
+      return;
+    } catch (e) { console.warn('[dsa.flow] Firestore SDK update failed:', e.message); }
+  }
+
+  // Fallback: Firestore REST API (works even without active Auth session)
+  try {
+    const projectId = FIREBASE_CONFIG.projectId;
+    const apiKey    = FIREBASE_CONFIG.apiKey;
+    const uid       = user.uid.startsWith('local_') ? 'anon_' + user.uid : user.uid;
+    const url = `https://firestore.googleapis.com/v1/projects/${projectId}/databases/(default)/documents/users/${uid}?key=${apiKey}`;
+    await fetch(url, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        fields: {
+          uid:         { stringValue: uid },
+          name:        { stringValue: user.name        || '' },
+          email:       { stringValue: user.email       || '' },
+          whatsapp:    { stringValue: user.whatsapp    || '' },
+          signupDate:  { integerValue: String(user.signupDate  || Date.now()) },
+          trialExpiry: { integerValue: String(user.trialExpiry || 0) },
+          isPaid:      { booleanValue: true },
+          paymentId:   { stringValue: paymentId },
+          paymentDate: { integerValue: String(user.paymentDate) }
+        }
+      })
+    });
+    console.info('[dsa.flow] Payment saved to Firestore via REST API ✓');
+  } catch (e) {
+    console.warn('[dsa.flow] Firestore REST API update also failed:', e.message);
   }
 }
 

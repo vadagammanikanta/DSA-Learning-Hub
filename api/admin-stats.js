@@ -44,6 +44,7 @@ export default async function handler(req, res) {
     const users = snapshot.docs.map(doc => {
       const d = doc.data();
       return {
+        docId:       doc.id,
         uid:         d.uid         || doc.id,
         name:        d.name        || 'Unknown',
         email:       d.email       || '',
