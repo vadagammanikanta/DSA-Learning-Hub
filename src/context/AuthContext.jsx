@@ -1,0 +1,58 @@
+import React, { createContext, useContext, useState, useEffect } from 'react';
+import { signUp, signIn, signOut, getCurrentUser, getTrialInfo } from '../../modules/auth/auth.js';
+
+const AuthContext = createContext();
+
+export function AuthProvider({ children }) {
+  const [user, setUser] = useState(null);
+  const [trial, setTrial] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // On mount, check if there's a logged-in user in localStorage/Firebase
+    const checkUser = async () => {
+      try {
+        const u = await getCurrentUser();
+        if (u) {
+          setUser(u);
+          setTrial(getTrialInfo());
+        }
+      } catch (err) {
+        console.warn('Auth check failed:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    checkUser();
+  }, []);
+
+  const login = async (credentials) => {
+    const u = await signIn(credentials);
+    setUser(u);
+    setTrial(getTrialInfo());
+    return u;
+  };
+
+  const register = async (userData) => {
+    const u = await signUp(userData);
+    setUser(u);
+    setTrial(getTrialInfo());
+    return u;
+  };
+
+  const logout = async () => {
+    await signOut();
+    setUser(null);
+    setTrial(null);
+  };
+
+  return (
+    <AuthContext.Provider value={{ user, trial, loading, login, register, logout }}>
+      {children}
+    </AuthContext.Provider>
+  );
+}
+
+export function useAuth() {
+  return useContext(AuthContext);
+}
