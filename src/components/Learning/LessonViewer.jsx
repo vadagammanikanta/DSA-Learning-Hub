@@ -295,17 +295,9 @@ export default function LessonViewer({ lesson }) {
     return { time, space };
   }, [lesson]);
 
-  const [activeCodeLang, setActiveCodeLang] = useState('javascript');
   const [activeInlineLang, setActiveInlineLang] = useState('javascript');
 
   useEffect(() => {
-    if (mapping) {
-      const availableLangs = Object.keys(mapping.paths);
-      const defaultLang = availableLangs.includes(appState.selectedLanguage)
-        ? appState.selectedLanguage
-        : (availableLangs[0] || 'javascript');
-      setActiveCodeLang(defaultLang);
-    }
     // Also sync inline code language
     if (lesson?.code) {
       const inlineLangs = Object.keys(lesson.code);
@@ -315,7 +307,7 @@ export default function LessonViewer({ lesson }) {
         setActiveInlineLang(inlineLangs[0]);
       }
     }
-  }, [lesson, mapping, appState.selectedLanguage]);
+  }, [lesson, appState.selectedLanguage]);
 
   const getLanguageExtension = (lang) => {
     switch(lang) {
