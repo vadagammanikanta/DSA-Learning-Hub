@@ -12,20 +12,9 @@ export default function DsaFlowAI() {
   };
 
   return (
-    <div className="ai-page-container" style={{ maxWidth: '1000px', margin: '0 auto', padding: '30px 20px 80px', animation: 'fadeIn 0.5s ease', position: 'relative' }}>
+    <div className="ai-page-container">
       {/* Glow Effect */}
-      <div className="ai-glow-orb" style={{
-        position: 'absolute',
-        top: '10%',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: '500px',
-        height: '250px',
-        background: 'radial-gradient(ellipse, rgba(124, 77, 255, 0.15) 0%, rgba(0, 229, 255, 0.08) 50%, transparent 100%)',
-        zIndex: -1,
-        pointerEvents: 'none',
-        filter: 'blur(40px)'
-      }} />
+      <div className="ai-glow-orb" />
 
       {/* Hero Header */}
       <div style={{ textAlign: 'center', marginBottom: '50px' }}>
@@ -85,14 +74,8 @@ export default function DsaFlowAI() {
         </p>
 
         {/* Feature Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px' }}>
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid var(--border-glass)',
-            borderRadius: '14px',
-            padding: '24px',
-            transition: 'var(--transition)'
-          }} className="ai-feature-card">
+        <div className="ai-feature-grid">
+          <div className="ai-feature-card">
             <div style={{ fontSize: '1.8rem', marginBottom: '12px' }}>🧠</div>
             <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '8px', color: 'var(--text-primary)' }}>Solve Any DSA Question</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
@@ -100,13 +83,7 @@ export default function DsaFlowAI() {
             </p>
           </div>
 
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid var(--border-glass)',
-            borderRadius: '14px',
-            padding: '24px',
-            transition: 'var(--transition)'
-          }} className="ai-feature-card">
+          <div className="ai-feature-card">
             <div style={{ fontSize: '1.8rem', marginBottom: '12px' }}>⚡</div>
             <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '8px', color: 'var(--text-primary)' }}>AI-Powered Code Explainer</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
@@ -114,13 +91,7 @@ export default function DsaFlowAI() {
             </p>
           </div>
 
-          <div style={{
-            background: 'rgba(255, 255, 255, 0.02)',
-            border: '1px solid var(--border-glass)',
-            borderRadius: '14px',
-            padding: '24px',
-            transition: 'var(--transition)'
-          }} className="ai-feature-card">
+          <div className="ai-feature-card">
             <div style={{ fontSize: '1.8rem', marginBottom: '12px' }}>🐛</div>
             <h3 style={{ fontSize: '1.05rem', fontWeight: '700', marginBottom: '8px', color: 'var(--text-primary)' }}>Interactive Debugging Tutor</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
@@ -134,6 +105,9 @@ export default function DsaFlowAI() {
           marginTop: '40px',
           paddingTop: '30px',
           borderTop: '1px solid var(--border-glass)',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
           textAlign: 'center'
         }}>
           {subscribed ? (
@@ -143,11 +117,11 @@ export default function DsaFlowAI() {
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>We'll notify you as soon as the dsa.flow AI features are ready for testing.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubscribe} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
+            <form onSubmit={handleSubscribe} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', width: '100%' }}>
               <label style={{ fontSize: '0.88rem', fontWeight: '600', color: 'var(--text-secondary)' }}>
                 Want early access to our AI release? Join the waitlist:
               </label>
-              <div style={{ display: 'flex', width: '100%', maxWidth: '420px', gap: '8px' }}>
+              <div className="ai-waitlist-form">
                 <input
                   type="email"
                   placeholder="your.email@example.com"
