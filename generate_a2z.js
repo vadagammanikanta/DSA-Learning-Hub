@@ -476,6 +476,18 @@ try {
     });
   }
 
+  const unescapeCode = (codeObj) => {
+    if (!codeObj) return codeObj;
+    const res = {};
+    for (const [lang, codeStr] of Object.entries(codeObj)) {
+      res[lang] = codeStr
+        .replace(/\\n/g, '\n')
+        .replace(/\\"/g, '"')
+        .replace(/\\\\/g, '\\');
+    }
+    return res;
+  };
+
   const raw = fs.readFileSync('a2z_clean.json', 'utf8');
   let data = JSON.parse(raw);
   
@@ -513,7 +525,7 @@ try {
               summary: "Master nested loops and logic building by solving 22 essential pattern problems in one shot.",
               readTime: "15 mins",
               details: generatePatternsDetails(),
-              code: getCode("Patterns"),
+              code: unescapeCode(getCode("Patterns")),
               youtube: "https://www.youtube.com/watch?v=tNm_NNSB3_w"
             };
           }
@@ -624,7 +636,7 @@ function solve${name.replace(/[^a-zA-Z0-9]/g, '')}(InputData):
               summary: `Master the logic for ${name}.`,
               readTime: "5 mins",
               details: detailsHtml,
-              code: getCode(name),
+              code: unescapeCode(getCode(name)),
               youtube: (prob.youtube && prob.youtube !== '$undefined') ? prob.youtube : null
             });
           });
