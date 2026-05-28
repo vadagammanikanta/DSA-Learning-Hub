@@ -143,7 +143,7 @@ export default function Support() {
                   <label>Your Name</label>
                   <input
                     type="text"
-                    placeholder="Manikanta"
+                    placeholder="John Doe"
                     value={form.name}
                     onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
                     required
