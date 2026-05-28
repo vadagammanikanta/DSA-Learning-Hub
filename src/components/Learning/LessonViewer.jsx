@@ -313,6 +313,7 @@ export default function LessonViewer({ lesson }) {
   }, [lesson]);
 
   const [activeCodeLang, setActiveCodeLang] = useState('javascript');
+  const [activeInlineLang, setActiveInlineLang] = useState('javascript');
 
   useEffect(() => {
     if (mapping) {
@@ -321,6 +322,15 @@ export default function LessonViewer({ lesson }) {
         ? appState.selectedLanguage
         : (availableLangs[0] || 'javascript');
       setActiveCodeLang(defaultLang);
+    }
+    // Also sync inline code language
+    if (lesson?.code) {
+      const inlineLangs = Object.keys(lesson.code);
+      if (inlineLangs.includes(appState.selectedLanguage)) {
+        setActiveInlineLang(appState.selectedLanguage);
+      } else if (inlineLangs.length > 0) {
+        setActiveInlineLang(inlineLangs[0]);
+      }
     }
   }, [lesson, mapping, appState.selectedLanguage]);
 
@@ -454,6 +464,51 @@ export default function LessonViewer({ lesson }) {
           style={{ lineHeight: '1.6', color: 'var(--text-secondary)' }} 
         />
       </div>
+
+      {/* Inline Code Examples Section — shown when lesson has embedded code */}
+      {lesson.code && Object.keys(lesson.code).length > 0 && (
+        <div style={{ marginBottom: '24px', paddingBottom: '24px', borderBottom: '1px solid var(--border-glass)' }}>
+          <h3 style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span>💻</span> Code Examples
+          </h3>
+          <div style={{ display: 'flex', gap: '8px', marginBottom: '14px', flexWrap: 'wrap' }}>
+            {Object.keys(lesson.code).map((lang) => (
+              <button
+                key={lang}
+                onClick={() => setActiveInlineLang(lang)}
+                className={`btn ${activeInlineLang === lang ? 'btn-accent' : 'btn-secondary'}`}
+                style={{
+                  padding: '6px 12px',
+                  fontSize: '0.85rem',
+                  borderRadius: '6px',
+                  textTransform: 'capitalize',
+                  fontWeight: activeInlineLang === lang ? 'bold' : 'normal'
+                }}
+              >
+                {lang === 'cpp' ? 'C++' : lang === 'javascript' ? 'JavaScript' : lang.charAt(0).toUpperCase() + lang.slice(1)}
+              </button>
+            ))}
+          </div>
+          {lesson.code[activeInlineLang] && (
+            <pre style={{
+              background: 'rgba(0,0,0,0.35)',
+              border: '1px solid var(--border-glass)',
+              borderRadius: '10px',
+              padding: '20px',
+              overflowX: 'auto',
+              margin: 0,
+              fontSize: '0.88rem',
+              lineHeight: '1.6',
+              color: '#e2e8f0',
+              fontFamily: '"Fira Code", "Cascadia Code", "JetBrains Mono", monospace',
+              whiteSpace: 'pre',
+              position: 'relative'
+            }}>
+              <code>{lesson.code[activeInlineLang]}</code>
+            </pre>
+          )}
+        </div>
+      )}
 
       {/* Dynamic GitHub Code Snippet Section */}
       {lesson.id !== 'a2z-s1-c360-patterns' && mapping && Object.keys(mapping.paths).length > 0 && (
