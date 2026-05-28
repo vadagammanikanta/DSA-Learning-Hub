@@ -292,7 +292,7 @@ export default function AdminDashboard() {
             <div className="admin-ai-chat">
               <div className="chat-window">
                 {aiChat.map((msg, i) => (
-                  <div key={i} className={\`chat-bubble \${msg.role}\`}>
+                  <div key={i} className={`chat-bubble ${msg.role}`}>
                     <div className="chat-avatar">{msg.role === 'ai' ? '🧠' : '👨‍💻'}</div>
                     <div className="chat-content" dangerouslySetInnerHTML={{__html: msg.content.replace(/\\n/g, '<br/>')}}></div>
                   </div>
