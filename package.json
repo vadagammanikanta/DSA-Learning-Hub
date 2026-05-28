@@ -13,6 +13,8 @@
     "@monaco-editor/react": "^4.7.0",
     "firebase-admin": "^13.10.0",
     "nodemailer": "^8.0.9",
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.15.1",

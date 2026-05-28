@@ -455,6 +455,12 @@ function generatePatternsDetails() {
 }
 
 try {
+  // Load textbook notes
+  let textbookNotes = {};
+  if (fs.existsSync('textbook_notes.json')) {
+    textbookNotes = JSON.parse(fs.readFileSync('textbook_notes.json', 'utf8'));
+  }
+
   // Load handcrafted override test modules
   const testModulesDir = path.join('modules', 'learning', 'test modules');
   const testModulesMap = new Map();
@@ -625,6 +631,19 @@ function solve${name.replace(/[^a-zA-Z0-9]/g, '')}(InputData):
 <div style="display:flex; gap:12px; margin-top:16px;">
   ${solveButton}
 </div>`;
+
+            // Inject Textbook notes if applicable
+            let matchedTopic = null;
+            if (name.toLowerCase().includes('linked list') || subcat.subcategory_name.toLowerCase().includes('linked list')) matchedTopic = 'Linked List';
+            else if (name.toLowerCase().includes('binary search tree') || subcat.subcategory_name.toLowerCase().includes('binary search tree')) matchedTopic = 'Binary Search Tree';
+            else if (name.toLowerCase().includes('heap') || subcat.subcategory_name.toLowerCase().includes('heap')) matchedTopic = 'Heap';
+            else if (name.toLowerCase().includes('avl')) matchedTopic = 'AVL';
+            else if (step.category_name.toLowerCase().includes('sorting') || subcat.subcategory_name.toLowerCase().includes('sorting')) matchedTopic = 'Sorting';
+            else if (step.category_name.toLowerCase().includes('string') || subcat.subcategory_name.toLowerCase().includes('string')) matchedTopic = 'Strings';
+
+            if (matchedTopic && textbookNotes[matchedTopic]) {
+              detailsHtml += textbookNotes[matchedTopic];
+            }
 
             curriculum.push({
               id: id,
