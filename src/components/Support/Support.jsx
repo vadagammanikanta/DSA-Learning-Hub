@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useAuth } from '../../context/AuthContext';
+import { createSupportTicket } from '../../../modules/auth/auth.js';
 
 const SUPPORT_EMAIL = 'dsa.flow@outlook.com';
 
@@ -38,24 +40,31 @@ const FAQ = [
 ];
 
 export default function Support() {
+  const { user } = useAuth();
   const [openFaq, setOpenFaq]   = useState(null);
-  const [form, setForm]         = useState({ name: '', email: '', subject: '', message: '' });
+  const [form, setForm]         = useState({ subject: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending]   = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
-    // Opens mail client with pre-filled details
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`
-    );
-    const subject = encodeURIComponent(`[dsa.flow Support] ${form.subject}`);
-    window.open(`mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`, '_blank');
-    setTimeout(() => {
-      setSending(false);
+
+    const ticketData = {
+      name: user?.name || 'Anonymous User',
+      email: user?.email || 'no-email@dsa.flow',
+      userId: user?.uid || 'anonymous',
+      subject: form.subject,
+      message: form.message
+    };
+
+    const success = await createSupportTicket(ticketData);
+    setSending(false);
+    if (success) {
       setSubmitted(true);
-    }, 800);
+    } else {
+      alert('Failed to submit support ticket. Please try again.');
+    }
   };
 
   return (
@@ -127,39 +136,17 @@ export default function Support() {
           {submitted ? (
             <div className="support-success">
               <div className="support-success-icon">✅</div>
-              <h3>Message Ready!</h3>
-              <p>Your email client has opened with your message pre-filled. Just hit Send!</p>
+              <h3>Message Sent!</h3>
+              <p>Your support ticket has been recorded on our database and sent directly to the Admin Dashboard.</p>
               <p style={{ opacity: 0.6, fontSize: '0.85rem', marginTop: 8 }}>
-                Or email us directly at <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: 'var(--accent-cyan)' }}>{SUPPORT_EMAIL}</a>
+                We will look into your request shortly. If urgent, feel free to email <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: 'var(--accent-cyan)' }}>{SUPPORT_EMAIL}</a>
               </p>
-              <button className="btn btn-secondary" onClick={() => { setSubmitted(false); setForm({ name: '', email: '', subject: '', message: '' }); }}>
+              <button className="btn btn-secondary" onClick={() => { setSubmitted(false); setForm({ subject: '', message: '' }); }} style={{ marginTop: 12 }}>
                 Send Another
               </button>
             </div>
           ) : (
             <form className="support-form" onSubmit={handleSubmit}>
-              <div className="form-row">
-                <div className="form-group">
-                  <label>Your Name</label>
-                  <input
-                    type="text"
-                    placeholder="John Doe"
-                    value={form.name}
-                    onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
-                    required
-                  />
-                </div>
-                <div className="form-group">
-                  <label>Your Email</label>
-                  <input
-                    type="email"
-                    placeholder="you@example.com"
-                    value={form.email}
-                    onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
-                    required
-                  />
-                </div>
-              </div>
               <div className="form-group">
                 <label>Subject</label>
                 <select
@@ -188,10 +175,10 @@ export default function Support() {
                 />
               </div>
               <button className="btn btn-accent" type="submit" disabled={sending} style={{ width: '100%' }}>
-                {sending ? '⏳ Opening Email...' : '📨 Send Message'}
+                {sending ? '⏳ Submitting Ticket...' : '📨 Send Support Ticket'}
               </button>
               <p className="support-form-note">
-                This will open your email app with the message pre-filled and send to <strong>{SUPPORT_EMAIL}</strong>
+                This submits your issue directly to the admin team via the database.
               </p>
             </form>
           )}

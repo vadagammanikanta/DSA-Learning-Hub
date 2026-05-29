@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getSupportTickets, resolveSupportTicket } from '../../../modules/auth/auth.js';
 import './admin.css';
 
 export default function AdminDashboard() {
@@ -9,6 +10,7 @@ export default function AdminDashboard() {
   // Stats Data
   const [stats, setStats] = useState(null);
   const [users, setUsers] = useState([]);
+  const [tickets, setTickets] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
@@ -43,12 +45,36 @@ export default function AdminDashboard() {
         ...data.freeUsers.map(u => ({ ...u, isPaid: false }))
       ];
       setUsers(combined.sort((a, b) => new Date(b.signupDate) - new Date(a.signupDate)));
+      
+      // Fetch support tickets
+      const allTickets = await getSupportTickets();
+      setTickets(allTickets);
+      
       setIsAuthenticated(true);
     } catch (err) {
       setError(err.message);
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleResolveTicket = async (ticketId) => {
+    if (!window.confirm('Are you sure you want to mark this support ticket as resolved?')) return;
+    
+    setActionStatus('Resolving ticket...');
+    try {
+      const success = await resolveSupportTicket(ticketId);
+      if (success) {
+        setActionStatus('Success: Ticket resolved!');
+        const allTickets = await getSupportTickets();
+        setTickets(allTickets);
+      } else {
+        throw new Error('Failed to resolve support ticket');
+      }
+    } catch (err) {
+      setActionStatus(`Error: ${err.message}`);
+    }
+    setTimeout(() => setActionStatus(''), 4000);
   };
 
   const handleLogin = (e) => {
@@ -166,6 +192,7 @@ export default function AdminDashboard() {
         <nav className="admin-nav">
           <button className={activeTab === 'overview' ? 'active' : ''} onClick={() => setActiveTab('overview')}>📊 Overview</button>
           <button className={activeTab === 'users' ? 'active' : ''} onClick={() => setActiveTab('users')}>👥 User Management</button>
+          <button className={activeTab === 'tickets' ? 'active' : ''} onClick={() => setActiveTab('tickets')}>🎫 Support Tickets</button>
           <button className={activeTab === 'broadcast' ? 'active' : ''} onClick={() => setActiveTab('broadcast')}>✉️ Broadcast Emails</button>
           <button className={activeTab === 'ai' ? 'active' : ''} onClick={() => setActiveTab('ai')}>🧠 Intellectual AI</button>
         </nav>
@@ -179,6 +206,7 @@ export default function AdminDashboard() {
           <h1>
             {activeTab === 'overview' && 'System Overview'}
             {activeTab === 'users' && 'User Management & CRUD'}
+            {activeTab === 'tickets' && 'User Support Tickets'}
             {activeTab === 'broadcast' && 'Broadcast Communication'}
             {activeTab === 'ai' && 'Intellectual Admin Assistant'}
           </h1>
@@ -249,6 +277,69 @@ export default function AdminDashboard() {
                   </tbody>
                 </table>
               </div>
+            </div>
+          )}
+
+          {activeTab === 'tickets' && (
+            <div className="admin-tickets">
+              {tickets.length === 0 ? (
+                <p style={{ color: 'var(--text-secondary)', textAlign: 'center', padding: '40px' }}>
+                  No support tickets found in database.
+                </p>
+              ) : (
+                <div className="admin-table-container">
+                  <table className="admin-table">
+                    <thead>
+                      <tr>
+                        <th>User</th>
+                        <th>Email</th>
+                        <th>Subject</th>
+                        <th>Message</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {tickets.map((t, idx) => (
+                        <tr key={t.id || idx}>
+                          <td><strong>{t.name}</strong></td>
+                          <td><small>{t.email}</small></td>
+                          <td>
+                            <span className="status-badge free" style={{ textTransform: 'capitalize' }}>
+                              {t.subject}
+                            </span>
+                          </td>
+                          <td style={{ maxWidth: '300px', whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontSize: '0.85rem' }}>
+                            {t.message}
+                          </td>
+                          <td>
+                            <small>{t.createdAt ? new Date(t.createdAt).toLocaleString() : 'N/A'}</small>
+                          </td>
+                          <td>
+                            {t.status === 'resolved' ? (
+                              <span className="status-badge paid">Resolved</span>
+                            ) : (
+                              <span className="status-badge free" style={{ background: 'rgba(255, 152, 0, 0.1)', color: '#ff9800', border: '1px solid rgba(255, 152, 0, 0.3)' }}>Pending</span>
+                            )}
+                          </td>
+                          <td>
+                            {t.status !== 'resolved' && (
+                              <button 
+                                className="admin-btn-small" 
+                                onClick={() => handleResolveTicket(t.id || t.createdAt)}
+                                style={{ background: 'rgba(0, 255, 128, 0.1)', color: '#00ff80', borderColor: 'rgba(0, 255, 128, 0.3)' }}
+                              >
+                                Resolve
+                              </button>
+                            )}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
           )}
 

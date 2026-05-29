@@ -265,3 +265,89 @@ function getLocalUser() {
 function clearLocalUser() {
   try { localStorage.removeItem(STORAGE_KEY); } catch(e) {}
 }
+
+/* ═══ SUPPORT TICKETS ══════════════════════════════════════════════════ */
+export async function createSupportTicket({ name, email, subject, message, userId }) {
+  if (tryInitFirebase()) {
+    try {
+      const ticket = {
+        name,
+        email,
+        userId: userId || 'anonymous',
+        subject,
+        message,
+        createdAt: Date.now(),
+        status: 'pending'
+      };
+      await _db.collection('support_tickets').add(ticket);
+      console.info('[dsa.flow] Support ticket saved to Firestore ✓');
+      return true;
+    } catch (e) {
+      console.warn('[dsa.flow] Firestore ticket save failed, using local storage:', e.message);
+    }
+  }
+  
+  // Local fallback
+  try {
+    const saved = localStorage.getItem('dsaflow_tickets') || '[]';
+    const tickets = JSON.parse(saved);
+    tickets.push({
+      id: 'ticket_' + Date.now(),
+      name,
+      email,
+      userId: userId || 'local_user',
+      subject,
+      message,
+      createdAt: Date.now(),
+      status: 'pending'
+    });
+    localStorage.setItem('dsaflow_tickets', JSON.stringify(tickets));
+    return true;
+  } catch (e) {
+    console.warn('Failed to save ticket locally:', e);
+    return false;
+  }
+}
+
+export async function getSupportTickets() {
+  if (tryInitFirebase()) {
+    try {
+      const snapshot = await _db.collection('support_tickets').orderBy('createdAt', 'desc').get();
+      return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    } catch (e) {
+      console.warn('[dsa.flow] Failed to load tickets from Firestore, falling back to local storage:', e.message);
+    }
+  }
+  
+  try {
+    const saved = localStorage.getItem('dsaflow_tickets') || '[]';
+    return JSON.parse(saved).sort((a, b) => b.createdAt - a.createdAt);
+  } catch (e) {
+    return [];
+  }
+}
+
+export async function resolveSupportTicket(ticketId) {
+  if (tryInitFirebase()) {
+    try {
+      const ticketRef = _db.collection('support_tickets').doc(ticketId);
+      const ticketDoc = await ticketRef.get();
+      if (ticketDoc.exists) {
+        await ticketRef.update({ status: 'resolved' });
+        return true;
+      }
+    } catch (e) {
+      console.warn('[dsa.flow] Failed to resolve ticket in Firestore:', e.message);
+    }
+  }
+  
+  try {
+    const saved = localStorage.getItem('dsaflow_tickets') || '[]';
+    const tickets = JSON.parse(saved);
+    const updated = tickets.map(t => (t.id === ticketId || String(t.createdAt) === String(ticketId)) ? { ...t, status: 'resolved' } : t);
+    localStorage.setItem('dsaflow_tickets', JSON.stringify(updated));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
