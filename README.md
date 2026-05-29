@@ -26,6 +26,8 @@
 | 🧠 **Interactive 3D Visualizers** | Animated visual representations of Sorting, Trees, Graphs, and more |
 | 💻 **Monaco Code Editor** | VS Code-powered IDE with multi-language support (C++, Python, Java, JS, Go…) |
 | ⚡ **Live Code Execution** | Run and test code instantly via sandboxed cloud compilation |
+| 🎨 **Premium UI Themes** | Refined modern dark theme and a redesigned, accessible light theme using a soft violet-indigo system |
+| 📝 **Prism Syntax Highlighter** | High-performance code tokenization with VS Code vscDarkPlus styling and a copy-code utility |
 | 🎯 **Placement Quiz Engine** | Test your knowledge with timed quizzes and track high scores |
 | 📈 **Progress Tracking** | Lessons completed, quiz scores, and learning history synced to cloud |
 | 🔐 **Firebase Auth** | Secure email/password authentication with a 24-hour free trial |
