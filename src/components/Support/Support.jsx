@@ -45,7 +45,6 @@ export default function Support() {
   const [form, setForm]         = useState({ subject: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending]   = useState(false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
@@ -58,12 +57,18 @@ export default function Support() {
       message: form.message
     };
 
-    const success = await createSupportTicket(ticketData);
-    setSending(false);
-    if (success) {
-      setSubmitted(true);
-    } else {
-      alert('Failed to submit support ticket. Please try again.');
+    try {
+      const success = await createSupportTicket(ticketData);
+      setSending(false);
+      if (success) {
+        setSubmitted(true);
+      } else {
+        alert('Failed to submit support ticket. Please try again.');
+      }
+    } catch (err) {
+      console.error('Support ticket submission error:', err);
+      setSending(false);
+      alert(`Failed to submit support ticket: ${err.message || err}`);
     }
   };
 

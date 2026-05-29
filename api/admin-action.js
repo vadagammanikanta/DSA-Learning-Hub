@@ -51,6 +51,27 @@ export default async function handler(req, res) {
         paymentDate: new Date().toISOString()
       });
 
+      // Trigger congratulations email asynchronously but awaited so the container doesn't shut down before completion.
+      try {
+        const userData = userDoc.data() || {};
+        const protocol = req.headers['x-forwarded-proto'] || 'http';
+        const emailUrl = `${protocol}://${req.headers.host}/api/send-email`;
+        
+        await fetch(emailUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: targetEmail,
+            name: userData.name || 'Valued Member',
+            whatsapp: userData.whatsapp || 'N/A',
+            paymentId: 'MANUAL_UPGRADE_ADMIN'
+          })
+        });
+        console.info(`[admin-action] Triggered congratulations email for manually upgraded user: ${targetEmail}`);
+      } catch (emailErr) {
+        console.error('[admin-action] Failed to trigger manual upgrade email:', emailErr);
+      }
+
       return res.status(200).json({ success: true, message: `Successfully upgraded ${targetEmail} to lifetime premium.` });
     } else {
       return res.status(400).json({ error: 'Unknown action specified.' });
