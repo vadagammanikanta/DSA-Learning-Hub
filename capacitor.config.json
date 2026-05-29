@@ -1,0 +1,6 @@
+{
+  "appId": "com.dsaflow.app",
+  "appName": "dsa.flow",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
