@@ -209,6 +209,26 @@ export async function markAsPaid(paymentId) {
   }
 }
 
+/* ═══ PASSWORD RESET ═════════════════════════════════════════════════ */
+export async function resetPassword(email) {
+  email = email.trim().toLowerCase();
+  
+  if (tryInitFirebase()) {
+    try {
+      await _auth.sendPasswordResetEmail(email);
+      console.info(`[dsa.flow] Password reset email sent to ${email} via SDK ✓`);
+      return true;
+    } catch (e) {
+      console.error('[dsa.flow] Firebase password reset failed:', e);
+      throw e;
+    }
+  }
+
+  // Local fallback / simulation
+  console.info(`[EMAIL SIM] Simulated password reset sent to: ${email}`);
+  return true;
+}
+
 /* ═══ AUTH STATE ══════════════════════════════════════════════════════ */
 export function getCurrentUser() { return getLocalUser(); }
 

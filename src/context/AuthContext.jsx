@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { signUp, signIn, signOut, getCurrentUser, getTrialInfo, markAsPaid } from '../../modules/auth/auth.js';
+import { signUp, signIn, signOut, getCurrentUser, getTrialInfo, markAsPaid, resetPassword } from '../../modules/auth/auth.js';
 
 const AuthContext = createContext();
 
@@ -90,8 +90,12 @@ export function AuthProvider({ children }) {
     }
   };
 
+  const sendPasswordReset = async (email) => {
+    return await resetPassword(email);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, trial, loading, login, register, logout, payAndUnlock, refreshTrial }}>
+    <AuthContext.Provider value={{ user, trial, loading, login, register, logout, payAndUnlock, refreshTrial, sendPasswordReset }}>
       {children}
     </AuthContext.Provider>
   );

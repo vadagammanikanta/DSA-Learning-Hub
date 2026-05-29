@@ -77,10 +77,10 @@ function QuotesTicker() {
 }
 
 function AppLayout() {
-  const { user, trial, loading, login, register, logout, payAndUnlock } = useAuth();
+  const { user, trial, loading, login, register, logout, payAndUnlock, sendPasswordReset } = useAuth();
   
   // Auth Form tabs and inputs
-  const [authTab, setAuthTab] = useState('signin'); // 'signin' or 'signup'
+  const [authTab, setAuthTab] = useState('signin'); // 'signin', 'signup', or 'forgot_password'
   const [authError, setAuthError] = useState('');
   const [authLoading, setAuthLoading] = useState(false);
 
@@ -92,6 +92,9 @@ function AppLayout() {
   const [signUpEmail, setSignUpEmail] = useState('');
   const [signUpPhone, setSignUpPhone] = useState('');
   const [signUpPassword, setSignUpPassword] = useState('');
+
+  const [forgotEmail, setForgotEmail] = useState('');
+  const [forgotSuccess, setForgotSuccess] = useState('');
 
   // Payment error
   const [paymentError, setPaymentError] = useState('');
@@ -132,6 +135,22 @@ function AppLayout() {
       }
     };
 
+    const handleForgotPasswordSubmit = async (e) => {
+      e.preventDefault();
+      setAuthError('');
+      setForgotSuccess('');
+      setAuthLoading(true);
+      try {
+        await sendPasswordReset(forgotEmail);
+        setForgotSuccess('Password reset link sent! Check your inbox.');
+        setForgotEmail('');
+      } catch (err) {
+        setAuthError(err.message || 'Failed to send password reset email.');
+      } finally {
+        setAuthLoading(false);
+      }
+    };
+
     return (
       <div className="overlay-fullscreen auth-overlay" style={{ display: 'flex' }}>
         <div className="auth-glow-bg"></div>
@@ -149,19 +168,51 @@ function AppLayout() {
           <div className="auth-tabs">
             <button 
               className={`auth-tab ${authTab === 'signin' ? 'active' : ''}`}
-              onClick={() => { setAuthTab('signin'); setAuthError(''); }}
+              onClick={() => { setAuthTab('signin'); setAuthError(''); setForgotSuccess(''); }}
             >
               Sign In
             </button>
             <button 
               className={`auth-tab ${authTab === 'signup' ? 'active' : ''}`}
-              onClick={() => { setAuthTab('signup'); setAuthError(''); }}
+              onClick={() => { setAuthTab('signup'); setAuthError(''); setForgotSuccess(''); }}
             >
               Sign Up Free
             </button>
           </div>
 
-          {authTab === 'signin' ? (
+          {authTab === 'forgot_password' ? (
+            <form className="auth-form" onSubmit={handleForgotPasswordSubmit}>
+              <h3 style={{ margin: '0 0 8px 0', fontSize: '1.25rem', color: '#ffffff' }}>Reset Password</h3>
+              <p style={{ margin: '0 0 20px 0', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
+                Enter your email address and we'll send you a recovery link to reset your password.
+              </p>
+              
+              <div className="form-group">
+                <label>Email Address</label>
+                <div className="input-with-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  <input 
+                    type="email" 
+                    placeholder="your@email.com" 
+                    value={forgotEmail} 
+                    onChange={e => setForgotEmail(e.target.value)} 
+                    required 
+                  />
+                </div>
+              </div>
+
+              {authError && <div className="auth-error">{authError}</div>}
+              {forgotSuccess && <div style={{ color: '#10b981', background: 'rgba(16, 185, 129, 0.1)', padding: '10px 14px', borderRadius: '6px', fontSize: '0.82rem', marginBottom: '16px', border: '1px solid rgba(16, 185, 129, 0.2)' }}>{forgotSuccess}</div>}
+
+              <button type="submit" className="btn btn-primary auth-submit-btn" disabled={authLoading}>
+                <span className="btn-text">{authLoading ? '⏳ Processing...' : 'Send Reset Link'}</span>
+              </button>
+              
+              <p style={{ textAlign: 'center', fontSize: '0.82rem', color: 'var(--text-muted)', marginTop: '16px' }}>
+                Remembered your password? <span onClick={() => { setAuthTab('signin'); setAuthError(''); setForgotSuccess(''); }} style={{ color: 'var(--accent-cyan)', cursor: 'pointer' }}>Sign In →</span>
+              </p>
+            </form>
+          ) : authTab === 'signin' ? (
             <form className="auth-form" onSubmit={handleSignInSubmit}>
               <div className="form-group">
                 <label>Email Address</label>
@@ -177,7 +228,15 @@ function AppLayout() {
                 </div>
               </div>
               <div className="form-group">
-                <label>Password</label>
+                <label style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                  <span>Password</span>
+                  <span 
+                    onClick={() => { setAuthTab('forgot_password'); setAuthError(''); setForgotSuccess(''); }} 
+                    style={{ color: 'var(--accent-cyan)', cursor: 'pointer', fontSize: '0.78rem', fontWeight: 'normal' }}
+                  >
+                    Forgot Password?
+                  </span>
+                </label>
                 <div className="input-with-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
                   <input 
