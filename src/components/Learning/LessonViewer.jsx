@@ -247,10 +247,238 @@ export function getDynamicGitHubPath(lessonTitle, categoryName, language) {
   }
 }
 
+function InteractiveQuiz({ lesson }) {
+  const { appState, markLessonCompleted } = useApp();
+  const [currentIdx, setCurrentIdx] = useState(0);
+  const [selectedOpt, setSelectedOpt] = useState(null);
+  const [answered, setAnswered] = useState(false);
+  const [score, setScore] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
+  const [answersHistory, setAnswersHistory] = useState([]);
+  const [hoveredOpt, setHoveredOpt] = useState(null);
+
+  const handleOptionClick = (optIdx) => {
+    if (answered) return;
+    setAnswered(true);
+    setSelectedOpt(optIdx);
+    const correctIdx = lesson.questions[currentIdx].answer;
+    const isCorrect = optIdx === correctIdx;
+    if (isCorrect) {
+      setScore(s => s + 1);
+    }
+    setAnswersHistory(prev => [...prev, {
+      questionIdx: currentIdx,
+      selected: optIdx,
+      correct: correctIdx,
+      isCorrect
+    }]);
+  };
+
+  const handleNext = () => {
+    if (currentIdx < lesson.questions.length - 1) {
+      setCurrentIdx(currentIdx + 1);
+      setAnswered(false);
+      setSelectedOpt(null);
+      setHoveredOpt(null);
+    } else {
+      setQuizCompleted(true);
+      markLessonCompleted(lesson.id);
+    }
+  };
+
+  const handleRestart = () => {
+    setCurrentIdx(0);
+    setSelectedOpt(null);
+    setAnswered(false);
+    setScore(0);
+    setQuizCompleted(false);
+    setAnswersHistory([]);
+    setHoveredOpt(null);
+  };
+
+  const currentQuestion = lesson.questions[currentIdx];
+  const progressPercent = ((currentIdx) / lesson.questions.length) * 100;
+  const scorePercent = (score / lesson.questions.length) * 100;
+
+  if (quizCompleted) {
+    return (
+      <div className="card quiz-card-results" style={{ padding: '40px', maxWidth: '700px', margin: '0 auto', background: 'var(--bg-card)', borderRadius: '12px', border: '1px solid var(--border-glass)', textAlign: 'center' }}>
+        <div style={{ fontSize: '4.5rem', marginBottom: '24px' }}>
+          {scorePercent === 100 ? '🏆' : scorePercent >= 60 ? '🌟' : '📚'}
+        </div>
+        <h2 style={{ fontSize: '2rem', color: 'var(--text-primary)', marginBottom: '8px' }}>
+          Quiz Completed!
+        </h2>
+        <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '24px' }}>
+          You scored <strong style={{ color: scorePercent >= 60 ? 'var(--accent-emerald)' : 'var(--accent-rose)', fontSize: '1.6rem' }}>{score}</strong> out of {lesson.questions.length}
+        </p>
+
+        <div style={{ 
+          background: 'rgba(255, 255, 255, 0.02)', 
+          border: '1px solid var(--border-glass)', 
+          borderRadius: '8px', 
+          padding: '20px', 
+          marginBottom: '32px',
+          textAlign: 'left'
+        }}>
+          <h3 style={{ fontSize: '1rem', marginTop: 0, marginBottom: '16px', color: 'var(--text-primary)' }}>Performance Review:</h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            {lesson.questions.map((q, idx) => {
+              const history = answersHistory.find(h => h.questionIdx === idx);
+              const gotRight = history ? history.isCorrect : false;
+              return (
+                <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.92rem' }}>
+                  <span style={{ color: gotRight ? 'var(--accent-emerald)' : 'var(--accent-rose)', fontSize: '1.1rem', lineHeight: '1' }}>
+                    {gotRight ? '✅' : '❌'}
+                  </span>
+                  <div>
+                    <div style={{ color: 'var(--text-secondary)', fontWeight: '600' }}>Question {idx + 1}: {q.question}</div>
+                    <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
+                      Correct answer: <span style={{ color: 'var(--accent-emerald)' }}>{q.options[q.answer]}</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '12px', justifyContent: 'center' }}>
+          <button className="btn btn-secondary" onClick={handleRestart} style={{ padding: '10px 24px', fontWeight: 'bold' }}>
+            🔄 Retake Quiz
+          </button>
+          <button className="btn btn-accent" onClick={() => window.location.reload()} style={{ padding: '10px 24px', fontWeight: 'bold' }}>
+            🚀 Complete Phase
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="card quiz-card-active" style={{ padding: '36px', maxWidth: '700px', margin: '0 auto', background: 'var(--bg-card)', borderRadius: '12px', border: '1px solid var(--border-glass)' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <span style={{ fontSize: '1.8rem' }}>{lesson.icon}</span>
+          <span style={{ color: 'var(--text-primary)', fontWeight: 'bold', fontSize: '1.1rem' }}>{lesson.title}</span>
+        </div>
+        <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem', fontWeight: '600' }}>
+          Question {currentIdx + 1} of {lesson.questions.length}
+        </span>
+      </div>
+
+      <div style={{ width: '100%', height: '6px', background: 'rgba(255,255,255,0.03)', borderRadius: '3px', marginBottom: '28px', overflow: 'hidden' }}>
+        <div style={{ width: `${progressPercent}%`, height: '100%', background: 'var(--accent-rose)', transition: 'width 0.3s ease' }}></div>
+      </div>
+
+      <h2 style={{ fontSize: '1.25rem', color: 'var(--text-primary)', marginBottom: '24px', lineHeight: '1.4' }}>
+        {currentQuestion.question}
+      </h2>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginBottom: '24px' }}>
+        {currentQuestion.options.map((opt, idx) => {
+          const isCorrect = idx === currentQuestion.answer;
+          const isSelected = selectedOpt === idx;
+          const isHovered = hoveredOpt === idx;
+          let borderStyle = isHovered && !answered ? '1px solid rgba(255, 255, 255, 0.15)' : '1px solid var(--border-glass)';
+          let bgStyle = isHovered && !answered ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 255, 255, 0.02)';
+          let colorStyle = 'var(--text-secondary)';
+          let prefixIcon = String.fromCharCode(65 + idx);
+
+          if (answered) {
+            if (isCorrect) {
+              borderStyle = '1px solid var(--accent-emerald)';
+              bgStyle = 'rgba(52, 211, 153, 0.06)';
+              colorStyle = 'var(--accent-emerald)';
+              prefixIcon = '✅';
+            } else if (isSelected) {
+              borderStyle = '1px solid var(--accent-rose)';
+              bgStyle = 'rgba(244, 63, 94, 0.06)';
+              colorStyle = 'var(--accent-rose)';
+              prefixIcon = '❌';
+            } else {
+              bgStyle = 'rgba(255, 255, 255, 0.01)';
+              colorStyle = 'rgba(255, 255, 255, 0.2)';
+            }
+          }
+
+          return (
+            <div
+              key={idx}
+              onClick={() => handleOptionClick(idx)}
+              onMouseEnter={() => !answered && setHoveredOpt(idx)}
+              onMouseLeave={() => !answered && setHoveredOpt(null)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '12px',
+                padding: '14px 18px',
+                borderRadius: '8px',
+                border: borderStyle,
+                background: bgStyle,
+                color: colorStyle,
+                cursor: answered ? 'default' : 'pointer',
+                transition: 'all 0.2s ease',
+                fontWeight: isSelected || (answered && isCorrect) ? 'bold' : 'normal'
+              }}
+            >
+              <span style={{ 
+                width: '24px', 
+                height: '24px', 
+                borderRadius: '50%', 
+                background: isSelected || (answered && isCorrect) ? 'transparent' : 'rgba(255,255,255,0.05)', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                fontSize: '0.85rem',
+                fontWeight: 'bold',
+                flexShrink: 0
+              }}>
+                {prefixIcon}
+              </span>
+              <span style={{ fontSize: '0.95rem' }}>{opt}</span>
+            </div>
+          );
+        })}
+      </div>
+
+      {answered && (
+        <div style={{ 
+          background: 'rgba(244, 63, 94, 0.03)', 
+          border: '1px solid rgba(244, 63, 94, 0.1)', 
+          borderRadius: '8px', 
+          padding: '16px 20px', 
+          marginBottom: '24px', 
+          color: 'var(--text-secondary)', 
+          fontSize: '0.9rem',
+          lineHeight: '1.5'
+        }}>
+          <strong>Explanation:</strong> {currentQuestion.explanation}
+        </div>
+      )}
+
+      <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <button
+          className="btn btn-primary"
+          disabled={!answered}
+          onClick={handleNext}
+          style={{ padding: '10px 24px', fontWeight: 'bold' }}
+        >
+          {currentIdx < lesson.questions.length - 1 ? 'Next Question ➡' : 'Finish Quiz 🏆'}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function LessonViewer({ lesson }) {
   const { appState, markLessonCompleted } = useApp();
   const navigate = useNavigate();
   const contentRef = useRef(null);
+
+  if (lesson && lesson.type === 'quiz') {
+    return <InteractiveQuiz lesson={lesson} />;
+  }
 
 
 

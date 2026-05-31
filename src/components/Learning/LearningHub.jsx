@@ -16,7 +16,7 @@ export default function LearningHub() {
   const filteredLessons = useMemo(() => {
     return curriculum.filter(lesson => 
       appState.activeDifficulty === 'all' || 
-      lesson.difficulty.toLowerCase() === appState.activeDifficulty.toLowerCase()
+      (lesson.difficulty && lesson.difficulty.toLowerCase() === appState.activeDifficulty.toLowerCase())
     );
   }, [appState.activeDifficulty]);
 
@@ -31,20 +31,22 @@ export default function LearningHub() {
         {filteredLessons.map(lesson => {
           const isCompleted = appState.completedLessons.includes(lesson.id);
           const isActive = appState.activeLessonId === lesson.id;
+          const isQuiz = lesson.type === 'quiz';
           
           return (
             <div 
               key={lesson.id}
-              className={`curriculum-node ${isActive ? 'active' : ''} ${isCompleted ? 'completed' : ''}`}
+              className={`curriculum-node ${isQuiz ? 'quiz-node' : ''} ${isActive ? 'active' : ''} ${isCompleted ? 'completed' : ''}`}
               onClick={() => updateAppState({ activeLessonId: lesson.id })}
+              style={isQuiz ? { borderLeft: '4px solid var(--accent-rose)' } : {}}
             >
               <div className="curriculum-node-title">
                 {lesson.icon} {lesson.title}
               </div>
               <div className="curriculum-node-meta">
                 <span>{lesson.category}</span>
-                <span style={{ color: getDiffColor(lesson.difficulty) }}>
-                  {lesson.difficulty}
+                <span style={{ color: isQuiz ? 'var(--accent-rose)' : getDiffColor(lesson.difficulty) }}>
+                  {isQuiz ? 'Phase Quiz 🧪' : lesson.difficulty}
                 </span>
               </div>
             </div>

@@ -35,21 +35,23 @@ export default function Roadmap() {
                 const lesson = curriculum.find(t => t.id === nodeId);
                 if (!lesson) return null;
                 const isCompleted = appState.completedLessons.includes(nodeId);
+                const isQuiz = lesson.type === 'quiz';
                 
                 return (
                   <div 
                     key={nodeId}
-                    className={`roadmap-node ${isCompleted ? 'completed' : ''}`}
+                    className={`roadmap-node ${isQuiz ? 'quiz-node' : ''} ${isCompleted ? 'completed' : ''}`}
                     onClick={() => handleNodeClick(nodeId)}
+                    style={isQuiz ? { border: '1px dashed var(--accent-rose)', background: 'rgba(244, 63, 94, 0.04)' } : {}}
                   >
-                    <div className="roadmap-node-dot"></div>
+                    <div className="roadmap-node-dot" style={isQuiz ? { background: 'var(--accent-rose)' } : {}}></div>
                     <div style={{ flex: 1 }}>{lesson.icon} {lesson.title}</div>
                     <div style={{ 
                       fontSize: '0.7rem', 
-                      color: getDiffColor(lesson.difficulty), 
+                      color: isQuiz ? 'var(--accent-rose)' : getDiffColor(lesson.difficulty), 
                       fontWeight: 700 
                     }}>
-                      {lesson.difficulty[0]}
+                      {isQuiz ? 'QUIZ' : lesson.difficulty[0]}
                     </div>
                   </div>
                 );

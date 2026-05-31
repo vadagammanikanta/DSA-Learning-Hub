@@ -13,7 +13,7 @@ export default function Dashboard() {
   const filteredLessons = useMemo(() => {
     return curriculum.filter(lesson => 
       appState.activeDifficulty === 'all' || 
-      lesson.difficulty.toLowerCase() === appState.activeDifficulty.toLowerCase()
+      (lesson.difficulty && lesson.difficulty.toLowerCase() === appState.activeDifficulty.toLowerCase())
     );
   }, [appState.activeDifficulty]);
 
@@ -32,7 +32,7 @@ export default function Dashboard() {
         <div className="hero-badge">
           🚀 {isPremium ? 'Premium Account Active' : 'Placement Ready • Free Trial Active'}
         </div>
-        <h1>Master DSA with <span class="gradient-text">dsa.flow</span></h1>
+        <h1>Master DSA with <span className="gradient-text">dsa.flow</span></h1>
         <p>The most comprehensive, interactive DSA platform built for cracking FAANG, product-based &amp; service-based company interviews. Learn, visualize, and solve.</p>
         
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
@@ -57,7 +57,7 @@ export default function Dashboard() {
             <small>Languages</small>
           </div>
           <div className="hero-stat">
-            <span>15</span>
+            <span>20</span>
             <small>Quiz Q&As</small>
           </div>
           <div className="hero-stat">
@@ -85,22 +85,28 @@ export default function Dashboard() {
       <div className="grid-3col" id="dashboard-modules-grid">
         {filteredLessons.map(lesson => {
           const isCompleted = appState.completedLessons.includes(lesson.id);
+          const isQuiz = lesson.type === 'quiz';
           
           return (
             <div 
               key={lesson.id} 
-              className="card topic-card"
+              className={`card topic-card ${isQuiz ? 'quiz-card' : ''}`}
               onClick={() => handleCardClick(lesson.id)}
+              style={isQuiz ? { border: '1px dashed var(--accent-rose)', background: 'rgba(244, 63, 94, 0.03)' } : {}}
             >
               <div className="topic-card-top">
                 <div className={`topic-icon ${lesson.iconColor || 'purple'}`}>{lesson.icon}</div>
-                <span className={`diff-badge ${lesson.difficulty}`}>{lesson.difficulty}</span>
+                <span className={`diff-badge ${isQuiz ? 'Advanced' : lesson.difficulty}`} style={isQuiz ? { background: 'rgba(244, 63, 94, 0.1)', color: 'var(--accent-rose)' } : {}}>
+                  {isQuiz ? 'Phase Quiz' : lesson.difficulty}
+                </span>
               </div>
               <div className="topic-title">{lesson.title}</div>
-              <div className="topic-summary">{lesson.summary}</div>
+              <div className="topic-summary">
+                {isQuiz ? "Test your knowledge on this phase's topics with a comprehensive phase assessment." : lesson.summary}
+              </div>
               <div className="topic-meta">
-                <span>{lesson.category} • {lesson.readTime || '5 mins'}</span>
-                {isCompleted && <span className="topic-completed">✓ Completed</span>}
+                <span>{lesson.category} {isQuiz ? '' : `• ${lesson.readTime || '5 mins'}`}</span>
+                {isCompleted && <span className="topic-completed" style={isQuiz ? { color: 'var(--accent-rose)' } : {}}>✓ Completed</span>}
               </div>
             </div>
           );

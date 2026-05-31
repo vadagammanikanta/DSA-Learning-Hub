@@ -1,4 +1,67 @@
-export const curriculum = [
+
+
+code_library.js
+js
+
+
+content.js
+js
+
+
+content_a2z.js
+js
+
+
+test_modules_curriculum.js
+js
+
+
+content_extended.js
+101 lines
+
+js
+
+
+quiz.js
+144 lines
+
+js
+
+Upgrade modules with high understanding features.
+make everything real and correct content for learning dsa.
+make every 5 concepts quiz also to test their knowledge.
+give me complete proper data files and also give me the best prompt to integrate it as UI in my project.
+NOTE: Learnig modules should be relevant and worthy for paid learning.
+
+3:02 PM
+
+Viewed 3 files
+Viewed 3 files
+Now I have a complete picture of the project. Let me build the upgraded, comprehensive data files.
+
+
+Check code_library.js structure
+Check code_library.js structure
+Now I have a complete picture. Let me build the upgraded files with per-group quizzes (every 5 concepts), rich content, and all 4 languages.
+
+
+Ran a command, created a file
+Ran a command, created a file
+
+Create working directory
+
+Script
+
+Creating the master upgraded curriculum with per-phase quizzes - Phase 0 and Phase 1
+javascript
+
+// ═══════════════════════════════════════════════════════════════════════════
+//  DSA Learning Hub — Upgraded Curriculum with Inline Quizzes
+//  Every 5 concepts → 1 quiz block (type: "quiz")
+//  Covers 8 Phases: Fundamentals → Advanced DS & Problem Solving Techniques
+// ═══════════════════════════════════════════════════════════════════════════
+
+export const curriculumUpgraded = [
 
   // ══════════════════════════════════════════════════════
   //  PHASE 0 — PROGRAMMING FUNDAMENTALS (5 concepts + quiz)
@@ -3124,181 +3187,6 @@ class MedianFinder:
     }
   },
 
-    {
-    id: "matrices",
-    title: "Matrix & 2D Arrays",
-    category: "Linear Structures",
-    phase: 2,
-    difficulty: "Intermediate",
-    icon: "🔲",
-    iconColor: "cyan",
-    summary: "Multi-dimensional arrays, layout in memory (row-major vs column-major), spiral traversal, transpose, and rotation.",
-    readTime: "7 mins",
-    details: `
-      <h2>Matrix & 2D Arrays</h2>
-      <p>A matrix or 2D array is a grid of values. In computer memory, matrices are flattened into a 1D sequence using either <strong>Row-Major Order</strong> (row by row) or <strong>Column-Major Order</strong> (col by col). Row-major is standard in C, C++, Java, and JS.</p>
-
-      <h3>Addressing Formula (Row-Major)</h3>
-      <p>Address of <code>matrix[r][c]</code> = <code>base + (r × num_cols + c) × element_size</code>. This explains why random index access remains O(1) in a grid.</p>
-
-      <h3>Matrix Operations</h3>
-      <table class="complexity-table">
-        <thead><tr><th>Operation</th><th>Time</th><th>Space (Auxiliary)</th><th>Why</th></tr></thead>
-        <tbody>
-          <tr><td>Transpose</td><td>O(R × C)</td><td>O(1) in-place if square</td><td>Swap element[i][j] with element[j][i]</td></tr>
-          <tr><td>Rotate 90° (in-place)</td><td>O(R × C)</td><td>O(1)</td><td>Transpose + reverse each row</td></tr>
-          <tr><td>Spiral Traversal</td><td>O(R × C)</td><td>O(1)</td><td>Traverse boundaries with 4 pointers</td></tr>
-          <tr><td>Search in row-col sorted</td><td>O(R + C)</td><td>O(1)</td><td>Binary-like search from top-right corner</td></tr>
-        </tbody>
-      </table>
-
-      <h3>🎯 Visualizing Spiral Print Boundaries</h3>
-      <p>Maintain four pointers: <code>top</code> (row 0), <code>bottom</code> (row R-1), <code>left</code> (col 0), <code>right</code> (col C-1). Print edges in loop, then shrink bounds: <code>top++</code>, <code>right--</code>, <code>bottom--</code>, <code>left++</code>.</p>
-    `,
-    code: {
-      javascript: `// ── Rotate Matrix 90 deg clockwise in-place ────────
-function rotate(matrix) {
-  const n = matrix.length;
-  // 1. Transpose
-  for (let i = 0; i < n; i++) {
-    for (let j = i + 1; j < n; j++) {
-      [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]];
-    }
-  }
-  // 2. Reverse each row
-  for (let i = 0; i < n; i++) matrix[i].reverse();
-}
-
-// ── Spiral Traversal O(R * C) ─────────────────────
-function spiralOrder(matrix) {
-  if (!matrix.length) return [];
-  const result = [];
-  let top = 0, bottom = matrix.length - 1;
-  let left = 0, right = matrix[0].length - 1;
-
-  while (top <= bottom && left <= right) {
-    for (let i = left; i <= right; i++) result.push(matrix[top][i]);
-    top++;
-    for (let i = top; i <= bottom; i++) result.push(matrix[i][right]);
-    right--;
-    if (top <= bottom) {
-      for (let i = right; i >= left; i--) result.push(matrix[bottom][i]);
-      bottom--;
-    }
-    if (left <= right) {
-      for (let i = bottom; i >= top; i--) result.push(matrix[i][left]);
-      left++;
-    }
-  }
-  return result;
-}
-
-// ── Search a 2D sorted matrix O(R + C) ────────────
-function searchMatrix(matrix, target) {
-  let r = 0, c = matrix[0].length - 1; // start top-right
-  while (r < matrix.length && c >= 0) {
-    if (matrix[r][c] === target) return true;
-    if (matrix[r][c] > target) c--;
-    else r++;
-  }
-  return false;
-}`,
-      cpp: `#include <vector>
-#include <algorithm>
-using namespace std;
-
-// In-place rotation
-void rotate(vector<vector<int>>& matrix) {
-    int n = matrix.size();
-    // Transpose
-    for (int i = 0; i < n; i++)
-        for (int j = i + 1; j < n; j++)
-            swap(matrix[i][j], matrix[j][i]);
-    // Reverse rows
-    for (int i = 0; i < n; i++)
-        reverse(matrix[i].begin(), matrix[i].end());
-}
-
-// Spiral Traversal
-vector<int> spiralOrder(vector<vector<int>>& matrix) {
-    if (matrix.empty()) return {};
-    vector<int> result;
-    int top = 0, bottom = matrix.size() - 1;
-    int left = 0, right = matrix[0].size() - 1;
-    while (top <= bottom && left <= right) {
-        for (int i = left; i <= right; i++) result.push_back(matrix[top][i]);
-        top++;
-        for (int i = top; i <= bottom; i++) result.push_back(matrix[i][right]);
-        right--;
-        if (top <= bottom) {
-            for (int i = right; i >= left; i--) result.push_back(matrix[bottom][i]);
-            bottom--;
-        }
-        if (left <= right) {
-            for (int i = bottom; i >= top; i--) result.push_back(matrix[i][left]);
-            left++;
-        }
-    }
-    return result;
-}`,
-      java: `import java.util.*;
-
-public class MatrixPatterns {
-    // Search 2D sorted matrix (LeetCode 240) - O(R + C)
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int r = 0, c = matrix[0].length - 1; // top-right
-        while (r < matrix.length && c >= 0) {
-            if (matrix[r][c] == target) return true;
-            if (matrix[r][c] > target) c--;
-            else r++;
-        }
-        return false;
-    }
-
-    // Transpose in-place (square matrix only)
-    public void transpose(int[][] matrix) {
-        int n = matrix.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
-            }
-        }
-    }
-}`,
-      python: `# Rotate image 90 degrees clockwise (in-place)
-def rotate(matrix):
-    n = len(matrix)
-    # Transpose
-    for i in range(n):
-        for j in range(i+1, n):
-            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-    # Reverse rows
-    for row in matrix:
-        row.reverse()
-
-# Spiral order
-def spiral_order(matrix):
-    if not matrix: return []
-    result = []
-    top, bottom = 0, len(matrix) - 1
-    left, right = 0, len(matrix[0]) - 1
-    while top <= bottom and left <= right:
-        for i in range(left, right + 1): result.append(matrix[top][i])
-        top += 1
-        for i in range(top, bottom + 1): result.append(matrix[i][right])
-        right -= 1
-        if top <= bottom:
-            for i in range(right, left - 1, -1): result.append(matrix[bottom][i])
-            bottom -= 1
-        if left <= right:
-            for i in range(bottom, top - 1, -1): result.append(matrix[i][left])
-            left += 1
-    return result`
-    }
-  },
-
   // ── PHASE 2 QUIZ ──
   {
     id: "quiz-phase2",
@@ -5069,501 +4957,13 @@ function backtrack(state, choices):
       <h3>🎯 Pruning Strategies</h3>
       <ul>
         <li><strong>Constraint propagation:</strong> Update remaining choices after each decision (Sudoku).</li>
-          <li><strong>Pruning:</strong> Stop exploring paths that already exceed restrictions (Combination Sum).</li>
-        </ul>
-      `,
-      code: {
-        javascript: `// ── N-Queens Solver ────────────────────────────────
-function solveNQueens(n) {
-  const result = [];
-  const cols = new Set(), diag1 = new Set(), diag2 = new Set();
-  const board = Array.from({ length: n }, () => new Array(n).fill('.'));
+        <li><strong>Bound check:</strong> If current sum already exceeds target, stop (Combination Sum).</li
 
-  function backtrack(r) {
-    if (r === n) {
-      result.push(board.map(row => row.join('')));
-      return;
-    }
-    for (let c = 0; c < n; c++) {
-      if (cols.has(c) || diag1.has(r - c) || diag2.has(r + c)) continue;
-      cols.add(c); diag1.add(r - c); diag2.add(r + c);
-      board[r][c] = 'Q';
-      backtrack(r + 1);
-      board[r][c] = '.';
-      cols.delete(c); diag1.delete(r - c); diag2.delete(r + c);
-    }
-  }
-  backtrack(0);
-  return result;
-}
 
-// ── Permutations — O(N * N!) ───────────────────────
-function permute(nums) {
-  const result = [];
-  function backtrack(start) {
-    if (start === nums.length) {
-      result.push([...nums]);
-      return;
-    }
-    for (let i = start; i < nums.length; i++) {
-      [nums[start], nums[i]] = [nums[i], nums[start]]; // swap
-      backtrack(start + 1);
-      [nums[start], nums[i]] = [nums[i], nums[start]]; // backtrack swap
-    }
-  }
-  backtrack(0);
-  return result;
-}`,
-        cpp: `#include <vector>
-#include <string>
-#include <unordered_set>
-using namespace std;
 
-// N-Queens
-class NQueens {
-    vector<vector<string>> result;
-    unordered_set<int> cols, diag1, diag2;
-    void backtrack(int r, int n, vector<string>& board) {
-        if (r == n) { result.push_back(board); return; }
-        for (int c = 0; c < n; c++) {
-            if (cols.count(c) || diag1.count(r - c) || diag2.count(r + c)) continue;
-            cols.insert(c); diag1.insert(r - c); diag2.insert(r + c);
-            board[r][c] = 'Q';
-            backtrack(r + 1, n, board);
-            board[r][c] = '.';
-            cols.erase(c); diag1.erase(r - c); diag2.erase(r + c);
-        }
-    }
-public:
-    vector<vector<string>> solveNQueens(int n) {
-        vector<string> board(n, string(n, '.'));
-        backtrack(0, n, board);
-        return result;
-    }
-};
 
-// Permutations
-void backtrack(int start, vector<int>& nums, vector<vector<int>>& result) {
-    if (start == nums.size()) { result.push_back(nums); return; }
-    for (int i = start; i < nums.size(); i++) {
-        swap(nums[start], nums[i]);
-        backtrack(start + 1, nums, result);
-        swap(nums[start], nums[i]); // backtrack
-    }
-}`,
-        java: `import java.util.*;
 
-public class Backtracking {
-    // Permutations
-    public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        backtrack(0, nums, result);
-        return result;
-    }
-    private void backtrack(int start, int[] nums, List<List<Integer>> result) {
-        if (start == nums.length) {
-            List<Integer> list = new ArrayList<>();
-            for (int x : nums) list.add(x);
-            result.add(list);
-            return;
-        }
-        for (int i = start; i < nums.length; i++) {
-            swap(nums, start, i);
-            backtrack(start + 1, nums, result);
-            swap(nums, start, i); // backtrack
-        }
-    }
-    private void swap(int[] nums, int i, int j) {
-        int t = nums[i]; nums[i] = nums[j]; nums[j] = t;
-    }
-}`,
-        python: `# Permutations — O(N * N!)
-def permute(nums):
-    result = []
-    def backtrack(start):
-        if start == len(nums):
-            result.append(nums[:])
-            return
-        for i in range(start, len(nums)):
-            nums[start], nums[i] = nums[i], nums[start] # swap
-            backtrack(start + 1)
-            nums[start], nums[i] = nums[i], nums[start] # backtrack
-    backtrack(0)
-    return result
 
-# N-Queens
-def solve_n_queens(n):
-    result = []
-    cols, diag1, diag2 = set(), set(), set()
-    board = [['.'] * n for _ in range(n)]
-    def backtrack(r):
-      if r == n:
-        result.append(["".join(row) for row in board])
-        return
-      for c in range(n):
-        if c in cols or (r - c) in diag1 or (r + c) in diag2: continue
-        cols.add(c); diag1.add(r - c); diag2.add(r + c)
-        board[r][c] = 'Q'
-        backtrack(r + 1)
-        board[r][c] = '.'
-        cols.remove(c); diag1.remove(r - c); diag2.remove(r + c)
-    backtrack(0)
-    return result`
-      }
-    },
 
-  {
-    id: "bit-manipulation",
-    title: "Bit Manipulation",
-    category: "Advanced Algorithms",
-    phase: 4,
-    difficulty: "Intermediate",
-    icon: "🔢",
-    iconColor: "emerald",
-    summary: "Operate on binary digits directly. Bitwise tricks, power of two checks, count set bits, and subsets via bitmasks.",
-    readTime: "7 mins",
-    details: `
-      <h2>Bit Manipulation</h2>
-      <p>Bit manipulation operates on integer variables at the level of their individual bits rather than their numerical values. It is extremely fast (running in single CPU cycles) and is a favorite topic for optimization and system level interviews.</p>
 
-      <h3>Core Bitwise Operators</h3>
-      <ul>
-        <li><strong>AND (<code>&</code>):</strong> Returns 1 if both bits are 1. Useful for clearing bits or checking if odd: <code>(n & 1) === 1</code>.</li>
-        <li><strong>OR (<code>|</code>):</strong> Returns 1 if at least one bit is 1. Useful for setting bits.</li>
-        <li><strong>XOR (<code>^</code>):</strong> Returns 1 if bits are different. Properties: <code>x ^ 0 = x</code>, <code>x ^ x = 0</code>. Perfect for finding the single non-repeating number.</li>
-        <li><strong>NOT (<code>~</code>):</strong> Inverts all bits. Two's complement representation: <code>~x = -x - 1</code>.</li>
-        <li><strong>Shifts (<code>&lt;&lt;</code>, <code>&gt;&gt;</code>):</strong> <code>x &lt;&lt; 1</code> multiplies by 2; <code>x &gt;&gt; 1</code> divides by 2.</li>
-      </ul>
 
-      <h3>💡 Essential Bitwise Tricks</h3>
-      <ul>
-        <li><strong>Check Power of Two:</strong> <code>n &gt; 0 && (n & (n - 1)) === 0</code>. Why? Powers of two have exactly one 1 bit. Subtracting 1 flips all bits after it.</li>
-        <li><strong>Clear Least Significant Set Bit:</strong> <code>n & (n - 1)</code>. This trick allows counting set bits in O(set_bits) time (Brian Kernighan's Algorithm).</li>
-        <li><strong>Get Lowest Set Bit:</strong> <code>n & -n</code>. Useful in Fenwick Trees.</li>
-      </ul>
-    `,
-    code: {
-      javascript: `// Brian Kernighan's Algorithm — Count Set Bits O(bits)
-function countSetBits(n) {
-  let count = 0;
-  while (n > 0) {
-    n = n & (n - 1); // clears lowest set bit
-    count++;
-  }
-  return count;
-}
-
-// Find single number among duplicates O(N) time, O(1) space
-function singleNumber(nums) {
-  let xor = 0;
-  for (const x of nums) xor ^= x;
-  return xor;
-}
-
-// Subsets using bitmasking O(2^N)
-function subsets(nums) {
-  const n = nums.length;
-  const total = 1 << n; // 2^n
-  const result = [];
-  for (let mask = 0; mask < total; mask++) {
-    const current = [];
-    for (let i = 0; i < n; i++) {
-      if ((mask & (1 << i)) !== 0) {
-        current.push(nums[i]);
-      }
-    }
-    result.push(current);
-  }
-  return result;
-}`,
-      cpp: `#include <vector>
-using namespace std;
-
-// Brian Kernighan's
-int countSetBits(int n) {
-    int count = 0;
-    while (n > 0) {
-        n &= (n - 1);
-        count++;
-    }
-    return count;
-}
-
-// Subsets using bitmask
-vector<vector<int>> subsets(vector<int>& nums) {
-    int n = nums.size();
-    int total = 1 << n;
-    vector<vector<int>> result;
-    for (int mask = 0; mask < total; mask++) {
-        vector<int> current;
-        for (int i = 0; i < n; i++) {
-            if ((mask & (1 << i)) != 0) {
-                current.push_back(nums[i]);
-            }
-        }
-        result.push_back(current);
-    }
-    return result;
-}`,
-      java: `public class BitwisePatterns {
-    // Count set bits
-    public int countSetBits(int n) {
-        int count = 0;
-        while (n > 0) {
-            n = n & (n - 1);
-            count++;
-        }
-        return count;
-    }
-
-    // Power of two check
-    public boolean isPowerOfTwo(int n) {
-        return n > 0 && (n & (n - 1)) == 0;
-    }
-}`,
-      python: `# Brian Kernighan
-def count_set_bits(n):
-    count = 0
-    while n > 0:
-        n &= (n - 1)
-        count += 1
-    return count
-
-# Subsets via bitmasking
-def subsets(nums):
-    n = len(nums)
-    result = []
-    for mask in range(1 << n):
-        result.append([nums[i] for i in range(n) if (mask & (1 << i)) != 0])
-    return result`
-    }
-  },
-
-  {
-    id: "range-queries",
-    title: "Range Query Algorithms",
-    category: "Advanced Algorithms",
-    phase: 4,
-    difficulty: "Advanced",
-    icon: "📊",
-    iconColor: "rose",
-    summary: "Prefix sums, Segment Trees, and Fenwick Trees (Binary Indexed Trees) for efficient range sum/min/max queries and updates.",
-    readTime: "9 mins",
-    details: `
-      <h2>Range Query Algorithms</h2>
-      <p>Range queries involve finding aggregates (sum, minimum, maximum, GCD) over a range <code>[L, R]</code> of an array. If the array is static, prefix sums solve it in O(1) query. However, if the array undergoes **dynamic updates**, we need advanced structures like Segment Trees or Fenwick Trees to achieve logarithmic bounds for both updates and queries.</p>
-
-      <h3>Comparison Grid</h3>
-      <table class="complexity-table">
-        <thead><tr><th>Structure</th><th>Query Time</th><th>Update Time</th><th>Space</th><th>Supports Min/Max?</th></tr></thead>
-        <tbody>
-          <tr><td>Prefix Sums</td><td><span class="complexity-badge complexity-green">O(1)</span></td><td><span class="complexity-badge complexity-red">O(N)</span></td><td>O(N)</td><td>No (Sum only)</td></tr>
-          <tr><td>Segment Tree</td><td><span class="complexity-badge complexity-green">O(log N)</span></td><td><span class="complexity-badge complexity-green">O(log N)</span></td><td>O(4N)</td><td>Yes ✓ (Any associative operation)</td></tr>
-          <tr><td>Fenwick Tree (B.I.T)</td><td><span class="complexity-badge complexity-green">O(log N)</span></td><td><span class="complexity-badge complexity-green">O(log N)</span></td><td>O(N)</td><td>No (Sum/Cumulative only)</td></tr>
-        </tbody>
-      </table>
-
-      <h3>Segment Tree Architecture</h3>
-      <p>A Segment Tree is a binary tree where each node represent an interval. The root represents the whole array <code>[0, N-1]</code>. A parent interval <code>[L, R]</code> is split into left child <code>[L, mid]</code> and right child <code>[mid+1, R]</code>. Since it's a complete binary tree, it can be represented compactly as a flat array of size <code>4N</code>.</p>
-    `,
-    code: {
-      javascript: `// ── Segment Tree (Range Sum Query & Point Update) ──
-class SegmentTree {
-  constructor(arr) {
-    this.n = arr.length;
-    this.tree = new Array(4 * this.n).fill(0);
-    if (this.n > 0) this.build(arr, 0, 0, this.n - 1);
-  }
-
-  build(arr, node, start, end) {
-    if (start === end) {
-      this.tree[node] = arr[start];
-      return;
-    }
-    const mid = start + ((end - start) >> 1);
-    this.build(arr, 2 * node + 1, start, mid);
-    this.build(arr, 2 * node + 2, mid + 1, end);
-    this.tree[node] = this.tree[2 * node + 1] + this.tree[2 * node + 2];
-  }
-
-  update(node, start, end, idx, val) {
-    if (start === end) {
-      this.tree[node] = val;
-      return;
-    }
-    const mid = start + ((end - start) >> 1);
-    if (idx <= mid) this.update(2 * node + 1, start, mid, idx, val);
-    else this.update(2 * node + 2, mid + 1, end, idx, val);
-    this.tree[node] = this.tree[2 * node + 1] + this.tree[2 * node + 2];
-  }
-
-  query(node, start, end, l, r) {
-    if (r < start || end < l) return 0; // out of range
-    if (l <= start && end <= r) return this.tree[node]; // fully inside
-    const mid = start + ((end - start) >> 1);
-    const leftSum = this.query(2 * node + 1, start, mid, l, r);
-    const rightSum = this.query(2 * node + 2, mid + 1, end, l, r);
-    return leftSum + rightSum;
-  }
-}`,
-      cpp: `#include <vector>
-using namespace std;
-
-class SegmentTree {
-    int n;
-    vector<int> tree;
-    void build(vector<int>& arr, int node, int start, int end) {
-        if (start == end) { tree[node] = arr[start]; return; }
-        int mid = start + (end - start) / 2;
-        build(arr, 2*node, start, mid);
-        build(arr, 2*node+1, mid+1, end);
-        tree[node] = tree[2*node] + tree[2*node+1];
-    }
-public:
-    SegmentTree(vector<int>& arr) {
-        n = arr.size();
-        tree.resize(4 * n, 0);
-        build(arr, 1, 0, n - 1);
-    }
-    void update(int node, int start, int end, int idx, int val) {
-        if (start == end) { tree[node] = val; return; }
-        int mid = start + (end - start) / 2;
-        if (idx <= mid) update(2*node, start, mid, idx, val);
-        else update(2*node+1, mid+1, end, idx, val);
-        tree[node] = tree[2*node] + tree[2*node+1];
-    }
-    int query(int node, int start, int end, int l, int r) {
-        if (r < start || end < l) return 0;
-        if (l <= start && end <= r) return tree[node];
-        int mid = start + (end - start) / 2;
-        return query(2*node, start, mid, l, r) + query(2*node+1, mid+1, end, l, r);
-    }
-};`,
-      java: `public class SegmentTree {
-    int[] tree;
-    int n;
-    public SegmentTree(int[] arr) {
-        this.n = arr.length;
-        this.tree = new int[4 * n];
-        build(arr, 0, 0, n - 1);
-    }
-    private void build(int[] arr, int node, int start, int end) {
-        if (start == end) { tree[node] = arr[start]; return; }
-        int mid = start + (end - start) / 2;
-        build(arr, 2 * node + 1, start, mid);
-        build(arr, 2 * node + 2, mid + 1, end);
-        tree[node] = tree[2 * node + 1] + tree[2 * node + 2];
-    }
-    public int query(int node, int start, int end, int l, int r) {
-        if (r < start || end < l) return 0;
-        if (l <= start && end <= r) return tree[node];
-        int mid = start + (end - start) / 2;
-        return query(2 * node + 1, start, mid, l, r) + query(2 * node + 2, mid + 1, end, l, r);
-    }
-}`,
-      python: `class SegmentTree:
-    def __init__(self, arr):
-        self.n = len(arr)
-        self.tree = [0] * (4 * self.n)
-        if self.n > 0: self._build(arr, 0, 0, self.n - 1)
-
-    def _build(self, arr, node, start, end):
-        if start == end:
-            self.tree[node] = arr[start]
-            return
-        mid = (start + end) // 2
-        self._build(arr, 2 * node + 1, start, mid)
-        self._build(arr, 2 * node + 2, mid + 1, end)
-        self.tree[node] = self.tree[2 * node + 1] + self.tree[2 * node + 2]
-
-    def query(self, node, start, end, l, r):
-        if r < start or end < l: return 0
-        if l <= start and end <= r: return self.tree[node]
-        mid = (start + end) // 2
-        return self.query(2 * node + 1, start, mid, l, r) + self.query(2 * node + 2, mid + 1, end, l, r)`
-    }
-  },
-  {
-    id: "quiz-phase4",
-    type: "quiz",
-    phase: 4,
-    title: "Phase 4 Quiz — Advanced Algorithms & Techniques",
-    category: "Advanced Algorithms",
-    difficulty: "Intermediate",
-    icon: "🧪",
-    iconColor: "rose",
-    questions: [
-      {
-        question: "What are the two core prerequisites for a problem to be solvable via Dynamic Programming?",
-        options: [
-          "Linear structures and constant boundary queries",
-          "Optimal substructure and overlapping subproblems",
-          "Greedy choice property and fast pointer recursion",
-          "Dividing search space and logarithmic execution times"
-        ],
-        answer: 1,
-        explanation: "Dynamic Programming requires: 1) Optimal Substructure (an optimal solution to the problem contains optimal solutions to its subproblems) and 2) Overlapping Subproblems (the same subproblems are solved repeatedly). Without overlapping subproblems, standard divide-and-conquer is sufficient."
-      },
-      {
-        question: "In what scenario is a Greedy algorithm guaranteed to produce the globally optimal solution?",
-        options: [
-          "When the problem has overlapping subproblems and sublist sorting",
-          "When the greedy choice property and optimal substructure can be mathematically proven for all inputs",
-          "When the time complexity of recursion is exactly O(2^N)",
-          "For any knapsack problems regardless of weight capacities"
-        ],
-        answer: 1,
-        explanation: "Greedy algorithms only produce global optimums if you can prove that making a locally optimal choice never invalidates the path to the global optimum (Greedy Choice Property) and the problem has Optimal Substructure."
-      },
-      {
-        question: "What is the purpose of 'pruning' in backtracking algorithms?",
-        options: [
-          "To format the output as string arrays",
-          "To bypass compiling intermediate structures",
-          "To stop traversing branches of the state space tree as soon as they are determined to be invalid",
-          "To clear set bits in O(1) CPU cycles"
-        ],
-        answer: 2,
-        explanation: "Pruning is DFS constraint propagation. It cuts off branches in the search recursion tree early as soon as constraints are violated (e.g. current path sum exceeds target, or queen placement conflicts), saving immense CPU execution cycles."
-      },
-      {
-        question: "Which of these operations clears the lowest set bit in an integer 'n'?",
-        options: ["n = n & ~1", "n = n & (n - 1)", "n = n | (n - 1)", "n = n ^ -n"],
-        answer: 1,
-        explanation: "n & (n - 1) subtracts 1 from n, which flips all bits after the lowest set bit (including the lowest set bit itself) and leaves other bits unchanged. Doing a bitwise AND between n and n-1 clears that lowest set bit."
-      },
-      {
-        question: "What is the space complexity of a Segment Tree constructed for an array of size N?",
-        options: ["O(N)", "O(log N)", "O(N²)", "O(2^N)"],
-        answer: 0,
-        explanation: "A Segment Tree constructed for N elements requires a tree represented as an array of size 4N. 4N is mathematically O(N) linear space."
-      }
-    ]
-  }
-
-];
-
-export const roadmapPhases = [
-  {
-    "label": "Phase 0 — Programming Fundamentals",
-    "nodes": ["language-syntax", "control-structures", "functions", "oop-basics", "recursion-intro", "quiz-phase0"]
-  },
-  {
-    "label": "Phase 1 — Algorithmic Complexity",
-    "nodes": ["big-o", "asymptotic-notation", "arrays", "strings", "searching", "quiz-phase1"]
-  },
-  {
-    "label": "Phase 2 — Linear Data Structures",
-    "nodes": ["stack-queue", "linked-list", "hash-tables", "heaps", "matrices", "quiz-phase2"]
-  },
-  {
-    "label": "Phase 3 — Non-Linear Data Structures (Trees & Graphs)",
-    "nodes": ["trees-bst", "tree-traversal", "avl-trees", "tries", "graphs", "quiz-phase3"]
-  },
-  {
-    "label": "Phase 4 — Advanced Algorithms & Techniques",
-    "nodes": ["dynamic-programming", "greedy", "recursion-backtracking", "bit-manipulation", "range-queries", "quiz-phase4"]
-  }
-];
-
-export const githubAlgorithmMappings = {};
